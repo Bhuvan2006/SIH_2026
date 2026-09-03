@@ -1,19 +1,37 @@
 fastapi==0.115.0
 uvicorn[standard]==0.30.6
 sqlalchemy==2.0.35
-pydantic==2.9.2
+
+# google-genai 2.x needs httpx>=0.28.1 and pydantic>=2.12.5. These were pinned
+# at 0.27.2 and 2.9.2, which pip cannot reconcile -- a clean install fails with
+# ResolutionImpossible. It kept working locally only because adding google-genai
+# upgraded both in the existing venv without this file being updated, so the
+# environment and this file had quietly diverged. These now match what actually
+# runs.
+pydantic==2.13.4
+httpx==0.28.1
 pydantic-settings==2.5.2
+
 python-multipart==0.0.9
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
+# passlib 1.7.4 predates bcrypt 5 and logs a harmless __about__ warning against
+# it. Pinned so the build is reproducible rather than picking up whatever
+# bcrypt is current.
+bcrypt==5.0.0
+
 pytesseract==0.3.13
 Pillow==10.4.0
 APScheduler==3.10.4
 rapidfuzz==3.10.0
 pytest==8.3.3
-httpx==0.27.2
-google-genai>=1.40.0
+
+# Pinned exactly. An open >= let a future major release change its own
+# httpx/pydantic floors and break the image build with no code change here.
+google-genai==2.19.0
+
 qrcode[pil]==8.0
+
 # Rasterises the CDSCO prohibited-drugs PDF for OCR (scripts/parse_cdsco_banned_pdf.py).
 # Only the import script needs it; the running API does not import it.
 pymupdf==1.28.2
