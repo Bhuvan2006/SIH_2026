@@ -6,6 +6,7 @@ FROM python:3.11-slim
 RUN apt-get update && apt-get install -y --no-install-recommends \
     tesseract-ocr \
     libtesseract-dev \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -15,5 +16,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
+# start.sh fetches the prebuilt database on first boot and runs migrations
+# before handing over to uvicorn. See its header for why the database is
+# neither in the image nor in git.
+RUN chmod +x start.sh
+
 EXPOSE 8000
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["./start.sh"]

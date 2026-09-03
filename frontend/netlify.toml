@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# React Router owns the paths. Without this, opening /doctor/login or a
+# scanned /emergency/<token> link directly returns 404 — the QR code would
+# fail for exactly the person who needs it.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

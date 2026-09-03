@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "//": "React Router owns the paths. Without this, opening /doctor/login or a scanned /emergency/<token> link directly returns 404 — the QR would fail for exactly the person who needs it.",
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

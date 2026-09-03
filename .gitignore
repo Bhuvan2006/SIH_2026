@@ -34,3 +34,7 @@ frontend/dist/
 # ── Misc ──────────────────────────────────────────────────────────────────
 screenshots/
 .DS_Store
+
+# Built database archive. Ships as a GitHub Release asset (see backend/start.sh),
+# not in git — 62 MB in every clone, forever, for a file that is regenerated.
+backend/arogya.db.gz
