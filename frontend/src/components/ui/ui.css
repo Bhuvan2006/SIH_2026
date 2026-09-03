@@ -1,0 +1,259 @@
+/* ==========================================================================
+   Arogya UI kit -- shared primitives (Button, TextField, Alert, Spinner,
+   Badge, Card, Modal, EmptyState). Reuses the design tokens defined on
+   :root in src/index.css so these components inherit the app's existing
+   palette instead of introducing a second visual language.
+   ========================================================================== */
+
+/* ---------- Button ---------- */
+.ui-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background-color 0.15s, border-color 0.15s, opacity 0.15s;
+}
+.ui-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.ui-btn--sm { padding: 5px 10px; font-size: 0.82rem; }
+.ui-btn--md { padding: 8px 14px; font-size: 0.9rem; }
+.ui-btn--lg { padding: 11px 20px; font-size: 1rem; }
+
+.ui-btn--full { width: 100%; }
+
+.ui-btn--primary { background: var(--primary); color: #fff; }
+.ui-btn--primary:hover:not(:disabled) { background: var(--primary-dark); }
+
+.ui-btn--secondary { background: #eef2f1; color: var(--text); }
+.ui-btn--secondary:hover:not(:disabled) { background: #dbe4e2; }
+
+.ui-btn--danger { background: var(--danger); color: #fff; }
+.ui-btn--danger:hover:not(:disabled) { background: #b91c1c; }
+
+.ui-btn--ghost { background: transparent; color: var(--text); border-color: var(--border); }
+.ui-btn--ghost:hover:not(:disabled) { background: #f1f5f4; }
+
+.ui-btn--link {
+  background: none;
+  color: var(--primary);
+  text-decoration: underline;
+  padding: 2px 4px;
+  font-weight: 500;
+}
+.ui-btn--link:hover:not(:disabled) { color: var(--primary-dark); }
+
+.ui-btn__icon { display: inline-flex; }
+.ui-btn__spinner { margin-right: 2px; }
+
+/* ---------- TextField ---------- */
+.ui-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ui-field__label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.ui-field__required { color: var(--danger); }
+.ui-field__input {
+  font-family: inherit;
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: #fff;
+  color: var(--text);
+}
+.ui-field__input:disabled { background: #f3f4f6; cursor: not-allowed; }
+.ui-field--error .ui-field__input {
+  border-color: var(--danger);
+}
+.ui-field__error {
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.8rem;
+}
+.ui-field__helper {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+/* ---------- Alert ---------- */
+.ui-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 0.88rem;
+}
+.ui-alert__icon { flex-shrink: 0; line-height: 1.3; }
+.ui-alert__body { flex: 1; min-width: 0; }
+.ui-alert__title { margin: 0 0 2px; font-weight: 700; }
+.ui-alert__message { color: inherit; }
+.ui-alert__dismiss {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 2px 4px;
+  color: inherit;
+  opacity: 0.7;
+}
+.ui-alert__dismiss:hover { opacity: 1; }
+
+.ui-alert--info { background: var(--info-bg); border-color: var(--info-border); color: var(--text); }
+.ui-alert--success { background: var(--success-bg); border-color: var(--success-border); color: #14532d; }
+.ui-alert--warning { background: var(--warning-bg); border-color: var(--warning-border); color: #78350f; }
+.ui-alert--danger { background: var(--danger-bg); border-color: var(--danger); color: #7f1d1d; }
+.ui-alert--emergency { background: var(--danger-bg); border-color: var(--danger); color: #7f1d1d; font-weight: 500; }
+
+/* ---------- Spinner ---------- */
+.ui-spinner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui-spinner__ring {
+  display: block;
+  border-radius: 50%;
+  border: 2.5px solid rgba(15, 118, 110, 0.25);
+  border-top-color: var(--primary);
+  animation: ui-spin 0.7s linear infinite;
+}
+.ui-btn--primary .ui-spinner__ring,
+.ui-btn--danger .ui-spinner__ring {
+  border-color: rgba(255, 255, 255, 0.4);
+  border-top-color: #fff;
+}
+.ui-spinner--sm .ui-spinner__ring { width: 14px; height: 14px; }
+.ui-spinner--md .ui-spinner__ring { width: 22px; height: 22px; }
+.ui-spinner--lg .ui-spinner__ring { width: 32px; height: 32px; border-width: 3.5px; }
+
+@keyframes ui-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ui-spinner__ring {
+    animation: ui-pulse 1.2s ease-in-out infinite;
+    border-top-color: rgba(15, 118, 110, 0.25);
+  }
+  @keyframes ui-pulse {
+    50% { opacity: 0.35; }
+  }
+}
+
+/* ---------- Badge ---------- */
+.ui-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 9px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.ui-badge--neutral { background: #eef2f1; color: var(--text-muted); }
+.ui-badge--primary { background: #e6f4f2; color: var(--primary-dark); }
+.ui-badge--success { background: var(--success-bg); color: var(--success); }
+.ui-badge--warning { background: var(--warning-bg); color: #92400e; }
+.ui-badge--danger { background: var(--danger-bg); color: var(--danger); }
+
+/* ---------- Card ---------- */
+.ui-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+}
+.ui-card__title { margin: 0 0 10px; font-size: 1rem; }
+.ui-card__footer {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+/* ---------- Modal ---------- */
+.ui-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 1000;
+}
+.ui-modal {
+  background: var(--card-bg);
+  border-radius: 12px;
+  max-width: 480px;
+  width: 100%;
+  max-height: calc(100vh - 32px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+.ui-modal__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--border);
+}
+.ui-modal__title { margin: 0; font-size: 1.05rem; }
+.ui-modal__close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: var(--text-muted);
+  padding: 2px 6px;
+  flex-shrink: 0;
+}
+.ui-modal__close:hover { color: var(--text); }
+.ui-modal__body { padding: 18px; overflow-y: auto; font-size: 0.92rem; }
+.ui-modal__footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 14px 18px;
+  border-top: 1px solid var(--border);
+}
+
+/* ---------- EmptyState ---------- */
+.ui-empty-state {
+  text-align: center;
+  padding: 32px 20px;
+  color: var(--text-muted);
+}
+.ui-empty-state__icon { font-size: 2rem; margin-bottom: 8px; }
+.ui-empty-state__title { margin: 0; font-weight: 600; color: var(--text); }
+.ui-empty-state__description { margin: 4px 0 0; font-size: 0.88rem; }
+.ui-empty-state__action { margin-top: 14px; }
+
+/* Responsive: modal goes full-width-ish and text tightens up on narrow
+   viewports rather than overflowing horizontally. */
+@media (max-width: 480px) {
+  .ui-modal { max-width: 100%; }
+  .ui-btn--lg { padding: 10px 16px; font-size: 0.95rem; }
+}

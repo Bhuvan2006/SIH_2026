@@ -1,0 +1,216 @@
+{
+  "_note": "Curated health-awareness content: home medical equipment guides, video topics, and activity ideas. Equipment technique follows published AHA / ADA / WHO guidance and is cited per card. Review with a clinician before production use.",
+  "_last_reviewed": "2026-08",
+
+  "equipment_guides": [
+    {
+      "id": "bp_monitor",
+      "icon": "🩺",
+      "title": "Digital blood pressure monitor",
+      "summary": "Technique changes the number more than most people realise — a reading taken over clothing can be off by 5 to 50 points.",
+      "why_it_matters": "Home readings are often more useful to your doctor than a single clinic reading, because they capture your normal day instead of a stressful visit.",
+      "before_you_start": [
+        "Empty your bladder first — a full bladder can raise the reading.",
+        "No coffee, smoking or exercise for 30 minutes beforehand.",
+        "Sit quietly and rest for 5 minutes before the first reading."
+      ],
+      "steps": [
+        "Sit in a chair with your back supported and both feet flat on the floor — not cross-legged, not on a bed.",
+        "Rest your bare upper arm on a table so the cuff is level with your heart. Roll the sleeve up, don't measure over clothing.",
+        "Wrap the cuff around your upper arm, about 2 fingers above the elbow crease. It should be snug — one finger should just slide under it.",
+        "Stay still and don't talk while it inflates. Talking alone can push the reading up.",
+        "Take two readings at least one minute apart, and write down both.",
+        "Measure at the same times each day — for example morning before medicine, and evening."
+      ],
+      "common_mistakes": [
+        "Measuring over a sleeve",
+        "Arm hanging down or unsupported instead of at heart level",
+        "Talking or checking your phone during the reading",
+        "Taking one reading and treating it as the answer",
+        "Using a wrist cuff held at the wrong height"
+      ],
+      "when_to_worry": "A single high reading is common and usually not an emergency. But if you get a reading at or above 180/120 and feel chest pain, breathlessness, weakness or trouble speaking, treat it as an emergency and get medical help immediately.",
+      "source": "American Heart Association / AMA self-measured blood pressure guidance"
+    },
+    {
+      "id": "glucometer",
+      "icon": "🩸",
+      "title": "Blood sugar meter (glucometer)",
+      "summary": "Most wrong readings come from the finger, not the meter — unwashed hands with food residue can read far too high.",
+      "why_it_matters": "Knowing whether a reading was fasting or after a meal changes what it means entirely, so always record which it was.",
+      "before_you_start": [
+        "Wash your hands with soap and warm water, then dry them completely.",
+        "Do not use alcohol wipes and then prick immediately — let the skin dry fully first.",
+        "Check the strips are not expired and are the right type for your meter."
+      ],
+      "steps": [
+        "Insert a fresh strip into the meter and wait for it to signal it is ready.",
+        "Use a fresh lancet each time. Set the depth to the lowest setting that still gives enough blood.",
+        "Prick the side of a fingertip, not the centre — the sides hurt less and bleed more easily.",
+        "Let a drop form on its own. Squeezing hard can push tissue fluid into the sample and skew the reading.",
+        "Touch the strip to the drop and let it draw the blood in.",
+        "Note the reading along with whether it was fasting or after eating, and how long after."
+      ],
+      "common_mistakes": [
+        "Testing with unwashed hands, especially after handling fruit or sweets",
+        "Reusing lancets, which blunts them and hurts more",
+        "Squeezing the finger hard to get blood",
+        "Storing strips in a hot car or a humid bathroom",
+        "Not recording whether it was fasting or post-meal"
+      ],
+      "when_to_worry": "Very low sugar is the more urgent emergency. If you feel shaky, sweaty, confused or faint and your reading is low, take fast-acting sugar immediately and tell someone. Repeated very high readings need your doctor, not a wait-and-see.",
+      "source": "American Diabetes Association self-monitoring guidance"
+    },
+    {
+      "id": "pulse_oximeter",
+      "icon": "🫁",
+      "title": "Pulse oximeter",
+      "summary": "Clips on a fingertip to estimate oxygen in your blood. Nail polish, cold hands and movement are the usual causes of a false low.",
+      "why_it_matters": "Useful if you have a lung condition or are recovering from a chest infection — but it measures oxygen, not how well you feel.",
+      "before_you_start": [
+        "Remove nail polish or artificial nails from the finger you use.",
+        "Warm cold hands first — poor circulation gives a falsely low number.",
+        "Rest for a few minutes before measuring."
+      ],
+      "steps": [
+        "Rest your hand on your chest or a table, at roughly heart level.",
+        "Clip the device onto a fingertip, usually the index or middle finger.",
+        "Keep still and wait until the number stops changing, usually about a minute.",
+        "Record both the oxygen number and the pulse rate shown."
+      ],
+      "common_mistakes": [
+        "Measuring with cold hands or right after activity",
+        "Nail polish or henna on the measured finger",
+        "Moving or talking while it reads",
+        "Treating a single low number as fact without re-checking on another finger"
+      ],
+      "when_to_worry": "If your reading stays low and you are breathless, confused, or your lips or face look blue, get emergency medical help — do not wait to re-measure.",
+      "source": "WHO / general clinical device guidance"
+    },
+    {
+      "id": "thermometer",
+      "icon": "🌡️",
+      "title": "Digital thermometer",
+      "summary": "Where you measure changes the number — a forehead reading and an under-the-tongue reading are not directly comparable.",
+      "why_it_matters": "Recording where and when you measured makes the trend meaningful rather than confusing.",
+      "before_you_start": [
+        "Wait 15–30 minutes after hot or cold drinks before an oral reading.",
+        "Clean the tip with soap and water or an alcohol wipe, and let it dry."
+      ],
+      "steps": [
+        "For an oral reading, place the tip under the tongue toward the back, and close your lips around it.",
+        "For an underarm reading, place the tip in the centre of a dry armpit and hold the arm down firmly.",
+        "Wait for the beep — don't remove it early.",
+        "Note the number, the site used, and the time."
+      ],
+      "common_mistakes": [
+        "Comparing readings taken at different sites",
+        "Measuring straight after a hot drink or a bath",
+        "Not holding the arm down firmly for an underarm reading"
+      ],
+      "when_to_worry": "In an adult, a persistent high fever with stiff neck, rash, confusion, or difficulty breathing needs urgent medical attention. For infants and elderly people, seek advice earlier rather than later.",
+      "source": "General clinical device guidance"
+    }
+  ],
+
+  "video_topics": [
+    {
+      "id": "bp_basics",
+      "icon": "❤️",
+      "title": "Understanding blood pressure",
+      "blurb": "What the two numbers mean, why high blood pressure usually has no symptoms, and what actually lowers it.",
+      "channel": "World Health Organization",
+      "search": "WHO high blood pressure explained"
+    },
+    {
+      "id": "diabetes_basics",
+      "icon": "🩸",
+      "title": "Living with type 2 diabetes",
+      "blurb": "How diet, movement and medicine work together, and what a good day of blood sugar looks like.",
+      "channel": "World Health Organization",
+      "search": "WHO type 2 diabetes management"
+    },
+    {
+      "id": "activity",
+      "icon": "🚶",
+      "title": "How much movement is enough",
+      "blurb": "The 150-minutes-a-week guideline, and why a brisk daily walk counts for more than people expect.",
+      "channel": "World Health Organization",
+      "search": "WHO physical activity guidelines adults"
+    },
+    {
+      "id": "medicine_safety",
+      "icon": "💊",
+      "title": "Taking medicines safely",
+      "blurb": "Why finishing a course matters, what to do about a missed dose, and how to store medicines in a hot climate.",
+      "channel": "WHO / national health services",
+      "search": "how to take medicines safely patient guide"
+    },
+    {
+      "id": "heart_warning",
+      "icon": "🚨",
+      "title": "Warning signs you should not ignore",
+      "blurb": "What a heart attack and a stroke actually look like — including the signs people commonly dismiss.",
+      "channel": "World Health Organization",
+      "search": "stroke and heart attack warning signs FAST"
+    },
+    {
+      "id": "diet_india",
+      "icon": "🥗",
+      "title": "Everyday eating for blood sugar and BP",
+      "blurb": "Practical changes to common Indian meals — portioning rice, cutting added salt, and adding fibre.",
+      "channel": "National health education channels",
+      "search": "Indian diet plan diabetes hypertension dietitian"
+    }
+  ],
+
+  "activity_ideas": [
+    {
+      "icon": "🚶",
+      "title": "A 30-minute brisk walk",
+      "detail": "The single most evidence-backed thing most people can start today. Brisk means you can talk but not sing.",
+      "target": "5 days a week"
+    },
+    {
+      "icon": "🧘",
+      "title": "Yoga or stretching",
+      "detail": "Helps with blood pressure, sleep and joint stiffness. Free classes run in many parks in the early morning.",
+      "target": "2–3 times a week"
+    },
+    {
+      "icon": "🏋️",
+      "title": "Simple strength work",
+      "detail": "Bodyweight squats, wall push-ups, carrying groceries. Muscle helps your body use blood sugar better.",
+      "target": "2 times a week"
+    },
+    {
+      "icon": "🪜",
+      "title": "Take the stairs",
+      "detail": "The easiest habit to keep because it needs no time set aside and no equipment.",
+      "target": "Daily"
+    }
+  ],
+
+  "awareness": [
+    {
+      "icon": "🔇",
+      "title": "High blood pressure has no symptoms",
+      "detail": "Most people with high blood pressure feel completely fine. That is exactly why it goes untreated for years and why measuring matters more than waiting to feel unwell."
+    },
+    {
+      "icon": "🧂",
+      "title": "Salt hides in everyday food",
+      "detail": "Most salt does not come from the shaker — it comes from pickles, papad, packaged snacks and restaurant food. Cutting those does more than skipping salt at the table."
+    },
+    {
+      "icon": "⏳",
+      "title": "Stopping when you feel better is the common trap",
+      "detail": "Blood pressure and diabetes medicines work by being taken continuously. Feeling fine usually means the medicine is working, not that it is no longer needed. Never stop without asking your doctor."
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "title": "Family history raises your risk",
+      "detail": "If a parent or sibling has diabetes or heart disease, screening earlier is worth it — often from your 30s rather than waiting for symptoms."
+    }
+  ]
+}

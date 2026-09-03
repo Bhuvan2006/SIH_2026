@@ -1,0 +1,126 @@
+{
+  "_note": "Medicines banned, withdrawn, or dose-restricted in India, plus globally withdrawn molecules. SAMPLE/ILLUSTRATIVE SUBSET compiled from CDSCO notifications under section 26A of the Drugs and Cosmetics Act 1940 and well-documented global withdrawals. This is NOT the complete CDSCO list (which runs to hundreds of fixed-dose combinations and is revised regularly). Re-verify against https://cdsco.gov.in before any clinical or production use.",
+  "_source": "CDSCO List of Banned Drugs (cdsco.gov.in) + public regulatory withdrawal records",
+  "_last_reviewed": "2026-08",
+  "entries": [
+    {
+      "match": "nimesulide",
+      "status": "restricted",
+      "scope": "Oral formulations above 100 mg prohibited in India; not permitted for children under 12.",
+      "reason": "Risk of severe liver injury (hepatotoxicity).",
+      "authority": "CDSCO, section 26A Drugs and Cosmetics Act 1940"
+    },
+    {
+      "match": "ranitidine",
+      "status": "withdrawn",
+      "scope": "Withdrawn from the market in India and internationally.",
+      "reason": "NDMA (a probable human carcinogen) contamination found in the molecule over time.",
+      "authority": "CDSCO / US FDA / EMA withdrawal"
+    },
+    {
+      "match": "etodolac",
+      "status": "banned",
+      "scope": "Prohibited for manufacture, sale and distribution in India.",
+      "reason": "Unfavourable risk-benefit profile compared with available alternatives.",
+      "authority": "CDSCO 2024 prohibition"
+    },
+    {
+      "match": "rofecoxib",
+      "status": "withdrawn",
+      "scope": "Withdrawn worldwide.",
+      "reason": "Increased risk of heart attack and stroke.",
+      "authority": "Global withdrawal (2004)"
+    },
+    {
+      "match": "sibutramine",
+      "status": "banned",
+      "scope": "Banned in India and withdrawn internationally.",
+      "reason": "Increased cardiovascular events; used for weight loss.",
+      "authority": "CDSCO / global withdrawal"
+    },
+    {
+      "match": "cisapride",
+      "status": "banned",
+      "scope": "Banned in India.",
+      "reason": "Serious cardiac arrhythmias (QT prolongation).",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "phenylpropanolamine",
+      "status": "banned",
+      "scope": "Banned in India.",
+      "reason": "Increased risk of haemorrhagic stroke.",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "rosiglitazone",
+      "status": "restricted",
+      "scope": "Suspended/severely restricted in India.",
+      "reason": "Cardiovascular safety concerns.",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "analgin",
+      "status": "banned",
+      "scope": "Banned in India (also known as metamizole/dipyrone).",
+      "reason": "Risk of agranulocytosis (severe drop in white blood cells).",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "metamizole",
+      "status": "banned",
+      "scope": "Banned in India (analgin/dipyrone).",
+      "reason": "Risk of agranulocytosis.",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "pioglitazone 45",
+      "status": "restricted",
+      "scope": "Higher-strength use restricted; boxed warning in India.",
+      "reason": "Bladder cancer and heart failure signal at higher doses.",
+      "authority": "CDSCO"
+    },
+    {
+      "match": "naproxen + esomeprazole",
+      "status": "banned",
+      "scope": "This fixed-dose combination is prohibited in India.",
+      "reason": "Part of the 2024 prohibition of irrational fixed-dose combinations.",
+      "authority": "CDSCO 2024 FDC prohibition"
+    },
+    {
+      "match": "naproxen + pantoprazole",
+      "status": "banned",
+      "scope": "This fixed-dose combination is prohibited in India.",
+      "reason": "Part of the 2024 prohibition of irrational fixed-dose combinations.",
+      "authority": "CDSCO 2024 FDC prohibition"
+    },
+    {
+      "match": "nimesulide + paracetamol",
+      "status": "banned",
+      "scope": "This fixed-dose combination is prohibited in India.",
+      "reason": "Irrational combination; hepatotoxicity risk.",
+      "authority": "CDSCO FDC prohibition"
+    },
+    {
+      "match": "ranitidine + magaldrate",
+      "status": "banned",
+      "scope": "This fixed-dose combination is prohibited in India.",
+      "reason": "Irrational fixed-dose combination; ranitidine itself withdrawn.",
+      "authority": "CDSCO FDC prohibition"
+    },
+    {
+      "match": "chloramphenicol",
+      "status": "restricted",
+      "scope": "Systemic (oral/injectable) use restricted to serious infections where alternatives fail.",
+      "reason": "Risk of fatal aplastic anaemia.",
+      "authority": "Restricted-use molecule"
+    },
+    {
+      "match": "gatifloxacin",
+      "status": "banned",
+      "scope": "Systemic formulations banned in India.",
+      "reason": "Severe dysglycaemia (dangerous blood-sugar swings).",
+      "authority": "CDSCO"
+    }
+  ]
+}

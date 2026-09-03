@@ -1,0 +1,45 @@
+{
+  "_note": "SAMPLE curated general guidance, not a personalized diet plan. Have a clinician/dietitian review before production use.",
+  "diabetes_type_2": {
+    "label": "Type 2 Diabetes",
+    "prefer": ["Whole grains (brown rice, whole wheat, millets/ragi)", "Non-starchy vegetables (leafy greens, gourd, beans)", "Legumes and pulses", "Lean protein (fish, chicken, tofu, dal)", "High-fiber fruits in moderation (guava, apple, berries)"],
+    "avoid": ["Refined sugar and sugary drinks", "White rice/refined flour in excess", "Fried and processed snacks", "Sweetened fruit juices", "Excess alcohol"],
+    "notes": "Consistent meal timing and portion control matter as much as food choice. Pair carbohydrates with protein/fiber to slow glucose spikes."
+  },
+  "diabetes_type_1": {
+    "label": "Type 1 Diabetes",
+    "prefer": ["Consistent carbohydrate counting to match insulin dosing", "Whole grains, vegetables, lean protein", "Regular meal timing"],
+    "avoid": ["Skipping meals after taking insulin (hypoglycemia risk)", "Large unplanned sugar intake without adjusting insulin"],
+    "notes": "Diet must be coordinated with insulin dosing and timing — work with your endocrinologist/dietitian on carbohydrate counting."
+  },
+  "hypertension": {
+    "label": "Hypertension (High Blood Pressure)",
+    "prefer": ["Fruits and vegetables (potassium-rich: banana, spinach, sweet potato)", "Low-fat dairy", "Whole grains", "Nuts and seeds in moderation"],
+    "avoid": ["High-sodium foods (pickles, papad, processed/packaged snacks)", "Excess added salt in cooking", "Excess alcohol and caffeine"],
+    "notes": "The DASH-style eating pattern (low sodium, high potassium/fiber) is well supported for blood pressure control."
+  },
+  "dyslipidemia": {
+    "label": "High Cholesterol",
+    "prefer": ["Oats and high-fiber foods", "Fatty fish (omega-3 sources)", "Nuts (unsalted)", "Olive oil / unsaturated fats"],
+    "avoid": ["Trans fats and deep-fried food", "Excess red/processed meat", "Full-fat dairy in excess"],
+    "notes": "Combine with regular physical activity; medication and diet work together, not as substitutes for each other."
+  },
+  "hypothyroidism": {
+    "label": "Hypothyroidism",
+    "prefer": ["Iodine-adequate diet (iodized salt) unless otherwise advised", "Selenium sources (nuts, seeds)", "Balanced whole-food diet"],
+    "avoid": ["Taking levothyroxine with calcium/iron supplements or high-fiber meals at the same time (reduces absorption — separate by hours)", "Excessive raw cruciferous vegetables (cabbage, soy) right around dosing time in very large amounts"],
+    "notes": "Take levothyroxine on an empty stomach, consistently timed, separate from food and interacting supplements — timing matters more than any single food."
+  },
+  "ckd": {
+    "label": "Chronic Kidney Disease",
+    "prefer": ["Portion-controlled protein as advised by your nephrologist", "Fresh, home-cooked food with controlled salt"],
+    "avoid": ["High-potassium foods in advanced stages (banana, coconut water, tomato) — only if your doctor says your potassium is high", "High-phosphorus processed foods", "Excess salt"],
+    "notes": "CKD diet needs are highly individual and stage-dependent — this is general orientation only; follow your nephrologist/renal dietitian's specific plan."
+  },
+  "asthma": {
+    "label": "Asthma",
+    "prefer": ["Anti-inflammatory foods (fruits, vegetables, omega-3 sources)", "Adequate hydration"],
+    "avoid": ["Known personal food triggers (vary by individual — e.g. sulfites in some dried fruits/wine for sensitive people)"],
+    "notes": "Diet plays a smaller role than trigger avoidance (allergens, smoke, cold air) and correct inhaler technique/adherence."
+  }
+}

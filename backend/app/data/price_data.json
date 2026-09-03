@@ -1,0 +1,739 @@
+{
+  "_note": "ILLUSTRATIVE SAMPLE PRICING ONLY, in INR. Not live data. Replace with a licensed drug-pricing feed before production use. Jan Aushadhi entries approximate the generic scheme's typical steep discount vs. branded equivalents but are not sourced from a live Jan Aushadhi feed.",
+  "entries": {
+    "Paracetamol": [
+      {
+        "product_name": "Dolo 650",
+        "manufacturer": "Micro Labs",
+        "is_generic": false,
+        "price_inr": 30.5,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Crocin 650",
+        "manufacturer": "GSK",
+        "is_generic": false,
+        "price_inr": 34.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Paracetamol IP 650mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 9.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Ibuprofen": [
+      {
+        "product_name": "Brufen 400",
+        "manufacturer": "Abbott",
+        "is_generic": false,
+        "price_inr": 45.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Ibuprofen 400mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 12.5,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Metformin": [
+      {
+        "product_name": "Glycomet 500",
+        "manufacturer": "USV",
+        "is_generic": false,
+        "price_inr": 45.0,
+        "unit": "strip of 20 tablets"
+      },
+      {
+        "product_name": "Metformin 500mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 14.0,
+        "unit": "strip of 20 tablets"
+      }
+    ],
+    "Insulin Glargine": [
+      {
+        "product_name": "Lantus",
+        "manufacturer": "Sanofi",
+        "is_generic": false,
+        "price_inr": 950.0,
+        "unit": "3mL pen"
+      },
+      {
+        "product_name": "Basalog",
+        "manufacturer": "Biocon",
+        "is_generic": true,
+        "price_inr": 420.0,
+        "unit": "3mL pen"
+      }
+    ],
+    "Amlodipine": [
+      {
+        "product_name": "Amlopres 5",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 22.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Amlodipine 5mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 6.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Losartan": [
+      {
+        "product_name": "Losar 50",
+        "manufacturer": "Unichem",
+        "is_generic": false,
+        "price_inr": 85.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Losartan 50mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 22.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Atorvastatin": [
+      {
+        "product_name": "Atorva 10",
+        "manufacturer": "Zydus",
+        "is_generic": false,
+        "price_inr": 75.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Atorvastatin 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 18.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Omeprazole": [
+      {
+        "product_name": "Omez 20",
+        "manufacturer": "Dr Reddy's",
+        "is_generic": false,
+        "price_inr": 60.0,
+        "unit": "strip of 15 capsules"
+      },
+      {
+        "product_name": "Omeprazole 20mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 15.0,
+        "unit": "strip of 15 capsules"
+      }
+    ],
+    "Azithromycin": [
+      {
+        "product_name": "Azithral 500",
+        "manufacturer": "Alembic",
+        "is_generic": false,
+        "price_inr": 110.0,
+        "unit": "strip of 5 tablets"
+      },
+      {
+        "product_name": "Azithromycin 500mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 42.0,
+        "unit": "strip of 5 tablets"
+      }
+    ],
+    "Amoxicillin": [
+      {
+        "product_name": "Mox 500",
+        "manufacturer": "Ranbaxy/Sun Pharma",
+        "is_generic": false,
+        "price_inr": 90.0,
+        "unit": "strip of 10 capsules"
+      },
+      {
+        "product_name": "Amoxicillin 500mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 28.0,
+        "unit": "strip of 10 capsules"
+      }
+    ],
+    "Cetirizine": [
+      {
+        "product_name": "Alerid 10",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 20.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Cetirizine 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 6.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Levothyroxine": [
+      {
+        "product_name": "Thyronorm 50mcg",
+        "manufacturer": "Abbott",
+        "is_generic": false,
+        "price_inr": 90.0,
+        "unit": "strip of 100 tablets"
+      },
+      {
+        "product_name": "Levothyroxine 50mcg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 35.0,
+        "unit": "strip of 100 tablets"
+      }
+    ],
+    "Montelukast": [
+      {
+        "product_name": "Montair 10",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 195.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Montelukast 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 42.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Amoxicillin + Clavulanic Acid": [
+      {
+        "product_name": "Augmentin 625 Duo",
+        "manufacturer": "GSK",
+        "is_generic": false,
+        "price_inr": 205.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Clavam 625",
+        "manufacturer": "Alkem",
+        "is_generic": false,
+        "price_inr": 178.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Amoxicillin+Clavulanate 625mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 68.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Cefixime": [
+      {
+        "product_name": "Zifi 200",
+        "manufacturer": "FDC",
+        "is_generic": false,
+        "price_inr": 122.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Cefixime 200mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 38.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Ciprofloxacin": [
+      {
+        "product_name": "Ciplox 500",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 62.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Ciprofloxacin 500mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 17.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Ondansetron": [
+      {
+        "product_name": "Emeset 4",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 38.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Ondansetron 4mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 11.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Rabeprazole": [
+      {
+        "product_name": "Razo 20",
+        "manufacturer": "Dr. Reddy's",
+        "is_generic": false,
+        "price_inr": 132.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Rabeprazole 20mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 29.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Telmisartan": [
+      {
+        "product_name": "Telma 40",
+        "manufacturer": "Glenmark",
+        "is_generic": false,
+        "price_inr": 118.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Telmisartan 40mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 26.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Metoprolol": [
+      {
+        "product_name": "Metolar XR 50",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 96.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Metoprolol 50mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 24.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Rosuvastatin": [
+      {
+        "product_name": "Rosuvas 10",
+        "manufacturer": "Sun Pharma",
+        "is_generic": false,
+        "price_inr": 168.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Rosuvastatin 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 41.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Glimepiride": [
+      {
+        "product_name": "Amaryl 2",
+        "manufacturer": "Sanofi",
+        "is_generic": false,
+        "price_inr": 142.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Glimepiride 2mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 27.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Sitagliptin": [
+      {
+        "product_name": "Januvia 100",
+        "manufacturer": "MSD",
+        "is_generic": false,
+        "price_inr": 385.0,
+        "unit": "strip of 7 tablets"
+      },
+      {
+        "product_name": "Sitagliptin 100mg (generic)",
+        "manufacturer": "Various",
+        "is_generic": true,
+        "price_inr": 96.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Levocetirizine": [
+      {
+        "product_name": "Xyzal 5",
+        "manufacturer": "UCB",
+        "is_generic": false,
+        "price_inr": 88.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Levocetirizine 5mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 13.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Prednisolone": [
+      {
+        "product_name": "Omnacortil 10",
+        "manufacturer": "Macleods",
+        "is_generic": false,
+        "price_inr": 42.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Prednisolone 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 12.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Ramipril": [
+      {
+        "product_name": "Cardace 5",
+        "manufacturer": "Sanofi",
+        "is_generic": false,
+        "price_inr": 128.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Ramipril 5mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 30.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Furosemide": [
+      {
+        "product_name": "Lasix 40",
+        "manufacturer": "Sanofi",
+        "is_generic": false,
+        "price_inr": 38.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Furosemide 40mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 9.5,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Pregabalin": [
+      {
+        "product_name": "Lyrica 75",
+        "manufacturer": "Pfizer",
+        "is_generic": false,
+        "price_inr": 445.0,
+        "unit": "strip of 14 capsules"
+      },
+      {
+        "product_name": "Pregabalin 75mg (generic)",
+        "manufacturer": "Various",
+        "is_generic": true,
+        "price_inr": 98.0,
+        "unit": "strip of 10 capsules"
+      }
+    ],
+    "Escitalopram": [
+      {
+        "product_name": "Nexito 10",
+        "manufacturer": "Sun Pharma",
+        "is_generic": false,
+        "price_inr": 132.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Escitalopram 10mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 31.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Fluconazole": [
+      {
+        "product_name": "Forcan 150",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 58.0,
+        "unit": "single tablet"
+      },
+      {
+        "product_name": "Fluconazole 150mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 14.0,
+        "unit": "single tablet"
+      }
+    ],
+    "Albendazole": [
+      {
+        "product_name": "Zentel 400",
+        "manufacturer": "GSK",
+        "is_generic": false,
+        "price_inr": 28.0,
+        "unit": "single tablet"
+      },
+      {
+        "product_name": "Albendazole 400mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 7.0,
+        "unit": "single tablet"
+      }
+    ],
+    "Cholecalciferol (Vitamin D3)": [
+      {
+        "product_name": "Uprise-D3 60K",
+        "manufacturer": "Alkem",
+        "is_generic": false,
+        "price_inr": 92.0,
+        "unit": "pack of 4 sachets"
+      },
+      {
+        "product_name": "Cholecalciferol 60000 IU (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 25.0,
+        "unit": "pack of 4 sachets"
+      }
+    ],
+    "Ferrous Sulphate + Folic Acid": [
+      {
+        "product_name": "Livogen",
+        "manufacturer": "Merck",
+        "is_generic": false,
+        "price_inr": 46.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Ferrous Sulphate + Folic Acid (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 8.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Calcium Carbonate + Vitamin D3": [
+      {
+        "product_name": "Shelcal 500",
+        "manufacturer": "Torrent",
+        "is_generic": false,
+        "price_inr": 118.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Calcium + Vitamin D3 (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 28.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Doxycycline": [
+      {
+        "product_name": "Doxy-1 L-DR",
+        "manufacturer": "USV",
+        "is_generic": false,
+        "price_inr": 68.0,
+        "unit": "strip of 10 capsules"
+      },
+      {
+        "product_name": "Doxycycline 100mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 16.0,
+        "unit": "strip of 10 capsules"
+      }
+    ],
+    "Salbutamol": [
+      {
+        "product_name": "Asthalin HFA Inhaler",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 128.0,
+        "unit": "200-dose inhaler"
+      },
+      {
+        "product_name": "Salbutamol Inhaler (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 62.0,
+        "unit": "200-dose inhaler"
+      }
+    ],
+    "Clopidogrel": [
+      {
+        "product_name": "Clopilet 75",
+        "manufacturer": "Sun Pharma",
+        "is_generic": false,
+        "price_inr": 112.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Clopidogrel 75mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 26.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Warfarin": [
+      {
+        "product_name": "Warf 5",
+        "manufacturer": "Cipla",
+        "is_generic": false,
+        "price_inr": 58.0,
+        "unit": "strip of 30 tablets"
+      },
+      {
+        "product_name": "Warfarin 5mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 19.0,
+        "unit": "strip of 30 tablets"
+      }
+    ],
+    "Diclofenac": [
+      {
+        "product_name": "Voveran SR 100",
+        "manufacturer": "Novartis",
+        "is_generic": false,
+        "price_inr": 74.0,
+        "unit": "strip of 10 tablets"
+      },
+      {
+        "product_name": "Diclofenac 50mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 11.0,
+        "unit": "strip of 10 tablets"
+      }
+    ],
+    "Metronidazole": [
+      {
+        "product_name": "Flagyl 400",
+        "manufacturer": "Abbott",
+        "is_generic": false,
+        "price_inr": 52.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Metronidazole 400mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 13.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Oral Rehydration Salts (ORS)": [
+      {
+        "product_name": "Electral Powder",
+        "manufacturer": "FDC",
+        "is_generic": false,
+        "price_inr": 22.0,
+        "unit": "21.8g sachet"
+      },
+      {
+        "product_name": "ORS WHO formula (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 8.0,
+        "unit": "21.8g sachet"
+      }
+    ],
+    "Insulin (Regular/Soluble)": [
+      {
+        "product_name": "Huminsulin R",
+        "manufacturer": "Eli Lilly",
+        "is_generic": false,
+        "price_inr": 285.0,
+        "unit": "10mL vial"
+      },
+      {
+        "product_name": "Actrapid",
+        "manufacturer": "Novo Nordisk",
+        "is_generic": false,
+        "price_inr": 265.0,
+        "unit": "10mL vial"
+      }
+    ],
+    "Hydrochlorothiazide": [
+      {
+        "product_name": "Aquazide 12.5",
+        "manufacturer": "Sun Pharma",
+        "is_generic": false,
+        "price_inr": 44.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Hydrochlorothiazide 12.5mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 10.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Pantoprazole": [
+      {
+        "product_name": "Pantop 40",
+        "manufacturer": "Aristo",
+        "is_generic": false,
+        "price_inr": 138.0,
+        "unit": "strip of 15 tablets"
+      },
+      {
+        "product_name": "Pantoprazole 40mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 31.0,
+        "unit": "strip of 15 tablets"
+      }
+    ],
+    "Aspirin (low-dose)": [
+      {
+        "product_name": "Ecosprin 75",
+        "manufacturer": "USV",
+        "is_generic": false,
+        "price_inr": 12.0,
+        "unit": "strip of 14 tablets"
+      },
+      {
+        "product_name": "Aspirin 75mg (Jan Aushadhi)",
+        "manufacturer": "PMBJP",
+        "is_generic": true,
+        "price_inr": 4.5,
+        "unit": "strip of 14 tablets"
+      }
+    ]
+  }
+}

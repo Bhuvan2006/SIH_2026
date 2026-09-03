@@ -1,0 +1,304 @@
+/* ==========================================================================
+   Dashboard insights — adherence, streak, refill runway, savings
+   Semantic tones (good / warn / bad) are separate from the app accent: they
+   encode state, so they must not read as decoration.
+   ========================================================================== */
+
+.insights { margin-bottom: var(--space-xl); display: flex; flex-direction: column; gap: var(--space-sm); }
+.insights__loading { padding: 28px; text-align: center; }
+
+.insights__empty {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: var(--card-bg);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+}
+.insights__empty-icon { font-size: 1.6rem; }
+.insights__empty-title { margin: 0; font-weight: 700; }
+.insights__empty-body { margin: 4px 0 0; color: var(--text-muted); font-size: 0.9rem; }
+
+.insights__strip {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-sm);
+}
+
+.icard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  min-width: 0;
+}
+.icard--alert { border-color: var(--warning-border); background: #fffdf6; }
+.icard--full { grid-column: 1 / -1; }
+
+.icard__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-sm);
+}
+.icard__label {
+  margin: 0 0 10px;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.icard__head .icard__label { margin-bottom: 0; }
+
+.icard__big {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.icard__big--muted { color: var(--text-muted); }
+.icard__bigunit { font-size: 1rem; font-weight: 600; color: var(--text-muted); letter-spacing: 0; }
+.icard__lead { margin: 0; font-size: 1.02rem; font-weight: 600; }
+.icard__sub { margin: 6px 0 0; font-size: 0.86rem; color: var(--text-muted); }
+.icard__note { margin: 8px 0 0; font-size: 0.78rem; color: var(--text-muted); line-height: 1.5; }
+
+.icard__ringrow { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; }
+
+/* ---------- Adherence ring ---------- */
+.ring { flex-shrink: 0; width: 140px; }
+.ring svg { width: 100%; height: auto; display: block; }
+.ring__track { fill: none; stroke: var(--border); stroke-width: 11; }
+.ring__arc {
+  fill: none;
+  stroke-width: 11;
+  stroke-linecap: round;
+  transition: stroke-dasharray 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.ring__arc--good { stroke: var(--success); }
+.ring__arc--warn { stroke: var(--warning-border); }
+.ring__arc--bad  { stroke: var(--danger); }
+/* The 80% mark rendered on the ring itself, so the gap is visible distance. */
+.ring__target { fill: var(--text); stroke: var(--card-bg); stroke-width: 2; }
+.ring__value {
+  font-size: 1.85rem;
+  font-weight: 800;
+  fill: var(--text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+.ring__unit { font-size: 0.62rem; fill: var(--text-muted); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ring__arc { transition: none; }
+}
+
+/* ---------- Daily bars ---------- */
+.daybars {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 42px;
+  margin-top: var(--space-md);
+  padding-top: 4px;
+  border-top: 1px solid var(--border);
+}
+.daybars__bar { flex: 1; border-radius: 2px 2px 0 0; min-width: 2px; }
+.daybars__bar--full { background: var(--success); }
+.daybars__bar--part { background: var(--warning-border); }
+.daybars__bar--none { background: var(--danger); opacity: 0.45; }
+
+/* ---------- Per-medicine bars ---------- */
+.medbars { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.medbars__row {
+  display: grid;
+  grid-template-columns: minmax(90px, 1.2fr) 3fr auto auto;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.88rem;
+}
+.medbars__name { font-weight: 600; }
+.medbars__track {
+  position: relative;
+  height: 9px;
+  background: var(--border);
+  border-radius: 99px;
+  overflow: visible;
+}
+.medbars__fill {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  transition: width 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.medbars__fill--good { background: var(--success); }
+.medbars__fill--warn { background: var(--warning-border); }
+.medbars__fill--bad  { background: var(--danger); }
+/* Target line drawn across every bar so rows compare against one benchmark. */
+.medbars__target {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 2px;
+  background: var(--text);
+  opacity: 0.55;
+  border-radius: 2px;
+}
+.medbars__pct { font-weight: 700; font-variant-numeric: tabular-nums; min-width: 46px; text-align: right; }
+.medbars__count { color: var(--text-muted); font-size: 0.78rem; white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  .medbars__fill { transition: none; }
+}
+
+.insight-line {
+  margin: var(--space-md) 0 0;
+  padding: 11px 13px;
+  background: var(--info-bg);
+  border: 1px solid var(--info-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+.insight-line a { color: var(--primary-dark); font-weight: 600; }
+
+/* ---------- Savings ---------- */
+.savelist { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.savelist__row {
+  display: grid;
+  grid-template-columns: minmax(90px, 1fr) 2.2fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 9px 11px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  font-size: 0.86rem;
+}
+.savelist__name { font-weight: 600; }
+.savelist__swap { color: var(--text-muted); font-size: 0.82rem; }
+.savelist__from { text-decoration: line-through; }
+.savelist__to { color: var(--success); font-weight: 600; }
+.savelist__save {
+  font-weight: 700;
+  color: var(--success);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 900px) {
+  .insights__strip { grid-template-columns: 1fr 1fr; }
+  .icard--wide { grid-column: 1 / -1; }
+}
+@media (max-width: 620px) {
+  .insights__strip { grid-template-columns: 1fr; }
+  .medbars__row { grid-template-columns: 1fr auto; row-gap: 6px; }
+  .medbars__track { grid-column: 1 / -1; order: 3; }
+  .medbars__count { order: 4; grid-column: 1 / -1; }
+  .savelist__row { grid-template-columns: 1fr; row-gap: 4px; }
+}
+
+/* ==========================================================================
+   Vitals — readings with the adherence overlay
+   ========================================================================== */
+.vitals { margin-bottom: var(--space-xl); }
+.vitals__head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-sm);
+}
+.vitals__title { margin: 0; font-size: 1.15rem; letter-spacing: -0.01em; }
+.vitals__sub { margin: 3px 0 0; font-size: 0.85rem; color: var(--text-muted); }
+
+.vitals__form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: var(--space-sm);
+  align-items: end;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+.vitals__formactions { display: flex; align-items: flex-end; }
+.vitals__form .ui-alert { grid-column: 1 / -1; }
+
+.vitals__empty {
+  background: var(--card-bg);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: 20px 22px;
+}
+.vitals__empty-title { margin: 0; font-weight: 700; }
+.vitals__empty-body { margin: 5px 0 0; color: var(--text-muted); font-size: 0.89rem; max-width: 60ch; }
+
+.vitals__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: var(--space-sm);
+}
+.vitals__disclaimer {
+  margin: var(--space-sm) 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  max-width: 78ch;
+}
+
+.vcard {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  min-width: 0;
+}
+.vcard--compact { align-self: start; }
+.vcard__head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; flex-wrap: wrap; margin-bottom: 6px;
+}
+.vcard__label {
+  margin: 0; font-size: 0.68rem; text-transform: uppercase;
+  letter-spacing: 0.09em; font-weight: 700; color: var(--text-muted);
+}
+.vcard__value {
+  margin: 0; font-size: 1.9rem; font-weight: 800;
+  letter-spacing: -0.03em; line-height: 1.1; font-variant-numeric: tabular-nums;
+}
+.vcard__unit { font-size: 0.82rem; font-weight: 600; color: var(--text-muted); letter-spacing: 0; }
+.vcard__meta { margin: 5px 0 0; font-size: 0.79rem; color: var(--text-muted); }
+.vcard__up { color: var(--danger); font-weight: 600; }
+.vcard__down { color: var(--success); font-weight: 600; }
+
+/* ---------- Trend chart ---------- */
+.trend { margin-top: var(--space-sm); }
+.trend svg { width: 100%; height: 150px; display: block; overflow: visible; }
+.trend__grid { stroke: var(--border); stroke-width: 1; }
+/* Adherence sits behind as a soft area so the reading stays the subject. */
+.trend__area { fill: var(--primary); opacity: 0.10; }
+.trend__line { fill: none; stroke: var(--primary); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.trend__line--sec { stroke: var(--accent); stroke-dasharray: 4 3; stroke-width: 1.6; }
+.trend__dot { fill: var(--primary); }
+.trend__dot--last { fill: var(--primary-dark); stroke: var(--card-bg); stroke-width: 2; }
+.trend__axis { font-size: 9px; fill: var(--text-muted); font-variant-numeric: tabular-nums; }
+
+.trend__legend {
+  margin: 6px 0 0; font-size: 0.72rem; color: var(--text-muted);
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+}
+.trend__key { display: inline-block; width: 14px; height: 3px; border-radius: 2px; margin-left: 8px; }
+.trend__key--line { background: var(--primary); }
+.trend__key--sec { background: var(--accent); }
+.trend__key--area { background: var(--primary); opacity: 0.25; height: 9px; }
+
+@media (max-width: 560px) {
+  .vitals__grid { grid-template-columns: 1fr; }
+}
+
+/* Direction shown without a verdict — used for weight, where neither
+   direction is inherently good or bad without clinical context. */
+.vcard__flat { color: var(--text-muted); font-weight: 600; }

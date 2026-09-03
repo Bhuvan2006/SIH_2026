@@ -1,0 +1,17 @@
+{
+  "_note": "Small SAMPLE phrase dictionary for the mock translation service. Real deployments should use Bhashini/Google Translate for open-ended text instead of a fixed dictionary.",
+  "hi": {
+    "Take your medication": "अपनी दवा लें",
+    "Please consult your doctor before making any changes": "कोई भी बदलाव करने से पहले कृपया अपने डॉक्टर से सलाह लें",
+    "Store in a cool, dry place": "ठंडी, सूखी जगह पर रखें",
+    "Refrigerate between 2-8°C": "2-8°C के बीच फ्रिज में रखें",
+    "This is general information, not a medical diagnosis": "यह सामान्य जानकारी है, चिकित्सीय निदान नहीं"
+  },
+  "ta": {
+    "Take your medication": "உங்கள் மருந்தை எடுத்துக் கொள்ளுங்கள்",
+    "Please consult your doctor before making any changes": "எந்த மாற்றத்தையும் செய்வதற்கு முன் தயவுசெய்து உங்கள் மருத்துவரை அணுகவும்",
+    "Store in a cool, dry place": "குளிர்ந்த, உலர்ந்த இடத்தில் வைக்கவும்",
+    "Refrigerate between 2-8°C": "2-8°C க்கு இடையில் குளிர்சாதன பெட்டியில் வைக்கவும்",
+    "This is general information, not a medical diagnosis": "இது பொது தகவல், மருத்துவ நோய் கண்டறிதல் அல்ல"
+  }
+}

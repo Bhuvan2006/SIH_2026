@@ -1,0 +1,36 @@
+# ── Secrets ───────────────────────────────────────────────────────────────
+# backend/.env holds live API keys. It was NOT excluded before; committing it
+# would publish a working Google API key to a public repository.
+.env
+*.env
+!.env.example
+backend/.env
+
+# ── Python ────────────────────────────────────────────────────────────────
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+*.pyc
+
+# ── Database and generated data ───────────────────────────────────────────
+# arogya.db is ~360 MB once the medicine catalogue is imported: far past
+# GitHub's 100 MB per-file limit, and rebuildable from the import scripts.
+*.db
+backend/*.db
+backend/app/uploaded_files/
+backend/app/patient_data/
+backend/demo_prescriptions/
+
+# ── Source datasets ───────────────────────────────────────────────────────
+# 147 MB of CSVs, one of them 115 MB. Download them with the commands in the
+# README rather than versioning them.
+data_sources/
+
+# ── Frontend ──────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+
+# ── Misc ──────────────────────────────────────────────────────────────────
+screenshots/
+.DS_Store

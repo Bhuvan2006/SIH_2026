@@ -1,0 +1,20 @@
+{
+  "_note": "MOCK sample pharmacy locations around Bengaluru for prototype purposes. Replace with Google Places API (or similar) results in production — see app/services/places_service.py.",
+  "pharmacies": [
+    {"name": "Apollo Pharmacy - Koramangala", "address": "80 Feet Rd, Koramangala 4th Block, Bengaluru", "latitude": 12.9352, "longitude": 77.6245, "phone": "080-40001111"},
+    {"name": "MedPlus - Indiranagar", "address": "100 Feet Rd, Indiranagar, Bengaluru", "latitude": 12.9719, "longitude": 77.6412, "phone": "080-40002222"},
+    {"name": "Jan Aushadhi Kendra - Jayanagar", "address": "4th Block, Jayanagar, Bengaluru", "latitude": 12.9250, "longitude": 77.5938, "phone": "080-40003333"},
+    {"name": "Apollo Pharmacy - HSR Layout", "address": "Sector 2, HSR Layout, Bengaluru", "latitude": 12.9121, "longitude": 77.6446, "phone": "080-40004444"},
+    {"name": "Netmeds Store - BTM Layout", "address": "BTM 2nd Stage, Bengaluru", "latitude": 12.9166, "longitude": 77.6101, "phone": "080-40005555"},
+    {"name": "MedPlus - Whitefield", "address": "ITPL Main Rd, Whitefield, Bengaluru", "latitude": 12.9698, "longitude": 77.7500, "phone": "080-40006666"},
+    {"name": "Jan Aushadhi Kendra - Malleshwaram", "address": "Sampige Rd, Malleshwaram, Bengaluru", "latitude": 13.0035, "longitude": 77.5709, "phone": "080-40007777"},
+    {"name": "Apollo Pharmacy - Rajajinagar", "address": "Rajajinagar 1st Block, Bengaluru", "latitude": 12.9915, "longitude": 77.5555, "phone": "080-40008888"},
+    {"name": "MedPlus - Marathahalli", "address": "Outer Ring Rd, Marathahalli, Bengaluru", "latitude": 12.9569, "longitude": 77.7011, "phone": "080-40009999"},
+    {"name": "1mg Partner Store - JP Nagar", "address": "JP Nagar 6th Phase, Bengaluru", "latitude": 12.9077, "longitude": 77.5851, "phone": "080-40010000"},
+    {"name": "Apollo Pharmacy - Electronic City", "address": "Phase 1, Electronic City, Bengaluru", "latitude": 12.8452, "longitude": 77.6602, "phone": "080-40011111"},
+    {"name": "MedPlus - Yelahanka", "address": "Yelahanka New Town, Bengaluru", "latitude": 13.1007, "longitude": 77.5963, "phone": "080-40012222"},
+    {"name": "Jan Aushadhi Kendra - Basavanagudi", "address": "Bull Temple Rd, Basavanagudi, Bengaluru", "latitude": 12.9422, "longitude": 77.5760, "phone": "080-40013333"},
+    {"name": "Netmeds Store - Banashankari", "address": "Banashankari 2nd Stage, Bengaluru", "latitude": 12.9255, "longitude": 77.5468, "phone": "080-40014444"},
+    {"name": "Apollo Pharmacy - Hebbal", "address": "Hebbal Ring Rd, Bengaluru", "latitude": 13.0355, "longitude": 77.5970, "phone": "080-40015555"}
+  ]
+}

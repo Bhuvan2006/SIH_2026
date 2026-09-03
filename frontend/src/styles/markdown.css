@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Rendered Markdown (chatbot replies).
+   Tight vertical rhythm: these sit inside chat bubbles, so default browser
+   margins would make every answer look double-spaced.
+   ========================================================================== */
+
+.md > *:first-child { margin-top: 0; }
+.md > *:last-child { margin-bottom: 0; }
+
+.md p { margin: 0 0 0.65em; line-height: 1.6; }
+
+.md strong { font-weight: 700; }
+.md em { font-style: italic; }
+
+.md ul,
+.md ol { margin: 0 0 0.65em; padding-left: 1.3em; }
+.md li { margin-bottom: 0.3em; line-height: 1.55; }
+.md li > p { margin-bottom: 0.3em; }
+.md li::marker { color: var(--primary); }
+
+.md h1, .md h2, .md h3, .md h4 {
+  margin: 0.9em 0 0.4em;
+  line-height: 1.3;
+  font-weight: 700;
+}
+.md h1 { font-size: 1.15rem; }
+.md h2 { font-size: 1.05rem; }
+.md h3 { font-size: 0.98rem; }
+.md h4 { font-size: 0.93rem; }
+
+.md a { color: var(--primary-dark); text-decoration: underline; }
+
+.md code {
+  background: rgba(15, 23, 42, 0.07);
+  border-radius: 4px;
+  padding: 1px 5px;
+  font-size: 0.88em;
+  font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+}
+.md pre {
+  background: rgba(15, 23, 42, 0.07);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  overflow-x: auto;
+  margin: 0 0 0.65em;
+}
+.md pre code { background: none; padding: 0; }
+
+.md blockquote {
+  margin: 0 0 0.65em;
+  padding-left: 12px;
+  border-left: 3px solid var(--primary-soft-border);
+  color: var(--text-muted);
+}
+
+.md hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0.9em 0;
+}
+
+.md table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.87rem;
+  margin: 0 0 0.65em;
+}
+.md th, .md td {
+  border: 1px solid var(--border);
+  padding: 6px 9px;
+  text-align: left;
+}
+.md th { background: rgba(15, 23, 42, 0.04); font-weight: 700; }
+
+/* Inside the red emergency bubble the palette inverts, so links and code
+   need to stay legible against it. */
+.chat-bubble.emergency .md a { color: #7f1d1d; }
+.chat-bubble.emergency .md code { background: rgba(127, 29, 29, 0.12); }

@@ -1,0 +1,4843 @@
+{
+  "_note": "List of drugs prohibited for manufacture and sale through gazette notifications under section 26A of the Drugs & Cosmetics Act 1940, Ministry of Health and Family Welfare. Extracted by OCR from the official CDSCO PDF (see scripts/parse_cdsco_banned_pdf.py). 420 of the document's 444 rows were read; ingredient names were repaired against the medicine catalogue's molecule vocabulary where the scan was damaged, and each entry keeps its raw text alongside the parsed ingredients. Only 'single' and 'combination' entries are matched automatically -- 'class_rule' entries ('corticosteroids with any other drug for internal use') need drug-class data we hold for only the curated set, and guessing at them would produce false alarms. Re-verify against https://cdsco.gov.in before any clinical or production use.",
+  "_source": "CDSCO / Ministry of Health and Family Welfare, section 26A list",
+  "_caveats": {
+    "stayed_madras_hc": "This prohibition is currently stayed by the Madras High Court, so the medicine may still be legally on sale while the case is decided.",
+    "revoked_with_conditions": "This prohibition was revoked with conditions (G.S.R. 367, 13.04.2017): the drug is permitted for cancer pain only, at no more than 300 mg per day.",
+    "quashed_delhi_hc_under_appeal": "The notification behind this entry was quashed by the Delhi High Court on 01.12.2016 and is under appeal before the Supreme Court, so its legal status is unsettled."
+  },
+  "_counts": {
+    "single": 16,
+    "class_rule": 46,
+    "unclassified": 29,
+    "combination": 329
+  },
+  "entries": [
+    {
+      "serial": 1,
+      "text": "Amidopyrine.",
+      "ingredients": [
+        "amidopyrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 2,
+      "text": "Fixed dose combinations of vitamins with anti-inflammatory agents and tranquilizers.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 3,
+      "text": "Fixed dose combinations of Atropine in Analgesics and Antipyretics.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 4,
+      "text": "Fixed dose combinations of Strychnine and Caffeine in tonics.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 5,
+      "text": "Fixed dose combinations of Yohimbine and Strychnine with Testosterone and Vitamins.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 6,
+      "text": "Fixed dose combinations of Iron with Strychnine, Arsenic and Yohimbine.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 7,
+      "text": "Fixed dose combinations of Sodium Bromide/chloral hydrate with other drugs.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 8,
+      "text": "Phenacetin.",
+      "ingredients": [
+        "phenacetin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 9,
+      "text": "Fixed dose combinations of antihistaminic with anti- diarrhoeals.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 10,
+      "text": "Fixed dose combinations of Penicillin with Sulphonamides.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 11,
+      "text": "Fixed dose combinations of Vitamins with Analgesics.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 12,
+      "text": "Fixed dose combinations ofany other Tetracycline with Vitamin C.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 13,
+      "text": "Fixed dose combinations of Corticosteroids with any other drug for internal use except for preparations meant for meter dose inhalers and dry powder inhalers.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 14,
+      "text": "Fixed dose combinations of Chloramphenicol with any other drug for internal use.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 15,
+      "text": "Fixed dose combinations of crude Ergot preparations except those containing Ergotamine, Caffeine, analgesics, antihistamines for the treatment of migraine, headaches.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 16,
+      "text": "Fixed dose combinations of Vitamins with Anti TB drugs except combination of Isoniazid with Pyridoxine Hydrochloride (Vitamin B6).",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 17,
+      "text": "Penicillin skin/eye Ointment.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 18,
+      "text": "Tetracycline Liquid Oral preparations.",
+      "ingredients": [
+        "tetracycline liquid preparations"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 19,
+      "text": "Nialamide.",
+      "ingredients": [
+        "nialamide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 20,
+      "text": "Practolol.",
+      "ingredients": [
+        "practolol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 21,
+      "text": "Methapyrilene, its salts.",
+      "ingredients": [
+        "methapyrilene its salts"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 22,
+      "text": "Methaqualone.",
+      "ingredients": [
+        "methaqualone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 23,
+      "text": "Oxytetracycline Liquid Oral preparations.",
+      "ingredients": [
+        "oxytetracycline liquid preparations"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 24,
+      "text": "Demeclocycline Liquid Oral preparations.",
+      "ingredients": [
+        "demeclocycline liquid preparations"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 25,
+      "text": "Combination of anabolic Steroids with other drugs.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 26,
+      "text": "Fixed dose combination of Oestrogen and Progestin (other than oral contraceptive) containing per tablet Estrogen content of more than 50 mcg (equivalent to EthinylEstradiol) and content of more than 3 mg(equivalent to Norethisterone Acetate) and all fixed dose combination injectable preparations containing synthetic Oestrogen andProgesterone.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 27,
+      "text": "Fixed dose combination of Rifanpicin, isoniazid and Pyrazinamide, except those which Provide daily adult dose given below: Drugs Minimum Maximum Rifampicin 450 mg 600 mg Isoniazid 300 mg 400 mg Pyrazinamide1000mg 1500 mg",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 28,
+      "text": "Fixed dose combination of Histamine H-2 receptor antagonists with antacids except for those combinations approved by Drugs Controller, India.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 29,
+      "text": "The patent and proprietary medicines of fixed dose combinations of essential oils with alcohol having percentage higher than 20% proof except preparations given in the Indian Pharmacopoeia.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 30,
+      "text": "All Pharmaceutical preparations containing Chloroform exceeding 0.5% w/w or v/v whichever is appropriate.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 31,
+      "text": "Fixed dose combination of Ethambutol with INH other than the following: INH Ethambutol 200 mg. 600 mg. 300 mg. 800 mg.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 32,
+      "text": "Fixed dose combination containing more than one antihistamine.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 33,
+      "text": "Fixed dose combination of any anthelmintic with cathartic/purgative except for piperazine/Santonim.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 34,
+      "text": "Fixed dose combination of Salbutamol or any _ other bronchodilator with centrally acting anti-tussive and/or antihistamine.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 35,
+      "text": "Fixed dose combination of laxatives and/or anti-spasmodic drugs in enzyme preparations.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 36,
+      "text": "Fixed dose combination of Metoclopramide with systemically absorbed drugs except fixed dose combination of metoclopramide with aspirin /paracetamol",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 37,
+      "text": "Fixed dose combination of centrally acting, antitussive with antihistamine, having high atropine like activity in expectorants.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 38,
+      "text": "Preparations claiming to combat cough associated with asthma containing centrally acting antitussive and/ or an antihistamine.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 39,
+      "text": "Fixed dose combination containing Pectin and/or Kaolin with any drug which is systemically absorbed from GI tract except for combinations of Pectin and/or Kaolin with drugs not systemically absorbed.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 40,
+      "text": "Chloral Hydrate as a drug.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 41,
+      "text": "Dovers Powder I.P.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 42,
+      "text": "Dover’s Powder Tablets I.P.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 43,
+      "text": "Antidiarrhoeal formulations containing Kaolin or Pectin or Attapulgite or Activated Charcoal.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 44,
+      "text": "Antidiarrhoeal formulations containing PhthalylSulphathiazole or Sulphaguanidine or SuccinylSulphathiazole.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 45,
+      "text": "Antidiarrhoeal formulations containing Neomycin- or Streptomycin or Dihydrostreptomycin including _ their respective salts or esters.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 46,
+      "text": "Liquid Oral antidiarrhoeals or any other dosage form for pediatric use containing DiphenoxylateLorloperamide or Atropine or Belladona including their salts or esters or metabolitesHyoscyamine or their extracts or their alkaloids.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 47,
+      "text": "Liquid Oral antidiarrhoeals or any other dosage form for pediatric use containing halogenated hydroxyquinolines.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 48,
+      "text": "Fixed dose combination of antidiarrhoeals with electrolytes.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 49,
+      "text": "Patent and Proprietary Oral Rehydration Salts other than those conforming to the following parameters: (a) Patent and Proprietary oral rehydration salts on reconstitution to one litre shall contain: Sodium — 50 to 90 milliosmoles Total osmolarity - 240-290 milliosmoles Dextrose: Sodium molar ratio — Not less than 1:1 and not more than 3:1 (b) Patent and proprietary cereal based oral rehydration salts on reconstitution to one litre shall contain: Sodium — 50 to 90 milliosmoles Total osmolarity — Not more than 290 milliosmoles Precooked rice — equivalent to not less than 5O0gms and not more than 80gms as total replacement of dextrose",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 50,
+      "text": "Fixed dose combination of Oxyphenbutazone or Phenylbutazone with any other drug.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 51,
+      "text": "Fixed dose combination of Analgin with any other drug.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 52,
+      "text": "Fixed dose combination of dextropropoxyphene with any other drug other than anti-spasmodics and/or non-steriodal anti- inflammatory drugs (NSAIDS).",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 53,
+      "text": "Fixed dose combination of a drug, standards of which are prescribed in the Second Schedule to the said Act with an Ayurvedic, Siddha or Unani drug.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 54,
+      "text": "Mepacrine Hydrochloride (Quinacrine and its salts) in any dosage form for use for female sterilization or contraception.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 55,
+      "text": "Fenfluramine",
+      "ingredients": [
+        "fenfluramine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 56,
+      "text": "Dexfenfluramine.",
+      "ingredients": [
+        "fenfluramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 57,
+      "text": "Fixed dose combination of Diazepam and Diphenhydramine Hydrochloride .",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 58,
+      "text": "Cosmetics Licensed as toothpaste/tooth powder containing tobacco.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 59,
+      "text": "Parenteal Preparations fixed combination of streptomycin with Pencillin",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 60,
+      "text": "Fixed dose combination of Vitamin B1Vitamin B6 and Vitamin B12 for human use",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 61,
+      "text": "Fixed dose combination of haemoglobin in any form (natural or synthetic).",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 62,
+      "text": "Fixed dose combination of Pancreatin or Pancrelipase containing amylase, protease and lipase with any other enzyme.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 63,
+      "text": "Fixed dose combination of Nitrofurantoin and trimethoprim.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 64,
+      "text": "Fixed dose combination of Phenobarbitone with Hyoscin and/or Hyoscyamine",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 65,
+      "text": "Fixed dose combination of Phenobarbitone with Ergotamine and/or Belladona",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 66,
+      "text": "Fixed dose combination of MHaloperidol with any anti- cholinergic agent including Propantheline Bromide.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 67,
+      "text": "Fixed dose combination of Nalidixic Acid with any anti- amoebic including Metronidazole.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 68,
+      "text": "Fixed dose combination of Loperamide Hydrochloride with Furazolidone",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 69,
+      "text": "Fixed dose combination of Cyproheptadine with Lysine or Peptone.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "class_rule",
+      "caveat": null
+    },
+    {
+      "serial": 70,
+      "text": "Astemizole",
+      "ingredients": [
+        "astemizole"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 71,
+      "text": "Terfinadine",
+      "ingredients": [
+        "terfenadine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 72,
+      "text": "Phenformin",
+      "ingredients": [
+        "phenformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 73,
+      "text": "Rofecoxib and its formulations",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 74,
+      "text": "Valdecoxib and its formulations",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 75,
+      "text": "Diclofenac and its formulations (for animal use)",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 76,
+      "text": "Rimonabant.",
+      "ingredients": [
+        "rimonabant"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 77,
+      "text": "Rosiglitazone",
+      "ingredients": [
+        "rosiglitazone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "single",
+      "caveat": null
+    },
+    {
+      "serial": 78,
+      "text": "Nimesulide formulations for human use in children below 12 years of age.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 79,
+      "text": "Cisapride and its formulations for human use.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 80,
+      "text": "Phenypropanolamine and its formulations for human use.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": "stayed_madras_hc"
+    },
+    {
+      "serial": 81,
+      "text": "Sibutramine and its formulations for human use.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 82,
+      "text": "R-Sibutramine and its formulations for human use.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 83,
+      "text": "“Gatifloxacin formulation for systemic use in human by any route including —_ oral and injectable”.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 84,
+      "text": "Tegaserod and its formulations",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 85,
+      "text": "Letrozole for induction of ovulation in anovulatory infertility.",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 86,
+      "text": "Serodiagnostic test kits for diagnosis of tuberculosis",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 87,
+      "text": "Dextropropoxyphene and formulations containing Dextropropoxyphene for human use ets",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 88,
+      "text": "Fixed dose combination of Flupenthixol + Melitracen for human use",
+      "ingredients": [
+        "fixed dose combination of flupenthixol",
+        "melitracen for human use"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 89,
+      "text": "Analgin and all formulations containing analgin for human use",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 90,
+      "text": "Pioglitazone and all formulations containing Pioglitazone for human use",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 91,
+      "text": "Aceclofenac + Paracetamol + Rabeprazole RAK",
+      "ingredients": [
+        "aceclofenac",
+        "paracetamol",
+        "rabeprazole"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 92,
+      "text": "Nimesulide + Diclofenac",
+      "ingredients": [
+        "nimesulide",
+        "diclofenac"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 93,
+      "text": "esa + Cetirizine +Caffeine",
+      "ingredients": [
+        "esa",
+        "cetirizine",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 94,
+      "text": "Nimesulide +Tizanidine",
+      "ingredients": [
+        "nimesulide",
+        "tizanidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 95,
+      "text": "Paracetamol + cetrizine + caffeine",
+      "ingredients": [
+        "paracetamol",
+        "cetirizine",
+        "caffeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 96,
+      "text": "Diclofenac + Tramadol + Chlorzoxazone",
+      "ingredients": [
+        "diclofenac",
+        "tramadol",
+        "chlorzoxazone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 97,
+      "text": "Dicyclomine +Paracetamol +Domperidone",
+      "ingredients": [
+        "dicyclomine",
+        "paracetamol",
+        "domperidone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 98,
+      "text": "Nimesulide +Paracetamol dispesible tablets",
+      "ingredients": [
+        "nimesulide",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 99,
+      "text": "Paracetamol + Phenylephrine + Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 100,
+      "text": "Diclofenac +Tramadol +Paracetamol",
+      "ingredients": [
+        "diclofenac",
+        "tramadol",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 101,
+      "text": "Diclofenac + paracetamol + chlorzoxazone + famotidine",
+      "ingredients": [
+        "diclofenac",
+        "paracetamol",
+        "chlorzoxazone",
+        "famotidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 102,
+      "text": "Naproxen+Paracetamol",
+      "ingredients": [
+        "naproxen",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 103,
+      "text": "Nimesulide + serratiopeptidase",
+      "ingredients": [
+        "nimesulide",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 104,
+      "text": "Paracetamol +Diclofenac +Famotidine",
+      "ingredients": [
+        "paracetamol",
+        "diclofenac",
+        "famotidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 105,
+      "text": "Nimesulide + Pitofenone + Fenpiverinium + benzyl alcohol",
+      "ingredients": [
+        "nimesulide",
+        "pitofenone",
+        "fenpiverinium",
+        "benzyl alcohol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 106,
+      "text": "Nimesulide + Paracetamol injection",
+      "ingredients": [
+        "nimesulide",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 107,
+      "text": "Tamsulosin + diclofenac",
+      "ingredients": [
+        "tamsulosin",
+        "diclofenac"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 108,
+      "text": "Paracetamol +Phenylephirine +Chlorpheniramine +Dextromethorphan +Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "dexchlorpheniramine",
+        "dextromethorphan",
+        "caffeine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 109,
+      "text": "Diclofenac +Zinc Carnosine",
+      "ingredients": [
+        "diclofenac",
+        "zinc carnosine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 110,
+      "text": "Diclofenac + paracetamol+ chlorpheniramine maleate + magnesium trisillicate",
+      "ingredients": [
+        "diclofenac",
+        "paracetamol",
+        "chlorpheniramine maleate",
+        "magnesium trisilicate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 111,
+      "text": "Paracetamol + pseudoephedrine + cetrizine",
+      "ingredients": [
+        "paracetamol",
+        "pseudoephedrine",
+        "cetirizine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 112,
+      "text": "Phenylbutazone+Sodium Salicylate",
+      "ingredients": [
+        "oxyphenbutazone",
+        "sodium aminosalicylate"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 113,
+      "text": "Lornoxicam+Paracetamol+Trypsin",
+      "ingredients": [
+        "lornoxicam",
+        "paracetamol",
+        "trypsin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 114,
+      "text": "Paracetamol +Mefenamic Acid +Ranitidine +Dicyclomine",
+      "ingredients": [
+        "paracetamol",
+        "mefenamic acid",
+        "ranitidine",
+        "dicyclomine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 115,
+      "text": "Nimesulide + Dicyclomine",
+      "ingredients": [
+        "nimesulide",
+        "dicyclomine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 116,
+      "text": "Heparin +Diclofenac",
+      "ingredients": [
+        "heparin",
+        "diclofenac"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 117,
+      "text": "Glucosamine +Methyl SulfonylMethane+Vitamin D3 + Manganese + Boron+ Copper +Zinc",
+      "ingredients": [
+        "glucosamine",
+        "methyl sulfonyl methane",
+        "vitamin d",
+        "manganese",
+        "boron",
+        "copper",
+        "zinc"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 118,
+      "text": "Paracetamol +Tapentadol",
+      "ingredients": [
+        "paracetamol",
+        "tapentadol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 119,
+      "text": "Tranexamic Acid + Proanthocyanidin",
+      "ingredients": [
+        "tranexamic acid",
+        "proanthocyanidin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 120,
+      "text": "BenzoxoniumChloride+Lidocaine",
+      "ingredients": [
+        "benzoxonium chloride",
+        "lidocaine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 121,
+      "text": "Lornoxicam +Paracetamol +Tramadol",
+      "ingredients": [
+        "lornoxicam",
+        "paracetamol",
+        "tramadol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 122,
+      "text": "Lornoxicam +Paracetamol +Serratiopeptidase",
+      "ingredients": [
+        "lornoxicam",
+        "paracetamol",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 123,
+      "text": "Paracetamol +Domperidone +Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "domperidone",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 124,
+      "text": "Ammonium Chloride +Sodium Citrate +Chlorpheniramine Maleate +Menthol",
+      "ingredients": [
+        "ammonium chloride",
+        "sodium citrate",
+        "chlorpheniramine maleate",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 125,
+      "text": "Paracetamol +Prochlorperazine Maleate",
+      "ingredients": [
+        "paracetamol",
+        "chlorpheniramine maleate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 126,
+      "text": "Combikit of 3 tablets of Serratiopeptidase (enteric coated 20000 units) + Diclofenac Potassium & 2 tablets of Doxycycline",
+      "ingredients": [
+        "serratiopeptidase",
+        "diclofenac potassium of doxycycline"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 127,
+      "text": "Nimesulide +Paracetamol suspension",
+      "ingredients": [
+        "nimesulide",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 128,
+      "text": "Aceclofenac +Paracetamol +Famotidine",
+      "ingredients": [
+        "aceclofenac",
+        "paracetamol",
+        "famotidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 129,
+      "text": "Aceclofenac + Zinc Carnosine",
+      "ingredients": [
+        "aceclofenac",
+        "zinc carnosine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 130,
+      "text": "Paracetamol + disodium Hydrogen Citrate + Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "disodium hydrogen citrate",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 131,
+      "text": "Paracetamol + DL Methionine",
+      "ingredients": [
+        "paracetamol",
+        "l-methionine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 132,
+      "text": "Disodium Hydrogen citrate +Paracetamol",
+      "ingredients": [
+        "disodium hydrogen citrate",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 133,
+      "text": "Paracetamol + Caffeine + Codeine Phosphate",
+      "ingredients": [
+        "paracetamol",
+        "caffeine",
+        "codeine phosphate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 134,
+      "text": "Meese (SR) + Paracetamol",
+      "ingredients": [
+        "meese",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 135,
+      "text": "pPcotenas + Paracetamol injection",
+      "ingredients": [
+        "ppcotenas",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 136,
+      "text": "Azithromycin+Cefixime",
+      "ingredients": [
+        "azithromycin",
+        "cefixime"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 137,
+      "text": "Amoxicillin +Dicloxacillin",
+      "ingredients": [
+        "amoxicillin",
+        "dicloxacillin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 138,
+      "text": "Amoxicillin 250 mg+PotassiumClavulanate Diluted 62.5 mg",
+      "ingredients": [
+        "amoxicillin",
+        "potassiumclavulanate diluted"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 139,
+      "text": "Azithromycin + Levofloxacin",
+      "ingredients": [
+        "azithromycin",
+        "levofloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 140,
+      "text": "Amoxicillin +Cefixime +Potassium Clavulanic Acid",
+      "ingredients": [
+        "amoxicillin",
+        "cefixime",
+        "potassium clavulanate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 141,
+      "text": "Ofloxacin +Nitazoxanide",
+      "ingredients": [
+        "ofloxacin",
+        "nitazoxanide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 142,
+      "text": "eiPodoxmezroxes +Levofloxacin",
+      "ingredients": [
+        "eipodoxmezroxes",
+        "levofloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 143,
+      "text": "Combikit of Azithromycin dihydrate, secnidazole and fluconazole",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 144,
+      "text": "Levofloxacin +Ornidazole +Alpha Tocopherol Acetate",
+      "ingredients": [
+        "levofloxacin",
+        "ornidazole",
+        "alpha tocopherol acetate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 145,
+      "text": "Nimorazole+Ofloxacin",
+      "ingredients": [
+        "nimorazole",
+        "ofloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 146,
+      "text": "Azithromycin + ofloxacin",
+      "ingredients": [
+        "azithromycin",
+        "ofloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 147,
+      "text": "Amoxycillin + tinidazole",
+      "ingredients": [
+        "amoxicillin",
+        "tinidazole"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 148,
+      "text": "Doxycycline +Serratiopeptidase",
+      "ingredients": [
+        "doxycycline",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 149,
+      "text": "Cefixime +levofloxacin",
+      "ingredients": [
+        "cefixime",
+        "levofloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 150,
+      "text": "Ofloxacin +Metronidazole +Zinc Acetate",
+      "ingredients": [
+        "ofloxacin",
+        "metronidazole",
+        "zinc acetate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 151,
+      "text": "Diphenoxylate +Atropine +Furazolidone",
+      "ingredients": [
+        "diphenoxylate",
+        "atropine",
+        "furazolidone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 152,
+      "text": "Combikit of Fluconazole Tablet, Azithromycin Tablet and Ornidazole Tablets",
+      "ingredients": [],
+      "ocr_corrections": 0,
+      "kind": "unclassified",
+      "caveat": null
+    },
+    {
+      "serial": 153,
+      "text": "[“Protessen +Phenazopyridine",
+      "ingredients": [
+        "protease",
+        "phenazopyridine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 154,
+      "text": "[Amowelin +Dicloxacillin +Serratiopeptidase",
+      "ingredients": [
+        "amowelin",
+        "dicloxacillin",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 155,
+      "text": "Azithromycin +Cefpodoxime",
+      "ingredients": [
+        "azithromycin",
+        "cefpodoxime"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 156,
+      "text": "Lignocaine+Clotrimazole+Ofloxacin+Beclomethasone",
+      "ingredients": [
+        "lidocaine",
+        "clotrimazole",
+        "ofloxacin",
+        "beclometasone"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 157,
+      "text": "Ofloxacin +Ornidazole +Zinc bisglycinate",
+      "ingredients": [
+        "ofloxacin",
+        "ornidazole",
+        "zinc bisglycinate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 158,
+      "text": "Metronidazole +Norfloxacin",
+      "ingredients": [
+        "metronidazole",
+        "norfloxacin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 159,
+      "text": "Amoxicillin+Bromhexine",
+      "ingredients": [
+        "amoxicillin",
+        "bromhexine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 160,
+      "text": "Ciprofloxacin +Fluticasone +Clotrimazole +Neomycin",
+      "ingredients": [
+        "ciprofloxacin",
+        "fluticasone",
+        "clotrimazole",
+        "neomycin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 161,
+      "text": "Metronidazole +Tetracycline",
+      "ingredients": [
+        "metronidazole",
+        "tetracycline"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 162,
+      "text": "Cephalexin + Neomycin +Prednisolone",
+      "ingredients": [
+        "cefalexin",
+        "neomycin",
+        "prednisolone"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 163,
+      "text": "Azithromycin + Ambroxol",
+      "ingredients": [
+        "azithromycin",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 164,
+      "text": "Cilnidipine + metroprolol succinate + metroprolol tartrate",
+      "ingredients": [
+        "cilnidipine",
+        "metoprolol succinate",
+        "metoprolol tartrate"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 165,
+      "text": "L-Arginine +Sildenafil",
+      "ingredients": [
+        "l-arginine",
+        "sildenafil"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 166,
+      "text": "Atorvastatin + vitamin D3 + folic acid + vitamin B12 + pyridoxine",
+      "ingredients": [
+        "atorvastatin",
+        "vitamin d",
+        "folic acid",
+        "vitamin b",
+        "pyridoxine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 167,
+      "text": "Metformin+Atorvastatin",
+      "ingredients": [
+        "metformin",
+        "atorvastatin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 168,
+      "text": "Clindamycin+Telmisartan",
+      "ingredients": [
+        "clindamycin",
+        "telmisartan"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 169,
+      "text": "Olmesartan+Hydrochlorothiazide +Chlorthalidone",
+      "ingredients": [
+        "olmesartan",
+        "hydrochlorothiazide",
+        "chlorthalidone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 170,
+      "text": "L-5-Methylterahydrofolate calcium + Escitalopram",
+      "ingredients": [
+        "l-methyltetrahydrofolate calcium",
+        "citalopram"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 171,
+      "text": "Pholcodine +Promethazine",
+      "ingredients": [
+        "pholcodine",
+        "promethazine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 172,
+      "text": "Paracetamol +Promethazine",
+      "ingredients": [
+        "paracetamol",
+        "promethazine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 173,
+      "text": "Betahistine +Ginkgo BilobaExtract+Vinpocetine+Piracetam",
+      "ingredients": [
+        "betahistine",
+        "ginkgo biloba extract",
+        "vinpocetine",
+        "piracetam"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 174,
+      "text": "Doxylamine +Pyridoxine +MefenamicAcid+Paracetamol",
+      "ingredients": [
+        "doxylamine",
+        "pyridoxine",
+        "mefenamic acid",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 175,
+      "text": "Drotaverine + Clidinium + Chlordiazepoxide",
+      "ingredients": [
+        "drotaverine",
+        "clidinium",
+        "chlordiazepoxide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 176,
+      "text": "Imipramine + Diazepam",
+      "ingredients": [
+        "imipramine",
+        "diazepam"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 177,
+      "text": "Flupentixol +Escitalopram",
+      "ingredients": [
+        "flupenthixol",
+        "citalopram"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 178,
+      "text": "Paracetamol + Prochloperazine",
+      "ingredients": [
+        "paracetamol",
+        "prochlorperazine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 179,
+      "text": "Gabapentin +Mecobalamin +Pyridoxine +Thiamine",
+      "ingredients": [
+        "gabapentin",
+        "methylcobalamin",
+        "pyridoxine",
+        "thiamine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 180,
+      "text": "Imipramine +Chlordiazepoxide +Trifluoperazine +Trihexyphenidyl",
+      "ingredients": [
+        "imipramine",
+        "chlordiazepoxide",
+        "trifluoperazine",
+        "trihexyphenidyl"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 181,
+      "text": "Chlorpromazine +Trihexyphenidyl",
+      "ingredients": [
+        "chlorpromazine",
+        "trihexyphenidyl"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 182,
+      "text": "Ursodeoxycholic Acid + Silymarin",
+      "ingredients": [
+        "ursodeoxycholic acid",
+        "silymarin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 183,
+      "text": "Metformin 1000/1000/500/500mg +Pioglitazone 7.0/7.5/7.5/7.5mg + Glimepiride 1/2/1/2mg",
+      "ingredients": [
+        "metformin",
+        "pioglitazone",
+        "glimepiride"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 184,
+      "text": "Gliclazide 80 mg + metformin 325 mg",
+      "ingredients": [
+        "gliclazide",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 185,
+      "text": "Voglibose+ Metformin + Chromium Picolinate",
+      "ingredients": [
+        "voglibose",
+        "metformin",
+        "chromium picolinate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 186,
+      "text": "Pioglitazone 7.5/7.5mg+Metformin 500/1000mg",
+      "ingredients": [
+        "pioglitazone",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 187,
+      "text": "Glimepiride Img/2mg/3mg+Pioglitazone 15mg/15mg/15mg+Metformin 1000mg/1000mg/1000mg",
+      "ingredients": [
+        "glimepiride",
+        "pioglitazone",
+        "metformin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 188,
+      "text": "glimepiride 1mg/2mg+ pioglitazone 15mg/15mg + metformin 850mg/850m¢g",
+      "ingredients": [
+        "glimepiride",
+        "pioglitazone",
+        "metformin m g"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 189,
+      "text": "Metformin 850mg+Pioglitazone 7.5 mg+Glimepiride 2mg",
+      "ingredients": [
+        "metformin",
+        "pioglitazone",
+        "glimepiride"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 190,
+      "text": "Mornin 850mg+Pioglitazone 7.5 mg+Glimepiride 1mg",
+      "ingredients": [
+        "mornin",
+        "pioglitazone",
+        "glimepiride"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 191,
+      "text": "Voglibose+Pioglitazone+Metformin",
+      "ingredients": [
+        "voglibose",
+        "pioglitazone",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 192,
+      "text": "Mevormn +bromocriptine",
+      "ingredients": [
+        "mevormn",
+        "bromocriptine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 193,
+      "text": "Metformin +Glimepiride +Methylcobalamin",
+      "ingredients": [
+        "metformin",
+        "glimepiride",
+        "methylcobalamin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 194,
+      "text": "Poetiozone 30 mg+Metformin SOOmg",
+      "ingredients": [
+        "poetiozone",
+        "metformin soomg"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 195,
+      "text": "Glimepiride +Pioglitazone +Metformin",
+      "ingredients": [
+        "glimepiride",
+        "pioglitazone",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 196,
+      "text": "Glipizide 2.5mg+Metformin 400mg",
+      "ingredients": [
+        "glipizide",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 197,
+      "text": "Pioglitazone 15mg+Metformin 850 mg",
+      "ingredients": [
+        "pioglitazone",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 198,
+      "text": "Meormn ER+GliclazideMR+Voglibose",
+      "ingredients": [
+        "meormn",
+        "gliclazide",
+        "voglibose"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 199,
+      "text": "Chromium Polynicotinate+Metformin Hydrochloride",
+      "ingredients": [
+        "chromium polynicotinate",
+        "metformin hydrochloride"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 200,
+      "text": "Metformin Hydrochlopride +Gliclazide +Piogllitazone +Chromium Polynicotinate",
+      "ingredients": [
+        "metformin hydrochlopride",
+        "gliclazide",
+        "pioglitazone",
+        "chromium polynicotinate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 201,
+      "text": "Metformin +Gliclazide +Chromium Polynicotinate",
+      "ingredients": [
+        "metformin",
+        "gliclazide",
+        "chromium polynicotinate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 202,
+      "text": "Glibenclamide + Metformin (SR)+ Pioglitazone",
+      "ingredients": [
+        "glibenclamide",
+        "metformin",
+        "pioglitazone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 203,
+      "text": "Metformin (sustainded release) SOOmg+Pioglitazone 15 mg+Glimepride 3mg",
+      "ingredients": [
+        "metformin soomg",
+        "pioglitazone",
+        "glimepiride"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 204,
+      "text": "Metformin (SR) 500mg+Pioglitazone 5mg",
+      "ingredients": [
+        "metformin",
+        "pioglitazone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 205,
+      "text": "Chloramphenicol +Beclomethasone +Clomitrimazole +Lignocaine",
+      "ingredients": [
+        "chloramphenicol",
+        "beclometasone",
+        "clotrimazole",
+        "lidocaine"
+      ],
+      "ocr_corrections": 3,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 206,
+      "text": "Clotrimazole + Ofloxaxin + Lignocaine + glycerine and propylene glycol",
+      "ingredients": [
+        "clotrimazole",
+        "ofloxacin",
+        "lidocaine",
+        "glycerine and propylene glycol"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 207,
+      "text": "Chloramphennicol+Lignocain+Betamethasone+Clotrimazolet+ Ofloxacin+Antipyrine",
+      "ingredients": [
+        "chloramphenicol",
+        "lignocain",
+        "betamethasone",
+        "clotrimazole",
+        "ofloxacin",
+        "antipyrine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 208,
+      "text": "Gentamicin Sulphate +Clotrimazole +Betamethasone +Lignocaine",
+      "ingredients": [
+        "gentamicin sulphate",
+        "clotrimazole",
+        "betamethasone",
+        "lidocaine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 209,
+      "text": "Clotrimazole +Beclomethasone +Ofloxacin +Lignocaine",
+      "ingredients": [
+        "clotrimazole",
+        "beclometasone",
+        "ofloxacin",
+        "lidocaine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 210,
+      "text": "Becloemthasone +Clotrimazole+Chloramphenicol+Gentamycin +Lignocaine Ear drops",
+      "ingredients": [
+        "beclometasone",
+        "clotrimazole",
+        "chloramphenicol",
+        "gentamicin",
+        "lignocaine ear"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 211,
+      "text": "Flunarizine + Paracetamole+ Domperidone",
+      "ingredients": [
+        "flunarizine",
+        "paracetamol",
+        "domperidone"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 212,
+      "text": "Rabeprazole +Zinc carnosine",
+      "ingredients": [
+        "rabeprazole",
+        "zinc carnosine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 213,
+      "text": "Magaldrate + famotidine + simethicone",
+      "ingredients": [
+        "magaldrate",
+        "famotidine",
+        "simethicone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 214,
+      "text": "Cyproheptadine + thiamine",
+      "ingredients": [
+        "cyproheptadine",
+        "thiamine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 215,
+      "text": "Magaldrate +Ranitidine +Pancreatin +Domperidone",
+      "ingredients": [
+        "magaldrate",
+        "ranitidine",
+        "pancreatin",
+        "domperidone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 216,
+      "text": "Ranitidine +Magaldrate +simethicone",
+      "ingredients": [
+        "ranitidine",
+        "magaldrate",
+        "simethicone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 217,
+      "text": "Magaldrate + papain+ fungul diastase + simethicone",
+      "ingredients": [
+        "magaldrate",
+        "papain",
+        "fungul diastase",
+        "simethicone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 218,
+      "text": "Rabeprazole + zinc + domperidone",
+      "ingredients": [
+        "rabeprazole",
+        "zinc",
+        "domperidone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 219,
+      "text": "Famotidine + oxytacaine + Magaldrate",
+      "ingredients": [
+        "famotidine",
+        "oxetacaine",
+        "magaldrate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 220,
+      "text": "Ranitidine+Domperidone+Semithicone",
+      "ingredients": [
+        "ranitidine",
+        "domperidone",
+        "semithicone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 221,
+      "text": "AlginicAcid+SodiumBicarbonate+Dried Aluminium Hydroxide+Magnesium Hydroxide",
+      "ingredients": [
+        "alginic acid",
+        "sodium bicarbonate",
+        "aluminium hydroxide",
+        "magnesium hydroxide"
+      ],
+      "ocr_corrections": 3,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 222,
+      "text": "Clidinium +Paracetamol +Dicyclomine +Activated Dimethicone",
+      "ingredients": [
+        "clidinium",
+        "paracetamol",
+        "dicyclomine",
+        "activated dimethicone"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 223,
+      "text": "Furazolidone +Metronidazole +Loperamide",
+      "ingredients": [
+        "furazolidone",
+        "metronidazole",
+        "loperamide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 224,
+      "text": "abenresei +Diclofenac +Paracetamol",
+      "ingredients": [
+        "abenresei",
+        "diclofenac",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 225,
+      "text": "Norfloxacin+ Metronidazole + zinc Acetate",
+      "ingredients": [
+        "norfloxacin",
+        "metronidazole",
+        "zinc acetate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 226,
+      "text": "Zinc Carnosine+Oxetacaine",
+      "ingredients": [
+        "zinc carnosine",
+        "oxetacaine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 227,
+      "text": "Oxetacaine +Magaldrate +Famotidine",
+      "ingredients": [
+        "oxetacaine",
+        "magaldrate",
+        "famotidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 228,
+      "text": "Pantoprazole (as Enteric Coated Tablet)+Zinc Carnosine (as Film Coated Tablets)",
+      "ingredients": [
+        "pantoprazole",
+        "zinc carnosine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 229,
+      "text": "Zinc Carnosine+MagnesiumHydroxide +Dried Aluminium Hydroxide +Simethicone",
+      "ingredients": [
+        "zinc carnosine",
+        "magnesium hydroxide",
+        "aluminium hydroxide",
+        "simethicone"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 230,
+      "text": "Zinc Carnosine+Sucralfate",
+      "ingredients": [
+        "zinc carnosine",
+        "sucralfate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 231,
+      "text": "Mebeverine Hydrochloride & Inner HPMC_ capsule (Streptococcus Faecalis +Clostridium butyricum +Bacillus mesentricus+Lactic Acid Bacillus)",
+      "ingredients": [
+        "mebeverine hydrochloride inner hpmc streptococcus faecalis",
+        "clostridium butryricum",
+        "bacillus mesentericus",
+        "lactic acid bacillus"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 232,
+      "text": "Clindamycin +Clotrimazole +Lactic Acid Bacillus",
+      "ingredients": [
+        "clindamycin",
+        "clotrimazole",
+        "lactic acid bacillus"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 233,
+      "text": "Sildenafil +EstradiolValerate",
+      "ingredients": [
+        "sildenafil",
+        "estradiol valerate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 234,
+      "text": "Clomifene Citrate +Ubidecarenone +Zinc +Folic Acid +Methylcobalamin +Pyridoxine +Lycopene +Selenium+LevocarnitineTartrate+L-Arginine",
+      "ingredients": [
+        "clomifene citrate",
+        "ubidecarenone",
+        "zinc",
+        "folic acid",
+        "methylcobalamin",
+        "pyridoxine",
+        "lycopene",
+        "selenium",
+        "l-carnitine l-tartrate",
+        "l-arginine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 235,
+      "text": "Thyroxine + Pyridoxine + Folic Acid",
+      "ingredients": [
+        "thyroxine",
+        "pyridoxine",
+        "folic acid"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 236,
+      "text": "Gentamycin+Dexamethasone+Chloramphenicol+Tobramycin+ Ofloxacin",
+      "ingredients": [
+        "gentamicin",
+        "dexamethasone",
+        "chloramphenicol",
+        "tobramycin",
+        "ofloxacin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 237,
+      "text": "Dextromethorphan + Levocetirizine +Phenylephrine +Zinc",
+      "ingredients": [
+        "dextromethorphan",
+        "levocetirizine",
+        "phenylephrine",
+        "zinc"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 238,
+      "text": "Nimesulide +Loratadine +Phenylephrine +Ambroxol",
+      "ingredients": [
+        "nimesulide",
+        "loratadine",
+        "phenylephrine",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 239,
+      "text": "Prombesin +Phenylephrine +Chlorepheniramine Maleate",
+      "ingredients": [
+        "prombesin",
+        "phenylephrine",
+        "chlorpheniramine maleate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 240,
+      "text": "Dextromethorphan + bromhexine +Guaiphenesin",
+      "ingredients": [
+        "dextromethorphan",
+        "bromhexine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 241,
+      "text": "Paracetamol + Loratadine + phenylephrine + Dextromethorphan + caffeine",
+      "ingredients": [
+        "paracetamol",
+        "loratadine",
+        "phenylephrine",
+        "dextromethorphan",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 242,
+      "text": "Azithromycin + acebrophyline",
+      "ingredients": [
+        "azithromycin",
+        "acebrophylline"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 243,
+      "text": "Diphenhydramine +Terpine +Ammonium Chloride +Sodium Chloride +Menthol",
+      "ingredients": [
+        "diphenhydramine",
+        "terpineol",
+        "ammonium chloride",
+        "sodium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 244,
+      "text": "Nimesulide+Paracetamol+Cetrizine +Phenylephrine",
+      "ingredients": [
+        "nimesulide",
+        "paracetamol",
+        "cetirizine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 245,
+      "text": "Paracetamol+ loratadine + dextromethophan + pseudoepheridine + caffeine",
+      "ingredients": [
+        "paracetamol",
+        "loratadine",
+        "dextromethophan",
+        "pseudoephedrine",
+        "caffeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 246,
+      "text": "Chlorpheniramine maleate+ dextromethophan+ dextromethophan + guaiphenesin + ammonium chloride + menthol",
+      "ingredients": [
+        "chlorpheniramine maleate",
+        "dextromethophan",
+        "dextromethophan",
+        "guaifenesin",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 247,
+      "text": "ChlorpheniramineMaleatetAmmoniumChloride+Sodium Citrate",
+      "ingredients": [
+        "chlorpheniraminemaleatetammoniumchloride",
+        "sodium citrate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 248,
+      "text": "Cetirizine +Phenylephrine +Paracetamol +Zinc Gluconate",
+      "ingredients": [
+        "cetirizine",
+        "phenylephrine",
+        "paracetamol",
+        "zinc gluconate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 249,
+      "text": "Ambroxol +Guaiphenesin +Ammonium Chloride +Phenylephrine +Chlorpheniramine Maleate +Menthol",
+      "ingredients": [
+        "ambroxol",
+        "guaifenesin",
+        "ammonium chloride",
+        "phenylephrine",
+        "chlorpheniramine maleate",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 250,
+      "text": "dextromethophen + bromhexine + chlorpheniramine maleate + guaiphenesin",
+      "ingredients": [
+        "dextromethophen",
+        "bromhexine",
+        "chlorpheniramine maleate",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 251,
+      "text": "Levocetirizine + ambroxol + phenylephrine +guaiphenesin",
+      "ingredients": [
+        "levocetirizine",
+        "ambroxol",
+        "phenylephrine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 252,
+      "text": "Dextromethorphan + chlorpheniramine + chlorpheniraminemaleate",
+      "ingredients": [
+        "dextromethorphan",
+        "dexchlorpheniramine",
+        "chlorpheniramine maleate"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 253,
+      "text": "Cetirizine + ambroxol + Guaiphenesin + ammonium chloride+ phenylephrine+ menthol",
+      "ingredients": [
+        "cetirizine",
+        "ambroxol",
+        "guaifenesin",
+        "ammonium chloride",
+        "phenylephrine",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 254,
+      "text": "Chlorpheniramine + phenylephrine + caffiene",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "phenylephrine",
+        "caffeine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 255,
+      "text": "Dextromethorphan + triprolidine + phenylephrine",
+      "ingredients": [
+        "dextromethorphan",
+        "triprolidine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 256,
+      "text": "Terpinhydrate+ dextromethorphan + menthol",
+      "ingredients": [
+        "terpin hydrate",
+        "dextromethorphan",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 257,
+      "text": "Dextromethorphan + phenylephrine + zinc’ gluconate+ menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "zinc gluconate",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 258,
+      "text": "Chlorpheniramine + codeine + sodium citarte + menthol syrup",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "codeine",
+        "sodium citrate",
+        "menthol"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 259,
+      "text": "Promnexns +Dextromethorphan +Phenylephrine +Menthol",
+      "ingredients": [
+        "promnexns",
+        "dextromethorphan",
+        "phenylephrine",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 260,
+      "text": "rotoxscsn +Bromhexine",
+      "ingredients": [
+        "rotoxscsn",
+        "bromhexine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 261,
+      "text": "evveetinzine +Ranitidine",
+      "ingredients": [
+        "evveetinzine",
+        "ranitidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 262,
+      "text": "Levocetirizine +Phenylephrine +Ambroxol +Guaiphenesin +Paracetamol",
+      "ingredients": [
+        "levocetirizine",
+        "phenylephrine",
+        "ambroxol",
+        "guaifenesin",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 263,
+      "text": "Cetirizine + dextromethorphan + phenylephrine + zinc gluconate + paracetamol+ menthol",
+      "ingredients": [
+        "cetirizine",
+        "dextromethorphan",
+        "phenylephrine",
+        "zinc gluconate",
+        "paracetamol",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 264,
+      "text": "Paracetamol+ pseudoephedrine + dextromethorphan + cetirizine",
+      "ingredients": [
+        "paracetamol",
+        "pseudoephedrine",
+        "dextromethorphan",
+        "cetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 265,
+      "text": "Diphenhydamine + guaiphenesin + ammonium chloride + bromhexine",
+      "ingredients": [
+        "diphenhydramine",
+        "guaifenesin",
+        "ammonium chloride",
+        "bromhexine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 266,
+      "text": "Chlorpheniramine +Dextromethorphan +Phenylephrine +Paracetamol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "dextromethorphan",
+        "phenylephrine",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 267,
+      "text": "[Pestrometionhen +Promethazine",
+      "ingredients": [
+        "pestrometionhen",
+        "promethazine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 268,
+      "text": "Pisivieabamazin +Cetrizine +Guaiphenesin",
+      "ingredients": [
+        "pisivieabamazin",
+        "cetirizine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 269,
+      "text": "Pseudoephedrine+Dextromethorphan +Cetirizine",
+      "ingredients": [
+        "pseudoephedrine",
+        "dextromethorphan",
+        "cetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 270,
+      "text": "Chlorpheniramine +Phenylephrine +Dextromethophan +Menthol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "phenylephrine",
+        "dextromethophan",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 271,
+      "text": "Ambroxol + Terbutaline + Dextromethorphan",
+      "ingredients": [
+        "ambroxol",
+        "terbutaline",
+        "dextromethorphan"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 272,
+      "text": "[ Pesomethorphan +Chlorpheniramine +Guaiphenesin",
+      "ingredients": [
+        "pesomethorphan",
+        "dexchlorpheniramine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 273,
+      "text": "Terbutaline +Bromhexine +Guaiphenesin+Dextromethorphan",
+      "ingredients": [
+        "terbutaline",
+        "bromhexine",
+        "guaifenesin",
+        "dextromethorphan"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 274,
+      "text": "pose +Tripolidine +Phenylephirine",
+      "ingredients": [
+        "pose",
+        "triprolidine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 275,
+      "text": "Paracetamol +Dextromethorphan +Chlorpheniramine",
+      "ingredients": [
+        "paracetamol",
+        "dextromethorphan",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 276,
+      "text": "Codeine + levocetirizine + menthol",
+      "ingredients": [
+        "codeine",
+        "levocetirizine",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 277,
+      "text": "Dextromethorphan + ambroxol + guaifenesin + phenylephrine + chlorpheniramine",
+      "ingredients": [
+        "dextromethorphan",
+        "ambroxol",
+        "guaifenesin",
+        "phenylephrine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 278,
+      "text": "joounens +Phenylephrine + Dextromethorphan + Menthol",
+      "ingredients": [
+        "joounens",
+        "phenylephrine",
+        "dextromethorphan",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 279,
+      "text": "Roxithromycin + Serratiopeptidase",
+      "ingredients": [
+        "roxithromycin",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 280,
+      "text": "Paracetamol +Phenylephrine +Triprolidine",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "triprolidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 281,
+      "text": "Acetaminophen+Loratadine+ambroxol +Phenylephrine",
+      "ingredients": [
+        "acetaminophen",
+        "loratadine",
+        "ambroxol",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 282,
+      "text": "Cetirizine +Acetaminophen+Dextromethorphan +Phenyephrine +Zinc gluconate",
+      "ingredients": [
+        "cetirizine",
+        "acetaminophen",
+        "dextromethorphan",
+        "phenylephrine",
+        "zinc gluconate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 283,
+      "text": "Diphenhydramine +Guaifenesin +Bromhexine +Ammonium Chloride +Menthol",
+      "ingredients": [
+        "diphenhydramine",
+        "guaifenesin",
+        "bromhexine",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 284,
+      "text": "Chlopheniramine Maleate +Codeine syrup",
+      "ingredients": [
+        "chlorpheniramine maleate",
+        "codeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 285,
+      "text": "Cetirizine +Dextromethorphan +Zinc Gluconate +Menthol",
+      "ingredients": [
+        "cetirizine",
+        "dextromethorphan",
+        "zinc gluconate",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 286,
+      "text": "Paracetamol +Phenylephrine +Desloratadine+Zinc Gluconate +Ambroxol",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "desloratadine",
+        "zinc gluconate",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 287,
+      "text": "Levocetirizine + montelukast + acebrophylline",
+      "ingredients": [
+        "levocetirizine",
+        "montelukast",
+        "acebrophylline"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 288,
+      "text": "Dextromethorphan + phenylephrine + ammonium chloride + menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 289,
+      "text": "Dextromethorphan +bromhexine +Guaiphenesin+menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "bromhexine",
+        "guaifenesin",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 290,
+      "text": "Acrivastine+ Paracetamol + Caffeine + Phenylephrine",
+      "ingredients": [
+        "acrivastine",
+        "paracetamol",
+        "caffeine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 291,
+      "text": "Naphazoline +carboxy Methyl cellulose +Menthol +Camphor +Phenylephrine",
+      "ingredients": [
+        "naphazoline",
+        "carboxymethylcellulose",
+        "menthol",
+        "camphor",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 292,
+      "text": "[ Pesomethorhan +Cetirizine",
+      "ingredients": [
+        "pesomethorhan",
+        "cetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 293,
+      "text": "Terbutaline +Ambroxol +Guaiphenesin+Zinc+Menthol",
+      "ingredients": [
+        "terbutaline",
+        "ambroxol",
+        "guaifenesin",
+        "zinc",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 294,
+      "text": "Codeine +Chlorpheniramine +Alcohol syrup",
+      "ingredients": [
+        "codeine",
+        "dexchlorpheniramine",
+        "alcohol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 295,
+      "text": "Dextromethorphan +Phenylephrine +Guaifenesin+Triprolidine",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "guaifenesin",
+        "triprolidine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 296,
+      "text": "AmmomiumChloride+Bromhexine +Dextromethorphan",
+      "ingredients": [
+        "ammonium chloride",
+        "bromhexine",
+        "dextromethorphan"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 297,
+      "text": "Pesiyicarbamazin +Cetirizine +Ambroxol",
+      "ingredients": [
+        "pesiyicarbamazin",
+        "cetirizine",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 298,
+      "text": "Ethylmorphine + Noscapine + Chlorpheniramine Maleate",
+      "ingredients": [
+        "ethylmorphine",
+        "noscapine",
+        "chlorpheniramine maleate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 299,
+      "text": "jcourens +Dextromethorphan +Ambroxol",
+      "ingredients": [
+        "jcourens",
+        "dextromethorphan",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 300,
+      "text": "Bromhexine +Dextromethorphan +Ammonium Chloride +Menthol",
+      "ingredients": [
+        "bromhexine",
+        "dextromethorphan",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 301,
+      "text": "Ambroxol + Guaifenesin + Phenylephrine + Chlorpheniramine",
+      "ingredients": [
+        "ambroxol",
+        "guaifenesin",
+        "phenylephrine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 302,
+      "text": "Paracetamol +Phenylephrine +Chlorpheniramine +Zinc Gluconate",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "dexchlorpheniramine",
+        "zinc gluconate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 303,
+      "text": "Dextromethorphan +Phenylephrine +Cetirizine +Paracetamol +Caffeine",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "cetirizine",
+        "paracetamol",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 304,
+      "text": "Dextromethophan +Chlorpheniramine +Guaifenesin +Ammonium Chloride",
+      "ingredients": [
+        "dextromethophan",
+        "dexchlorpheniramine",
+        "guaifenesin",
+        "ammonium chloride"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 305,
+      "text": "Levocetirizine +Dextromethorphan +Zinc",
+      "ingredients": [
+        "levocetirizine",
+        "dextromethorphan",
+        "zinc"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 306,
+      "text": "Paracetamol +Phenylephrine +Levocetirizine +Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "levocetirizine",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 307,
+      "text": "Chlorpheniramine +Ammonium Chloride +Sodium Chloride",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "ammonium chloride",
+        "sodium chloride"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 308,
+      "text": "Paracetamol +Dextromethorphan +Bromhexine +Phenylephrine +Diphenhydramine",
+      "ingredients": [
+        "paracetamol",
+        "dextromethorphan",
+        "bromhexine",
+        "phenylephrine",
+        "diphenhydramine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 309,
+      "text": "Salbutamol +Bromhexine +Guaiphenesin +Menthol",
+      "ingredients": [
+        "salbutamol",
+        "bromhexine",
+        "guaifenesin",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 310,
+      "text": "joourens +Dextromethorphan +Bromhexine +Guaifenesin",
+      "ingredients": [
+        "joourens",
+        "dextromethorphan",
+        "bromhexine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 311,
+      "text": "Pie Carbamazine +Chlorpheniramine +Guaifenesin",
+      "ingredients": [
+        "pie carbamazine",
+        "dexchlorpheniramine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 312,
+      "text": "Ketotifen +Cetirizine",
+      "ingredients": [
+        "ketotifen",
+        "cetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 313,
+      "text": "perusal +Bromhexine +Etofylline",
+      "ingredients": [
+        "perusal",
+        "bromhexine",
+        "etofylline"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 314,
+      "text": "eons +Theophylline",
+      "ingredients": [
+        "eons",
+        "theophylline"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 315,
+      "text": "[Ambros +Salbutamol +Theophylline",
+      "ingredients": [
+        "ambros",
+        "salbutamol",
+        "theophylline"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 316,
+      "text": "Cetirizine +Nimesulide +Phenylephrine",
+      "ingredients": [
+        "cetirizine",
+        "nimesulide",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 317,
+      "text": "Chloropheniramine +Phenylephrine+Paracetamol+Zinc Gluconate",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "phenylephrine",
+        "paracetamol",
+        "zinc gluconate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 318,
+      "text": "Acetaminophen+Guaifenesin+Dextromethorphan+Chlorphenir amine",
+      "ingredients": [
+        "acetaminophen",
+        "guaifenesin",
+        "dextromethorphan",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 319,
+      "text": "Cetirizine +Dextromethorphan +Phenylephrine +Tulsi",
+      "ingredients": [
+        "cetirizine",
+        "dextromethorphan",
+        "phenylephrine",
+        "tulsi"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 320,
+      "text": "Cetirizine +Phenylephrine +Paracetamol+Ambroxol +Caffeine",
+      "ingredients": [
+        "cetirizine",
+        "phenylephrine",
+        "paracetamol",
+        "ambroxol",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 321,
+      "text": "Guaifenesin+Dextromethorphan",
+      "ingredients": [
+        "guaifenesin",
+        "dextromethorphan"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 322,
+      "text": "Levocetirizine +Paracetamol +Phenylephirine +Caffeine",
+      "ingredients": [
+        "levocetirizine",
+        "paracetamol",
+        "phenylephrine",
+        "caffeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 323,
+      "text": "Caffeine +Paracetamol +Phenylephrine + Chlorpheniramine",
+      "ingredients": [
+        "caffeine",
+        "paracetamol",
+        "phenylephrine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 324,
+      "text": "joven +Levocetrizine",
+      "ingredients": [
+        "joven",
+        "levocetirizine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 325,
+      "text": "Paracetamol +Levocetirizine +Phenylephirine +Zinc Gluconate",
+      "ingredients": [
+        "paracetamol",
+        "levocetirizine",
+        "phenylephrine",
+        "zinc gluconate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 326,
+      "text": "Perseciame) +Phenylephrine +Triprolidine +Caffeine",
+      "ingredients": [
+        "perseciame",
+        "phenylephrine",
+        "triprolidine",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 327,
+      "text": "[ Pesomethorhan +Phenylephirine +Guaifenesin",
+      "ingredients": [
+        "pesomethorhan",
+        "phenylephrine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 328,
+      "text": "Ambroxol + Levocetirizine + Phenylephrine + Guaiphenesin + Menthol",
+      "ingredients": [
+        "ambroxol",
+        "levocetirizine",
+        "phenylephrine",
+        "guaifenesin",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 329,
+      "text": "Psensoephezne +Cetirizine",
+      "ingredients": [
+        "psensoephezne",
+        "cetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 330,
+      "text": "Dextromethorphan +Chlorpheniramine +Ammonium Chloride +Menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "dexchlorpheniramine",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 331,
+      "text": "Perseciame) +Caffeine +Phenylephrine +Chlorpheniramine",
+      "ingredients": [
+        "perseciame",
+        "caffeine",
+        "phenylephrine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 332,
+      "text": "Salbutamol +Aminophylline +Guaifenesin",
+      "ingredients": [
+        "salbutamol",
+        "aminophylline",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 333,
+      "text": "Salbutamol +Thoephylline +Bromhexine",
+      "ingredients": [
+        "salbutamol",
+        "theophylline",
+        "bromhexine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 334,
+      "text": "Chlorpheniramine +Dextromethorphan +Guaifenesin +Phenylephrine",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "dextromethorphan",
+        "guaifenesin",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 335,
+      "text": "Caffeine + Paracetamol+ Chlorpheniramine",
+      "ingredients": [
+        "caffeine",
+        "paracetamol",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 336,
+      "text": "Ammonium Chloride+Dextromethophan+Cetirizine +Menthol",
+      "ingredients": [
+        "ammonium chloride",
+        "dextromethophan",
+        "cetirizine",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 337,
+      "text": "Dextromethorphan +Paracetamol+Cetirizine +Phenylephrine",
+      "ingredients": [
+        "dextromethorphan",
+        "paracetamol",
+        "cetirizine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 338,
+      "text": "Chlorpheniramine +Terpin +Antimony Potassium Tartrate+tAmmoniumchloride+SodiumCitrate+Menthol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "terpin",
+        "antimony potassium tartrate",
+        "ammonium chloride",
+        "sodium citrate",
+        "menthol"
+      ],
+      "ocr_corrections": 3,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 339,
+      "text": "TerbutalineSulphate+Etofylline+Ambroxol",
+      "ingredients": [
+        "terbutalinesulphate",
+        "etofylline",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 340,
+      "text": "Paracetamol +Codeine +Chlorpheniramine",
+      "ingredients": [
+        "paracetamol",
+        "codeine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 341,
+      "text": "Parscciamel +Pseudoephedrine +Cetirizine +Caffeine",
+      "ingredients": [
+        "parscciamel",
+        "pseudoephedrine",
+        "cetirizine",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 342,
+      "text": "Chlorpheniramine +Ammonium Chloride +Menthol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "ammonium chloride",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 343,
+      "text": "N-Acetyl Cysteine + Ambroxol + Phenylephrine + Levocetirizine",
+      "ingredients": [
+        "acetylcysteine",
+        "ambroxol",
+        "phenylephrine",
+        "levocetirizine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 344,
+      "text": "Salbutamol +Cetirizine +Ambroxol",
+      "ingredients": [
+        "salbutamol",
+        "cetirizine",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 345,
+      "text": "Dextromethorphan +Phenylephrine +Bromhexine +Guaifenesin+ Chlorpheniramine",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "bromhexine",
+        "guaifenesin",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 346,
+      "text": "Nimesulide +Cetirizine +Phenylephrine",
+      "ingredients": [
+        "nimesulide",
+        "cetirizine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 347,
+      "text": "Naphazoline +Chlorpheniramine +Zinc Sulphate +Boric Acid Ip+Sodium chloride +chlorobutol",
+      "ingredients": [
+        "naphazoline",
+        "dexchlorpheniramine",
+        "zinc sulfate",
+        "boric acid",
+        "sodium chloride",
+        "chlorbutol"
+      ],
+      "ocr_corrections": 4,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 348,
+      "text": "Paracetamol+Bromhexine +Phenylephrine +Chlorpheniramine +Guaifenesin",
+      "ingredients": [
+        "paracetamol",
+        "bromhexine",
+        "phenylephrine",
+        "dexchlorpheniramine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 349,
+      "text": "Salbutamoll+Bromhexine",
+      "ingredients": [
+        "salbutamol",
+        "bromhexine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 350,
+      "text": "Dextromethorphan +Phenylephrine +Guaifenesin +Cetirizine +Acetaminophen",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "guaifenesin",
+        "cetirizine",
+        "acetaminophen"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 351,
+      "text": "Guaifenesin+ Bromhexine + Chlorpheniramine + Paracetamol",
+      "ingredients": [
+        "guaifenesin",
+        "bromhexine",
+        "dexchlorpheniramine",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 352,
+      "text": "Chlorpheniramine +Ammonium Chloride +Chloroform +Menthol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "ammonium chloride",
+        "chloroform",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 353,
+      "text": "Salbutamol +Choline Theophylinate +Ambroxol",
+      "ingredients": [
+        "salbutamol",
+        "choline theophyllinate",
+        "ambroxol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 354,
+      "text": "Chlorpheniramine +Codeine phosphate +Menthol syrup",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "codeine phosphate",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 355,
+      "text": "Peendoepheczne +Bromhexine",
+      "ingredients": [
+        "peendoepheczne",
+        "bromhexine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 356,
+      "text": "Cetirizine +Phenylephrine +Paracetamol +Caffeine +Nimesulide",
+      "ingredients": [
+        "cetirizine",
+        "phenylephrine",
+        "paracetamol",
+        "caffeine",
+        "nimesulide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 357,
+      "text": "Dextromethorphan +Cetirizine +Guaifenesin +Ammonium Chloride",
+      "ingredients": [
+        "dextromethorphan",
+        "cetirizine",
+        "guaifenesin",
+        "ammonium chloride"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 358,
+      "text": "Ambroxol + Salbutamol + Choline Theophyllinate + Menthol",
+      "ingredients": [
+        "ambroxol",
+        "salbutamol",
+        "choline theophyllinate",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 359,
+      "text": "Paracetamol +Chlorpheniramine +Ambroxol +QGuaifenesin +Phenylephrine",
+      "ingredients": [
+        "paracetamol",
+        "dexchlorpheniramine",
+        "ambroxol",
+        "guaifenesin",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 360,
+      "text": "Chlorpheniramine +Vasaka +Tolubalsm +Ammonium Chloride +Sodium Citrate +Menthol",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "vasaka",
+        "tolubalsm",
+        "ammonium chloride",
+        "sodium citrate",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 361,
+      "text": "Dextromethorphan +Ambroxol +Ammonium Chloride +Chlorpheniramine +Menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "ambroxol",
+        "ammonium chloride",
+        "dexchlorpheniramine",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 362,
+      "text": "Dextromethorphan +Phenylephrine +Cetirizine +Zinc +Menthol",
+      "ingredients": [
+        "dextromethorphan",
+        "phenylephrine",
+        "cetirizine",
+        "zinc",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 363,
+      "text": "Terbutaline + N-Acetyl L-Cysteine + Guaifenesin",
+      "ingredients": [
+        "terbutaline",
+        "acetylcysteine",
+        "guaifenesin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 364,
+      "text": "Calcium Gluconate +Levocetirizine",
+      "ingredients": [
+        "calcium gluconate",
+        "levocetirizine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 365,
+      "text": "Paracetamol +Levocetirizine+Pseudoephedrine",
+      "ingredients": [
+        "paracetamol",
+        "levocetirizine",
+        "pseudoephedrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 366,
+      "text": "Salbutamol +Choline Theophylinate +Carbocisteine",
+      "ingredients": [
+        "salbutamol",
+        "choline theophyllinate",
+        "carbocisteine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 367,
+      "text": "Chlorpheniramine +Vitamin C",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "vitamin c"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 368,
+      "text": "Calcium Gluconate +Chlorpheniramine +Vitamin C",
+      "ingredients": [
+        "calcium gluconate",
+        "dexchlorpheniramine",
+        "vitamin c"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 369,
+      "text": "Chlorpheniramine+Paracetamol +Pseudoephedrine +Caffeine",
+      "ingredients": [
+        "dexchlorpheniramine",
+        "paracetamol",
+        "pseudoephedrine",
+        "caffeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 370,
+      "text": "Guaifenesin +Bromhexine +Chlorpheniramine +Phenylephrine +Paracetamol +Serratiopeptidase (as enteric coated granules)10000 SP Units",
+      "ingredients": [
+        "guaifenesin",
+        "bromhexine",
+        "dexchlorpheniramine",
+        "phenylephrine",
+        "paracetamol",
+        "serratiopeptidase"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 371,
+      "text": "Paracetamol +Pheniramine",
+      "ingredients": [
+        "paracetamol",
+        "pheniramine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 372,
+      "text": "Betamethasone +FusidicAcid+Gentamycin +Tolnaftate+lodochlorhydroxyquinoline(ICHQ)",
+      "ingredients": [
+        "betamethasone",
+        "fusidic acid",
+        "gentamicin",
+        "tolnaftate",
+        "lodochlorhydroxyquinoline"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 373,
+      "text": "Clobetasol +Ofloxacin+Miconazole +Zinc Sulphate",
+      "ingredients": [
+        "clobetasol",
+        "ofloxacin",
+        "miconazole",
+        "zinc sulfate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 374,
+      "text": "Clobetasole +Gentamicin +Miconazole +Zinc Sulphate",
+      "ingredients": [
+        "clobetasol",
+        "gentamicin",
+        "miconazole",
+        "zinc sulfate"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 375,
+      "text": "Levocetirizine + ambroxol + phenylephrine + paracetamol",
+      "ingredients": [
+        "levocetirizine",
+        "ambroxol",
+        "phenylephrine",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 376,
+      "text": "Permethrin + Cetrimide + Menthol",
+      "ingredients": [
+        "permethrin",
+        "cetrimide",
+        "menthol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 377,
+      "text": "Beclomethasone + clotimazole + neomycin + iodochlorohydroxyquinone",
+      "ingredients": [
+        "beclometasone",
+        "clotrimazole",
+        "neomycin",
+        "iodochlorohydroxyquinone"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 378,
+      "text": "Ciprofloxacin + Fluocinolone + Clotrimazole + Neomycin + Chlorocresol",
+      "ingredients": [
+        "ciprofloxacin",
+        "fluocinolone",
+        "clotrimazole",
+        "neomycin",
+        "chlorocresol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 379,
+      "text": "Clobetasol + Ofloxacin + Ketoconazole + Zinc Sulphate",
+      "ingredients": [
+        "clobetasol",
+        "ofloxacin",
+        "ketoconazole",
+        "zinc sulfate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 380,
+      "text": "Betamethasone +Gentamicin +Tolnaftate +Iodochlorhydroxyquinoline",
+      "ingredients": [
+        "betamethasone",
+        "gentamicin",
+        "tolnaftate",
+        "di-iodohydroxyquinoline"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 381,
+      "text": "Clobetasol +Gentamicin +Tolnaftate +Idochlorhydroxyquinone +Ketoconazole",
+      "ingredients": [
+        "clobetasol",
+        "gentamicin",
+        "tolnaftate",
+        "idochlorhydroxyquinone",
+        "ketoconazole"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 382,
+      "text": "Allantoin+Dimethieone+Urea+Propylene+Glycerin+Liquid paraffin",
+      "ingredients": [
+        "allantoin",
+        "dimethicone",
+        "urea",
+        "propylene",
+        "glycerin",
+        "liquid paraffin"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 383,
+      "text": "Acriflavine +Thymol+Cetrimide",
+      "ingredients": [
+        "acriflavine",
+        "thymol",
+        "cetrimide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 384,
+      "text": "Betamethasone +Neomycin +Tolnaftate +IlodoChloroHydroxyQuinoline +Cholorocresol",
+      "ingredients": [
+        "betamethasone",
+        "neomycin",
+        "tolnaftate",
+        "ilodochlorohydroxyquinoline",
+        "chlorocresol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 385,
+      "text": "Clobetasol +Neomycin +Miconazole +Clotrimazole",
+      "ingredients": [
+        "clobetasol",
+        "neomycin",
+        "miconazole",
+        "clotrimazole"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 386,
+      "text": "Ketoconazole+Tea Tree oil+Allantion+zincOxide+AloeVera+Jojobaoil+Lavanderoil+Soa p noodles",
+      "ingredients": [
+        "ketoconazole",
+        "tea tree oil",
+        "allantoin",
+        "zinc oxide",
+        "aloe vera",
+        "jojobaoil",
+        "lavanderoil",
+        "soa p noodles"
+      ],
+      "ocr_corrections": 3,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 387,
+      "text": "Clobetasol +Ofloxacin +Ornidazole +Terbinafine",
+      "ingredients": [
+        "clobetasol",
+        "ofloxacin",
+        "ornidazole",
+        "terbinafine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 388,
+      "text": "jiobesase +Neomycin +Miconazole +Zinc Sulphate",
+      "ingredients": [
+        "jiobesase",
+        "neomycin",
+        "miconazole",
+        "zinc sulfate"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 389,
+      "text": "Beclomethasone +Neomycin +Tolnaftate +Iodochlorhydroxyquinoline +Chlorocresol",
+      "ingredients": [
+        "beclometasone",
+        "neomycin",
+        "tolnaftate",
+        "di-iodohydroxyquinoline",
+        "chlorocresol"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 390,
+      "text": "Betamethasone +Gentamycin +Zinc Sulphate +Clotrimazole +Chlorocresol",
+      "ingredients": [
+        "betamethasone",
+        "gentamicin",
+        "zinc sulfate",
+        "clotrimazole",
+        "chlorocresol"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 391,
+      "text": "Borax +Boric acid +Naphazoline +Menthol +Camphor + methyl hydroxy benzoate",
+      "ingredients": [
+        "borax",
+        "boric acid",
+        "naphazoline",
+        "menthol",
+        "camphor",
+        "methyl hydroxy benzoate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 392,
+      "text": "pees +Dextromethorphan",
+      "ingredients": [
+        "pees",
+        "dextromethorphan"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 393,
+      "text": "[ Pessomethophan +Chlopheniramine +Bromhexine",
+      "ingredients": [
+        "pessomethophan",
+        "dexchlorpheniramine",
+        "bromhexine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 394,
+      "text": "Dextrometharphan +Chlopheniramine +Ammonium Chloride +Sodium Citrate +Menthol",
+      "ingredients": [
+        "dextrometharphan",
+        "dexchlorpheniramine",
+        "ammonium chloride",
+        "sodium citrate",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 395,
+      "text": "Ergotamine Tartrate +Belladona dry extract +Caffeine +Paracetamol",
+      "ingredients": [
+        "ergotamine tartrate",
+        "belladonna dry extract",
+        "caffeine",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 396,
+      "text": "Phenytoin +Phenobarbitone sodium",
+      "ingredients": [
+        "phenytoin",
+        "phenobarbitone sodium"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 397,
+      "text": "Gliclazide 40mg+Metformin 400mg",
+      "ingredients": [
+        "gliclazide",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 398,
+      "text": "Paracetamol + Ambroxol + Phenylephrine +Chlorpheniramine",
+      "ingredients": [
+        "paracetamol",
+        "ambroxol",
+        "phenylephrine",
+        "dexchlorpheniramine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 399,
+      "text": "Oflaxacin + Ornidazole suspension",
+      "ingredients": [
+        "ofloxacin",
+        "ornidazole"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 400,
+      "text": "Albuterol + Etofylline + Bromhexine + Menthol",
+      "ingredients": [
+        "bambuterol",
+        "etofylline",
+        "bromhexine",
+        "menthol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 401,
+      "text": "Albuterol + Bromhexine + Theophylline",
+      "ingredients": [
+        "bambuterol",
+        "bromhexine",
+        "theophylline"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 402,
+      "text": "Salbutamol + MHydroxyethyltheophylline (Etofylline)+ Bromhexine",
+      "ingredients": [
+        "salbutamol",
+        "mhydroxyethyltheophylline",
+        "bromhexine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 403,
+      "text": "Paracetamol +Phenylephrine +Levocetirizine +Sodium Citrate",
+      "ingredients": [
+        "paracetamol",
+        "phenylephrine",
+        "levocetirizine",
+        "sodium citrate"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 404,
+      "text": "Paracetamol +Propyphenazone +Caffeine",
+      "ingredients": [
+        "paracetamol",
+        "propyphenazone",
+        "caffeine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 405,
+      "text": "Guaifenesin +Diphenhydramine +Bromhexine +Phenylephrine",
+      "ingredients": [
+        "guaifenesin",
+        "diphenhydramine",
+        "bromhexine",
+        "phenylephrine"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 406,
+      "text": "Dried Alumnium Hydroxide Gel +Propantheline Bromide +Diazepam",
+      "ingredients": [
+        "aluminium hydroxide",
+        "propantheline bromide",
+        "diazepam"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 407,
+      "text": "Bromhexine +Phenylephrine +Chlorpheniramine +Paracetamol",
+      "ingredients": [
+        "bromhexine",
+        "phenylephrine",
+        "dexchlorpheniramine",
+        "paracetamol"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 408,
+      "text": "Beclomethasone +Clotrimazole+Gentamicin+Iodo- Chlorhydroxyquinoline",
+      "ingredients": [
+        "beclometasone",
+        "clotrimazole",
+        "gentamicin",
+        "iodo- chlorhydroxyquinoline"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 409,
+      "text": "Telmisartan + Metformin",
+      "ingredients": [
+        "telmisartan",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 410,
+      "text": "Ammonium Citrate+Vitamin B 12+Folic Acid+Zinc Sulphate",
+      "ingredients": [
+        "ammonium lactate",
+        "vitamin b",
+        "folic acid",
+        "zinc sulfate"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 411,
+      "text": "Benfotiamine+ metformin",
+      "ingredients": [
+        "benfotiamine",
+        "metformin"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 412,
+      "text": "Thyroid +Thiamine + Riboflavin + Pyridoxine + Calcium Pantothenate + Tocopheryl Acetate +Nicotinamide",
+      "ingredients": [
+        "thyroid",
+        "thiamine",
+        "riboflavin",
+        "pyridoxine",
+        "calcium pantothenate",
+        "tocopheryl acetate",
+        "nicotinamide"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 413,
+      "text": "Ascorbic Acid + Manadione Sodium Bisulphate+ Rutin + Dibasic Calcium Phosphate + Adrenochrome Mono Semicarbazone",
+      "ingredients": [
+        "l ascorbic acid",
+        "menadione sodium bisulfite",
+        "rutin",
+        "dibasic calcium phosphate",
+        "adrenochrome monosemicarbazone"
+      ],
+      "ocr_corrections": 3,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 414,
+      "text": "Phenylephrine +Chlorpheniramine +Paracetamol +Bromhexine +Caffeine",
+      "ingredients": [
+        "phenylephrine",
+        "dexchlorpheniramine",
+        "paracetamol",
+        "bromhexine",
+        "caffeine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 415,
+      "text": "Clotrimazole +Beclomethasone +Lignocaine +Ofloxacin +Acetic Acid + Sodium Methyl Paraben +Propyl Paraben cathad",
+      "ingredients": [
+        "clotrimazole",
+        "beclometasone",
+        "lidocaine",
+        "ofloxacin",
+        "acetic acid",
+        "sodium methyl paraben",
+        "propyl paraben cathad"
+      ],
+      "ocr_corrections": 2,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 416,
+      "text": "Fixed Dose Combinations Of Nimesulide + Levocetrizine",
+      "ingredients": [
+        "fixed dose combinations of nimesulide",
+        "levocetirizine"
+      ],
+      "ocr_corrections": 1,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 417,
+      "text": "Fixed Dose Combinations Of Ofloxacin + Ornidazole Injection",
+      "ingredients": [
+        "fixed dose combinations of ofloxacin",
+        "ornidazole"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 418,
+      "text": "Fixed Dose Combinations Of Gemifloxacin + Ambroxol",
+      "ingredients": [
+        "fixed dose combinations of gemifloxacin",
+        "ambroxol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 419,
+      "text": "Fixed Dose Combinations Of Glucosamine + Ibuprofen",
+      "ingredients": [
+        "fixed dose combinations of glucosamine",
+        "ibuprofen"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    },
+    {
+      "serial": 420,
+      "text": "Fixed Dose Combinations Of Etodolac + Paracetamol",
+      "ingredients": [
+        "fixed dose combinations of etodolac",
+        "paracetamol"
+      ],
+      "ocr_corrections": 0,
+      "kind": "combination",
+      "caveat": null
+    }
+  ],
+  "_caveat_note": "The source document carries three footnotes marking entries that are stayed by the Madras High Court, revoked with conditions, or quashed by the Delhi High Court and under Supreme Court appeal. The footnote markers are asterisks printed beside the drug name and the scan does not reproduce them reliably, so they could NOT be attributed to individual entries. Any warning raised from this list must therefore say that the legal status of some entries is unsettled, rather than asserting a live ban."
+}

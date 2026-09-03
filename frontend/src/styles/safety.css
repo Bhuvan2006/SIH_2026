@@ -1,0 +1,321 @@
+/* ==========================================================================
+   Prescription safety screening + inline price comparison
+   ========================================================================== */
+
+.med-review-section { margin-top: var(--space-lg); }
+.med-review-section__title {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+}
+
+.med-review {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin-top: var(--space-sm);
+}
+/* Severity is carried by the left rule so a scan down the page reads as a
+   priority list, not a wall of equally-weighted cards. */
+.med-review--critical { border-left-color: var(--danger); background: #fffafa; }
+.med-review--warning  { border-left-color: var(--warning-border); }
+.med-review--info     { border-left-color: var(--accent); }
+
+.med-review__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-sm);
+}
+.med-review__name { margin: 0; font-size: 1rem; font-weight: 700; }
+.med-review__sub { margin: 2px 0 0; font-size: 0.83rem; color: var(--text-muted); }
+.med-review__clear { margin: 0 0 var(--space-sm); font-size: 0.85rem; color: var(--text-muted); }
+
+/* "We could not check this" is a different statement from "we checked and
+   found nothing", so it must not read as quiet reassurance the way
+   .med-review__clear does. */
+.med-review__unchecked {
+  margin: 0 0 var(--space-sm);
+  padding: 10px 12px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  background: var(--warning-bg);
+  border: 1px solid var(--warning-border);
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Safety flags ---------- */
+.safety-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: var(--space-sm); }
+.safety-flag {
+  display: flex;
+  gap: 10px;
+  padding: 11px 13px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  font-size: 0.87rem;
+}
+.safety-flag__icon { flex-shrink: 0; line-height: 1.35; }
+.safety-flag__title { margin: 0; font-weight: 700; }
+.safety-flag__detail { margin: 3px 0 0; line-height: 1.55; }
+.safety-flag__action { margin: 6px 0 0; font-weight: 600; }
+.safety-flag__source {
+  margin: 5px 0 0;
+  font-size: 0.74rem;
+  opacity: 0.75;
+}
+
+.safety-flag--critical {
+  background: var(--danger-bg);
+  border-color: var(--danger);
+  color: #7f1d1d;
+}
+.safety-flag--warning {
+  background: var(--warning-bg);
+  border-color: var(--warning-border);
+  color: #78350f;
+}
+.safety-flag--info {
+  background: var(--info-bg);
+  border-color: var(--info-border);
+  color: var(--text);
+}
+
+/* ---------- Compact inline price list ---------- */
+.med-review__prices {
+  border-top: 1px solid var(--border);
+  padding-top: var(--space-sm);
+}
+.med-review__prices-title {
+  margin: 0 0 8px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.med-review__save { color: var(--success); text-transform: none; letter-spacing: 0; }
+
+.price-mini { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px; }
+.price-mini__row {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 10px;
+  align-items: center;
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  font-size: 0.86rem;
+}
+.price-mini__row--best {
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+}
+.price-mini__name { font-weight: 600; }
+.price-mini__tag {
+  margin-left: 7px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary-darker);
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.price-mini__meta { color: var(--text-muted); font-size: 0.78rem; }
+.price-mini__price { font-weight: 700; font-variant-numeric: tabular-nums; }
+
+.med-review__price-note {
+  margin: 8px 0 0;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .price-mini__row { grid-template-columns: 1fr auto; }
+  .price-mini__meta { grid-column: 1 / -1; }
+  .med-review__head { flex-direction: column; }
+}
+
+/* Headline verdict: the one line a skimming patient must not miss. */
+.med-review__verdict {
+  margin: 0 0 var(--space-sm);
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.med-review__verdict--critical { background: var(--danger-bg); color: #7f1d1d; }
+.med-review__verdict--warning  { background: var(--warning-bg); color: #78350f; }
+.med-review__verdict--info     { background: var(--info-bg); color: var(--text); }
+
+/* ==========================================================================
+   My medications — detailed medicine cards
+   ========================================================================== */
+.med-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.med-item {
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  background: var(--bg);
+}
+.med-item__head { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; }
+.med-item__name { font-weight: 700; font-size: 0.98rem; }
+.med-item__dose {
+  background: var(--primary-soft);
+  color: var(--primary-darker);
+  border-radius: 999px;
+  padding: 1px 9px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.med-item__alias { margin: 4px 0 0; font-size: 0.78rem; color: var(--text-muted); font-style: italic; }
+
+.med-item__facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 10px;
+  margin: 10px 0 0;
+}
+.med-item__facts dt {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.med-item__facts dd { margin: 2px 0 0; font-size: 0.87rem; }
+.med-item__muted { color: var(--text-muted); font-style: italic; }
+.med-item__time {
+  display: inline-block;
+  background: var(--card-bg);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  padding: 1px 7px;
+  margin-right: 5px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 0.82rem;
+}
+.med-item__instructions { margin: 10px 0 0; font-size: 0.85rem; }
+.med-item__storage {
+  margin: 7px 0 0;
+  font-size: 0.82rem;
+  background: var(--info-bg);
+  border: 1px solid var(--info-border);
+  border-radius: var(--radius-sm);
+  padding: 7px 10px;
+}
+
+/* ==========================================================================
+   Medicine pack scanner
+   ========================================================================== */
+.addmed-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: var(--space-sm); }
+
+.scanner {
+  margin-top: var(--space-md);
+  background: var(--card-bg);
+  border: 1px solid var(--primary-soft-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+}
+.scanner__head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-sm);
+}
+.scanner__title { margin: 0; font-size: 1rem; font-weight: 700; }
+.scanner__sub { margin: 4px 0 0; font-size: 0.85rem; color: var(--text-muted); max-width: 56ch; }
+
+.scanner__choices { display: flex; flex-direction: column; gap: var(--space-sm); }
+.scanner__buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* Live camera stage */
+.scanner__stage { position: relative; }
+.scanner__video {
+  width: 100%; max-height: 380px; border-radius: var(--radius-sm);
+  background: #000; object-fit: cover; display: block;
+}
+/* Framing guide: a pack lined up inside the box reads far more reliably. */
+.scanner__guide {
+  position: absolute; inset: 12% 8%; pointer-events: none;
+  border: 2px dashed rgba(255,255,255,0.75); border-radius: var(--radius-sm);
+}
+.scanner__shootrow {
+  display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+  margin-top: var(--space-sm);
+}
+
+.scanner__preview {
+  width: 100%; max-width: 320px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border); display: block;
+}
+.scanner__reading { display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap; }
+
+.scanner__result { display: flex; flex-direction: column; gap: var(--space-sm); }
+.scanner__resulthead {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: var(--space-sm); flex-wrap: wrap;
+}
+.scanner__brand { margin: 0; font-size: 1.15rem; font-weight: 800; letter-spacing: -0.02em; }
+.scanner__comp { margin: 3px 0 0; font-size: 0.87rem; color: var(--text-muted); }
+
+.scanner__facts {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px; margin: 0; padding: var(--space-sm) 0;
+  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+}
+.scanner__facts dt {
+  font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text-muted); font-weight: 700;
+}
+.scanner__facts dd { margin: 3px 0 0; font-size: 0.87rem; }
+.scanner__none { color: var(--text-muted); font-style: italic; font-size: 0.8rem; }
+
+.scanner__warn {
+  margin: 0; font-size: 0.83rem; padding: 8px 10px;
+  background: var(--warning-bg); border: 1px solid var(--warning-border);
+  border-radius: var(--radius-sm); color: #78350f;
+}
+.scanner__price {
+  margin: 0; font-size: 0.87rem; padding: 9px 11px;
+  background: var(--success-bg); border: 1px solid var(--success-border);
+  border-radius: var(--radius-sm);
+}
+.scanner__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+@media (max-width: 560px) {
+  .scanner__facts { grid-template-columns: 1fr 1fr; }
+  .scanner__actions .ui-btn, .addmed-row .btn-secondary { flex: 1; }
+}
+
+/* Prescription status, shown only when the catalogue actually records it.
+   Absence of a tag means "not recorded", never "no prescription needed". */
+.rx-tag { font-weight: 700; color: var(--danger); white-space: nowrap; }
+.otc-tag { font-weight: 700; color: var(--success); white-space: nowrap; }
+
+/* Live re-screening state on the prescription review page. */
+.screening-tag { font-size: 0.8rem; font-weight: 500; color: var(--text-muted); }
+
+/* The acknowledgement gate for critical flags. Deliberately looks like a
+   warning, not a routine checkbox — ticking it is the patient saying they read
+   something serious. */
+.ack-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: var(--space-md) 0;
+  padding: 13px 15px;
+  background: var(--danger-bg);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  cursor: pointer;
+}
+.ack-row input { margin-top: 3px; flex-shrink: 0; }

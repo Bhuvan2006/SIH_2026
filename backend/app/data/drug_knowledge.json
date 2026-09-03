@@ -1,0 +1,1191 @@
+[
+  {
+    "generic_name": "Paracetamol",
+    "brand_names": [
+      "Crocin",
+      "Dolo 650",
+      "Calpol"
+    ],
+    "composition": "Paracetamol (Acetaminophen)",
+    "strength": "500mg / 650mg",
+    "drug_class": "Analgesic / Antipyretic",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place, away from direct sunlight. No refrigeration needed.",
+    "common_interactions": [
+      "Increases risk of liver toxicity when combined with alcohol",
+      "Caution with other paracetamol-containing combination products (risk of accidental overdose)"
+    ],
+    "contraindications": [
+      "Severe liver disease",
+      "Known hypersensitivity to paracetamol"
+    ],
+    "conditions_treated": [
+      "fever",
+      "mild_pain"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Ibuprofen",
+    "brand_names": [
+      "Brufen",
+      "Combiflam (with paracetamol)"
+    ],
+    "composition": "Ibuprofen",
+    "strength": "200mg / 400mg",
+    "drug_class": "NSAID (Nonsteroidal anti-inflammatory)",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C. Take with food to reduce stomach irritation.",
+    "common_interactions": [
+      "Increased bleeding risk with aspirin/anticoagulants",
+      "Can reduce effectiveness of blood pressure medication",
+      "Avoid with other NSAIDs"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Third trimester of pregnancy",
+      "Severe kidney disease"
+    ],
+    "conditions_treated": [
+      "mild_pain",
+      "inflammation",
+      "fever"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Metformin",
+    "brand_names": [
+      "Glycomet",
+      "Glucophage"
+    ],
+    "composition": "Metformin Hydrochloride",
+    "strength": "500mg / 850mg / 1000mg",
+    "drug_class": "Biguanide (oral antidiabetic)",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place. No refrigeration needed.",
+    "common_interactions": [
+      "Risk of lactic acidosis with excessive alcohol",
+      "Interacts with iodinated contrast media (imaging) — may need to pause dosing"
+    ],
+    "contraindications": [
+      "Severe kidney impairment",
+      "Acute or unstable heart failure",
+      "Metabolic acidosis"
+    ],
+    "conditions_treated": [
+      "diabetes_type_2"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Insulin Glargine",
+    "brand_names": [
+      "Lantus",
+      "Basalog"
+    ],
+    "composition": "Insulin Glargine (long-acting insulin analogue)",
+    "strength": "100 units/mL",
+    "drug_class": "Long-acting insulin",
+    "route": "subcutaneous injection",
+    "storage_instructions": "Unopened vials/pens: store refrigerated at 2–8°C, do not freeze. Once in use: may be kept at room temperature (below 30°C) for up to 28 days, away from direct heat and light, then discarded. Never use if it has been frozen.",
+    "common_interactions": [
+      "Increased hypoglycemia risk with alcohol, other antidiabetics, or missed meals",
+      "Beta-blockers can mask symptoms of low blood sugar"
+    ],
+    "contraindications": [
+      "Episodes of hypoglycemia in progress",
+      "Known hypersensitivity to insulin glargine"
+    ],
+    "conditions_treated": [
+      "diabetes_type_1",
+      "diabetes_type_2"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — always confirm storage details on the specific product's packaging)"
+  },
+  {
+    "generic_name": "Insulin (Regular/Soluble)",
+    "brand_names": [
+      "Huminsulin R",
+      "Actrapid"
+    ],
+    "composition": "Regular Human Insulin (short-acting)",
+    "strength": "100 units/mL",
+    "drug_class": "Short-acting insulin",
+    "route": "subcutaneous or intravenous injection",
+    "storage_instructions": "Unopened: refrigerate at 2–8°C, do not freeze. In use: room temperature below 25°C for up to 28 days. Protect from direct sunlight and heat (e.g. keep out of hot cars, direct sun during travel).",
+    "common_interactions": [
+      "Increased hypoglycemia risk with alcohol or other antidiabetics"
+    ],
+    "contraindications": [
+      "Episodes of hypoglycemia in progress"
+    ],
+    "conditions_treated": [
+      "diabetes_type_1",
+      "diabetes_type_2"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Amlodipine",
+    "brand_names": [
+      "Amlopres",
+      "Amlodac",
+      "Norvasc"
+    ],
+    "composition": "Amlodipine Besylate",
+    "strength": "2.5mg / 5mg / 10mg",
+    "drug_class": "Calcium channel blocker (antihypertensive)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture and light.",
+    "common_interactions": [
+      "Grapefruit juice can increase drug levels",
+      "Additive blood-pressure-lowering effect with other antihypertensives"
+    ],
+    "contraindications": [
+      "Severe hypotension",
+      "Known hypersensitivity to dihydropyridines"
+    ],
+    "conditions_treated": [
+      "hypertension"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Losartan",
+    "brand_names": [
+      "Losar",
+      "Covance"
+    ],
+    "composition": "Losartan Potassium",
+    "strength": "25mg / 50mg / 100mg",
+    "drug_class": "Angiotensin receptor blocker (ARB, antihypertensive)",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in original packaging, protect from moisture.",
+    "common_interactions": [
+      "Increased potassium levels with potassium-sparing diuretics or supplements",
+      "NSAIDs may reduce effectiveness and affect kidney function"
+    ],
+    "contraindications": [
+      "Pregnancy (especially 2nd/3rd trimester)",
+      "Severe kidney impairment (caution)"
+    ],
+    "conditions_treated": [
+      "hypertension"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Hydrochlorothiazide",
+    "brand_names": [
+      "Aquazide"
+    ],
+    "composition": "Hydrochlorothiazide",
+    "strength": "12.5mg / 25mg",
+    "drug_class": "Thiazide diuretic (antihypertensive)",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, away from moisture. Take in the morning to avoid nighttime urination.",
+    "common_interactions": [
+      "Can lower potassium and sodium levels",
+      "NSAIDs may reduce effectiveness"
+    ],
+    "contraindications": [
+      "Anuria (no urine output)",
+      "Severe kidney impairment"
+    ],
+    "conditions_treated": [
+      "hypertension"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Atorvastatin",
+    "brand_names": [
+      "Atorva",
+      "Lipitor"
+    ],
+    "composition": "Atorvastatin Calcium",
+    "strength": "10mg / 20mg / 40mg",
+    "drug_class": "Statin (lipid-lowering)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from light and moisture. Usually taken at night.",
+    "common_interactions": [
+      "Grapefruit juice can significantly increase drug levels and side-effect risk",
+      "Increased muscle-toxicity risk with certain antibiotics/antifungals"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy and breastfeeding"
+    ],
+    "conditions_treated": [
+      "dyslipidemia"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Omeprazole",
+    "brand_names": [
+      "Omez",
+      "Prilosec"
+    ],
+    "composition": "Omeprazole",
+    "strength": "20mg / 40mg",
+    "drug_class": "Proton pump inhibitor",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place, protect from light. Take before food, usually in the morning.",
+    "common_interactions": [
+      "Can reduce absorption of certain drugs (e.g. some antifungals)",
+      "May increase levels of some anticoagulants"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to PPIs"
+    ],
+    "conditions_treated": [
+      "acid_reflux",
+      "peptic_ulcer"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Pantoprazole",
+    "brand_names": [
+      "Pantop",
+      "Protonix"
+    ],
+    "composition": "Pantoprazole Sodium",
+    "strength": "20mg / 40mg",
+    "drug_class": "Proton pump inhibitor",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture. Take 30 minutes before a meal.",
+    "common_interactions": [
+      "May reduce absorption of drugs needing stomach acid to dissolve"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to PPIs"
+    ],
+    "conditions_treated": [
+      "acid_reflux",
+      "peptic_ulcer"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Azithromycin",
+    "brand_names": [
+      "Azithral",
+      "Zithromax"
+    ],
+    "composition": "Azithromycin",
+    "strength": "250mg / 500mg",
+    "drug_class": "Macrolide antibiotic",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture. Complete the full course even if symptoms improve early.",
+    "common_interactions": [
+      "Can increase levels of certain heart-rhythm medications",
+      "Antacids may reduce absorption if taken at the same time"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to macrolide antibiotics",
+      "Certain heart rhythm disorders (caution)"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Amoxicillin",
+    "brand_names": [
+      "Mox",
+      "Amoxil"
+    ],
+    "composition": "Amoxicillin",
+    "strength": "250mg / 500mg",
+    "drug_class": "Penicillin antibiotic",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place. Reconstituted liquid suspension must be refrigerated and discarded after the period stated on the label (commonly ~7–14 days).",
+    "common_interactions": [
+      "May reduce effectiveness of some hormonal contraceptives",
+      "Rash more likely if taken during certain viral infections"
+    ],
+    "contraindications": [
+      "Known penicillin allergy"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Doxycycline",
+    "brand_names": [
+      "Doxy 1",
+      "Vibramycin"
+    ],
+    "composition": "Doxycycline Hyclate",
+    "strength": "100mg",
+    "drug_class": "Tetracycline antibiotic",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C. Take with a full glass of water, sit upright for 30 minutes after dosing to avoid throat irritation. Avoid direct sun exposure (photosensitivity risk).",
+    "common_interactions": [
+      "Absorption significantly reduced by dairy, antacids, iron, and calcium supplements — separate dosing by 2–3 hours"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Children under 8 years (tooth discoloration risk)"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Cetirizine",
+    "brand_names": [
+      "Cetrizine",
+      "Zyrtec",
+      "Alerid"
+    ],
+    "composition": "Cetirizine Hydrochloride",
+    "strength": "10mg",
+    "drug_class": "Antihistamine",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture.",
+    "common_interactions": [
+      "Additive drowsiness with alcohol or sedatives"
+    ],
+    "contraindications": [
+      "Severe kidney impairment (dose adjustment needed)",
+      "Known hypersensitivity"
+    ],
+    "conditions_treated": [
+      "allergy"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Levothyroxine",
+    "brand_names": [
+      "Eltroxin",
+      "Thyronorm"
+    ],
+    "composition": "Levothyroxine Sodium",
+    "strength": "25mcg / 50mcg / 100mcg",
+    "drug_class": "Thyroid hormone replacement",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from light and moisture. Take on an empty stomach, at least 30–60 minutes before breakfast, at the same time daily.",
+    "common_interactions": [
+      "Calcium, iron supplements, and antacids reduce absorption — separate by at least 4 hours",
+      "Effect altered by many other medications; dose often needs monitoring"
+    ],
+    "contraindications": [
+      "Untreated adrenal insufficiency",
+      "Recent heart attack (caution)"
+    ],
+    "conditions_treated": [
+      "hypothyroidism"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Salbutamol",
+    "brand_names": [
+      "Asthalin",
+      "Ventolin"
+    ],
+    "composition": "Salbutamol Sulfate",
+    "strength": "100mcg/dose inhaler",
+    "drug_class": "Short-acting beta-2 agonist (bronchodilator)",
+    "route": "inhalation",
+    "storage_instructions": "Store below 30°C. Do not puncture, break, or burn the canister even when empty. Avoid storing in direct heat (e.g. a hot car).",
+    "common_interactions": [
+      "Beta-blockers can reduce its effectiveness"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to salbutamol"
+    ],
+    "conditions_treated": [
+      "asthma",
+      "copd"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Aspirin (low-dose)",
+    "brand_names": [
+      "Ecosprin",
+      "Loprin"
+    ],
+    "composition": "Acetylsalicylic Acid",
+    "strength": "75mg / 150mg",
+    "drug_class": "Antiplatelet",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place. Discard if tablets smell of vinegar (sign of degradation).",
+    "common_interactions": [
+      "Increased bleeding risk with other anticoagulants/antiplatelets and NSAIDs"
+    ],
+    "contraindications": [
+      "Active bleeding disorders",
+      "Children with viral infections (Reye's syndrome risk)"
+    ],
+    "conditions_treated": [
+      "cardiovascular_prevention"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Clopidogrel",
+    "brand_names": [
+      "Clopilet",
+      "Plavix"
+    ],
+    "composition": "Clopidogrel Bisulfate",
+    "strength": "75mg",
+    "drug_class": "Antiplatelet",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture.",
+    "common_interactions": [
+      "Increased bleeding risk with aspirin, NSAIDs, anticoagulants",
+      "Some PPIs (e.g. omeprazole) may reduce its effectiveness"
+    ],
+    "contraindications": [
+      "Active bleeding",
+      "Severe liver impairment"
+    ],
+    "conditions_treated": [
+      "cardiovascular_prevention"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Warfarin",
+    "brand_names": [
+      "Warf"
+    ],
+    "composition": "Warfarin Sodium",
+    "strength": "1mg / 2mg / 5mg",
+    "drug_class": "Anticoagulant",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from light. Requires regular blood clotting (INR) monitoring.",
+    "common_interactions": [
+      "Vitamin K-rich foods (leafy greens) can reduce effectiveness — keep intake consistent, don't stop/start suddenly",
+      "Many drug interactions — always check before starting a new medicine"
+    ],
+    "contraindications": [
+      "Active major bleeding",
+      "Pregnancy"
+    ],
+    "conditions_treated": [
+      "cardiovascular_prevention"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Diclofenac",
+    "brand_names": [
+      "Voveran",
+      "Voltaren"
+    ],
+    "composition": "Diclofenac Sodium",
+    "strength": "50mg tablet / gel",
+    "drug_class": "NSAID",
+    "route": "oral / topical",
+    "storage_instructions": "Store below 25°C. Take oral form with food.",
+    "common_interactions": [
+      "Increased bleeding risk with anticoagulants",
+      "Can reduce effectiveness of blood pressure medication"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Severe heart failure",
+      "Third trimester of pregnancy"
+    ],
+    "conditions_treated": [
+      "mild_pain",
+      "inflammation"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Oral Rehydration Salts (ORS)",
+    "brand_names": [
+      "Electral"
+    ],
+    "composition": "Sodium chloride, potassium chloride, sodium citrate, glucose",
+    "strength": "Per WHO formula sachet",
+    "drug_class": "Rehydration therapy",
+    "route": "oral",
+    "storage_instructions": "Store powder below 25°C in a dry place. Once mixed with water, discard unused solution after 24 hours (refrigerate if possible in hot climates).",
+    "common_interactions": [],
+    "contraindications": [
+      "Severe dehydration requiring IV fluids (seek medical care)",
+      "Persistent vomiting"
+    ],
+    "conditions_treated": [
+      "dehydration",
+      "diarrhea"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Metronidazole",
+    "brand_names": [
+      "Flagyl",
+      "Metrogyl"
+    ],
+    "composition": "Metronidazole",
+    "strength": "400mg",
+    "drug_class": "Antibiotic/antiprotozoal",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from light.",
+    "common_interactions": [
+      "Severe reaction (flushing, vomiting) with alcohol — avoid alcohol during and for 48 hours after treatment",
+      "Increases effect of warfarin"
+    ],
+    "contraindications": [
+      "First trimester of pregnancy (caution)",
+      "Known hypersensitivity"
+    ],
+    "conditions_treated": [
+      "bacterial_infection",
+      "protozoal_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data)"
+  },
+  {
+    "generic_name": "Montelukast",
+    "brand_names": [
+      "Montair",
+      "Montek",
+      "Telekast"
+    ],
+    "composition": "Montelukast Sodium",
+    "strength": "4mg / 5mg / 10mg",
+    "drug_class": "Leukotriene receptor antagonist",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from moisture and light. Usually taken in the evening.",
+    "common_interactions": [
+      "Phenobarbital and rifampicin may reduce its levels"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to montelukast"
+    ],
+    "conditions_treated": [
+      "asthma",
+      "allergy"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Amoxicillin + Clavulanic Acid",
+    "brand_names": [
+      "Augmentin",
+      "Clavam",
+      "Moxikind-CV"
+    ],
+    "composition": "Amoxicillin + Clavulanic Acid",
+    "strength": "625mg / 1g",
+    "drug_class": "Penicillin antibiotic with beta-lactamase inhibitor",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C in a dry place. Reconstituted syrup must be refrigerated and discarded after the period on the label. Take with food to reduce stomach upset.",
+    "common_interactions": [
+      "May reduce effectiveness of some hormonal contraceptives",
+      "Increased bleeding risk with warfarin"
+    ],
+    "contraindications": [
+      "Known penicillin allergy",
+      "Previous jaundice with this combination"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Cefixime",
+    "brand_names": [
+      "Taxim-O",
+      "Zifi",
+      "Mahacef"
+    ],
+    "composition": "Cefixime Trihydrate",
+    "strength": "100mg / 200mg",
+    "drug_class": "Cephalosporin antibiotic",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from moisture. Complete the full course.",
+    "common_interactions": [
+      "Increased bleeding risk with anticoagulants"
+    ],
+    "contraindications": [
+      "Known cephalosporin hypersensitivity",
+      "Caution with severe penicillin allergy"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Ciprofloxacin",
+    "brand_names": [
+      "Ciplox",
+      "Cifran"
+    ],
+    "composition": "Ciprofloxacin Hydrochloride",
+    "strength": "250mg / 500mg",
+    "drug_class": "Fluoroquinolone antibiotic",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C. Take with plenty of water. Avoid dairy, antacids, iron and calcium within 2 hours of the dose.",
+    "common_interactions": [
+      "Absorption reduced by dairy, antacids, iron, calcium",
+      "Increased tendon-injury risk with corticosteroids",
+      "Raises theophylline levels"
+    ],
+    "contraindications": [
+      "History of tendon disorders with quinolones",
+      "Pregnancy and children (growth-plate caution)"
+    ],
+    "conditions_treated": [
+      "bacterial_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Ondansetron",
+    "brand_names": [
+      "Emeset",
+      "Vomikind",
+      "Zofer"
+    ],
+    "composition": "Ondansetron Hydrochloride",
+    "strength": "4mg / 8mg",
+    "drug_class": "Antiemetic (5-HT3 antagonist)",
+    "route": "oral / injection",
+    "storage_instructions": "Store below 30°C, protect from light.",
+    "common_interactions": [
+      "Can prolong QT interval with other QT-prolonging drugs",
+      "Serotonin syndrome risk with certain antidepressants"
+    ],
+    "contraindications": [
+      "Congenital long QT syndrome",
+      "Concurrent apomorphine"
+    ],
+    "conditions_treated": [
+      "nausea_vomiting"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Rabeprazole",
+    "brand_names": [
+      "Razo",
+      "Rabium",
+      "Happi"
+    ],
+    "composition": "Rabeprazole Sodium",
+    "strength": "10mg / 20mg",
+    "drug_class": "Proton pump inhibitor",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from moisture. Take 30-60 minutes before a meal, swallowed whole.",
+    "common_interactions": [
+      "Reduces absorption of drugs needing stomach acid",
+      "May affect clopidogrel activation"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to PPIs"
+    ],
+    "conditions_treated": [
+      "acid_reflux",
+      "peptic_ulcer"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Telmisartan",
+    "brand_names": [
+      "Telma",
+      "Telmikind",
+      "Telsar"
+    ],
+    "composition": "Telmisartan",
+    "strength": "20mg / 40mg / 80mg",
+    "drug_class": "Angiotensin receptor blocker (ARB, antihypertensive)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C in the original blister, protect from moisture.",
+    "common_interactions": [
+      "Raised potassium with potassium-sparing diuretics or supplements",
+      "NSAIDs may reduce effect and affect kidney function",
+      "Increases lithium levels"
+    ],
+    "contraindications": [
+      "Pregnancy (all trimesters)",
+      "Bilateral renal artery stenosis",
+      "Severe liver impairment"
+    ],
+    "conditions_treated": [
+      "hypertension"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Metoprolol",
+    "brand_names": [
+      "Metolar",
+      "Betaloc",
+      "Metpure"
+    ],
+    "composition": "Metoprolol Succinate / Tartrate",
+    "strength": "25mg / 50mg / 100mg",
+    "drug_class": "Beta-blocker (cardioselective)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from light and moisture. Do not stop suddenly — abrupt withdrawal can worsen angina.",
+    "common_interactions": [
+      "Masks warning signs of low blood sugar in diabetes",
+      "Additive effect with other blood-pressure medicines",
+      "Verapamil/diltiazem increase risk of slow heart rate"
+    ],
+    "contraindications": [
+      "Severe bradycardia or heart block",
+      "Decompensated heart failure",
+      "Severe asthma (caution)"
+    ],
+    "conditions_treated": [
+      "hypertension",
+      "cardiovascular_prevention"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Rosuvastatin",
+    "brand_names": [
+      "Rosuvas",
+      "Crestor",
+      "Rozavel"
+    ],
+    "composition": "Rosuvastatin Calcium",
+    "strength": "5mg / 10mg / 20mg",
+    "drug_class": "Statin (lipid-lowering)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture and light. Can be taken at any time of day, consistently.",
+    "common_interactions": [
+      "Increased muscle-toxicity risk with certain antibiotics/antifungals and fibrates",
+      "Antacids reduce absorption — separate by 2 hours"
+    ],
+    "contraindications": [
+      "Active liver disease",
+      "Pregnancy and breastfeeding",
+      "Unexplained persistent muscle pain"
+    ],
+    "conditions_treated": [
+      "dyslipidemia"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Glimepiride",
+    "brand_names": [
+      "Amaryl",
+      "Glimestar",
+      "Zoryl"
+    ],
+    "composition": "Glimepiride",
+    "strength": "1mg / 2mg / 4mg",
+    "drug_class": "Sulfonylurea (oral antidiabetic)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture. Take with or just before breakfast — do not skip the meal after taking it.",
+    "common_interactions": [
+      "Hypoglycaemia risk raised by alcohol and other antidiabetics",
+      "Beta-blockers can mask low-blood-sugar symptoms"
+    ],
+    "contraindications": [
+      "Type 1 diabetes",
+      "Diabetic ketoacidosis",
+      "Severe kidney or liver impairment"
+    ],
+    "conditions_treated": [
+      "diabetes_type_2"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Sitagliptin",
+    "brand_names": [
+      "Januvia",
+      "Istavel",
+      "Sitazit"
+    ],
+    "composition": "Sitagliptin Phosphate",
+    "strength": "25mg / 50mg / 100mg",
+    "drug_class": "DPP-4 inhibitor (oral antidiabetic)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture.",
+    "common_interactions": [
+      "Hypoglycaemia risk increases when combined with sulfonylureas or insulin"
+    ],
+    "contraindications": [
+      "Type 1 diabetes",
+      "History of pancreatitis (caution)",
+      "Dose reduction in kidney impairment"
+    ],
+    "conditions_treated": [
+      "diabetes_type_2"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Levocetirizine",
+    "brand_names": [
+      "Levocet",
+      "Xyzal",
+      "1-Al"
+    ],
+    "composition": "Levocetirizine Dihydrochloride",
+    "strength": "5mg",
+    "drug_class": "Antihistamine",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture. Usually taken in the evening as it can cause drowsiness.",
+    "common_interactions": [
+      "Additive drowsiness with alcohol or sedatives"
+    ],
+    "contraindications": [
+      "Severe kidney impairment",
+      "Known hypersensitivity"
+    ],
+    "conditions_treated": [
+      "allergy"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Prednisolone",
+    "brand_names": [
+      "Omnacortil",
+      "Wysolone"
+    ],
+    "composition": "Prednisolone",
+    "strength": "5mg / 10mg / 20mg / 40mg",
+    "drug_class": "Corticosteroid",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C. Take with food in the morning. Never stop a longer course abruptly — the dose must be tapered.",
+    "common_interactions": [
+      "Increased stomach-ulcer risk with NSAIDs",
+      "Raises blood sugar — diabetes doses may need adjusting",
+      "Live vaccines should be avoided"
+    ],
+    "contraindications": [
+      "Systemic fungal infection",
+      "Live vaccine administration"
+    ],
+    "conditions_treated": [
+      "inflammation",
+      "asthma",
+      "autoimmune"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Ramipril",
+    "brand_names": [
+      "Cardace",
+      "Ramistar"
+    ],
+    "composition": "Ramipril",
+    "strength": "1.25mg / 2.5mg / 5mg / 10mg",
+    "drug_class": "ACE inhibitor (antihypertensive)",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from moisture.",
+    "common_interactions": [
+      "Raised potassium with potassium supplements/sparing diuretics",
+      "NSAIDs reduce effect and may affect kidneys",
+      "Increases lithium levels"
+    ],
+    "contraindications": [
+      "Pregnancy (all trimesters)",
+      "History of angioedema",
+      "Bilateral renal artery stenosis"
+    ],
+    "conditions_treated": [
+      "hypertension"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Furosemide",
+    "brand_names": [
+      "Lasix",
+      "Frusenex"
+    ],
+    "composition": "Furosemide",
+    "strength": "20mg / 40mg",
+    "drug_class": "Loop diuretic",
+    "route": "oral / injection",
+    "storage_instructions": "Store below 25°C, protect from light. Take in the morning to avoid night-time urination.",
+    "common_interactions": [
+      "Can lower potassium and sodium",
+      "Increased ototoxicity with certain antibiotics",
+      "NSAIDs reduce effectiveness"
+    ],
+    "contraindications": [
+      "Anuria (no urine output)",
+      "Severe electrolyte depletion"
+    ],
+    "conditions_treated": [
+      "heart_failure",
+      "hypertension",
+      "oedema"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Pregabalin",
+    "brand_names": [
+      "Lyrica",
+      "Pregeb",
+      "Maxgalin"
+    ],
+    "composition": "Pregabalin",
+    "strength": "50mg / 75mg / 150mg",
+    "drug_class": "Anticonvulsant / neuropathic pain agent",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C. Do not stop suddenly — taper under medical advice.",
+    "common_interactions": [
+      "Additive drowsiness with alcohol, opioids and sedatives — respiratory depression risk"
+    ],
+    "contraindications": [
+      "Known hypersensitivity",
+      "Dose reduction needed in kidney impairment"
+    ],
+    "conditions_treated": [
+      "neuropathic_pain",
+      "epilepsy"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Escitalopram",
+    "brand_names": [
+      "Nexito",
+      "Cipralex",
+      "Feliz-S"
+    ],
+    "composition": "Escitalopram Oxalate",
+    "strength": "5mg / 10mg / 20mg",
+    "drug_class": "SSRI antidepressant",
+    "route": "oral",
+    "storage_instructions": "Store below 25°C, protect from moisture. Do not stop abruptly — withdrawal symptoms are common; taper with your doctor.",
+    "common_interactions": [
+      "Serotonin syndrome risk with other serotonergic drugs including tramadol",
+      "Increased bleeding risk with NSAIDs/anticoagulants",
+      "Can prolong QT interval"
+    ],
+    "contraindications": [
+      "Concurrent MAO inhibitors",
+      "Congenital long QT syndrome"
+    ],
+    "conditions_treated": [
+      "depression",
+      "anxiety"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Fluconazole",
+    "brand_names": [
+      "Forcan",
+      "Zocon",
+      "Fluka"
+    ],
+    "composition": "Fluconazole",
+    "strength": "50mg / 150mg / 200mg",
+    "drug_class": "Antifungal (triazole)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture.",
+    "common_interactions": [
+      "Raises levels of warfarin, phenytoin and some statins",
+      "Can prolong QT interval"
+    ],
+    "contraindications": [
+      "Concurrent cisapride or terfenadine",
+      "Pregnancy at high doses"
+    ],
+    "conditions_treated": [
+      "fungal_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Albendazole",
+    "brand_names": [
+      "Zentel",
+      "Bandy"
+    ],
+    "composition": "Albendazole",
+    "strength": "400mg",
+    "drug_class": "Antihelminthic",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C. Take with a fatty meal to improve absorption. Chew tablets before swallowing.",
+    "common_interactions": [
+      "Levels increased by dexamethasone and cimetidine"
+    ],
+    "contraindications": [
+      "Pregnancy",
+      "Known hypersensitivity"
+    ],
+    "conditions_treated": [
+      "parasitic_infection"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Cholecalciferol (Vitamin D3)",
+    "brand_names": [
+      "Uprise-D3",
+      "Calcirol",
+      "D-Rise"
+    ],
+    "composition": "Cholecalciferol",
+    "strength": "1000 IU / 60000 IU",
+    "drug_class": "Vitamin supplement",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from light. High-dose (60000 IU) sachets are usually weekly, not daily — check the prescribed interval carefully.",
+    "common_interactions": [
+      "Thiazide diuretics can raise calcium levels",
+      "Reduced absorption with orlistat and cholestyramine"
+    ],
+    "contraindications": [
+      "High blood calcium",
+      "Kidney stones (caution)"
+    ],
+    "conditions_treated": [
+      "vitamin_d_deficiency"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Ferrous Sulphate + Folic Acid",
+    "brand_names": [
+      "Livogen",
+      "Fefol",
+      "Autrin"
+    ],
+    "composition": "Ferrous Sulphate + Folic Acid",
+    "strength": "Varies by product",
+    "drug_class": "Haematinic (iron supplement)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, keep tightly closed and away from children — iron overdose in children is dangerous. Take on an empty stomach if tolerated; vitamin C aids absorption.",
+    "common_interactions": [
+      "Reduces absorption of levothyroxine, tetracyclines and quinolones — separate by 2-4 hours",
+      "Tea, coffee and calcium reduce iron absorption"
+    ],
+    "contraindications": [
+      "Iron-overload disorders (haemochromatosis)",
+      "Anaemia not caused by iron deficiency"
+    ],
+    "conditions_treated": [
+      "anaemia"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Calcium Carbonate + Vitamin D3",
+    "brand_names": [
+      "Shelcal",
+      "Calcimax",
+      "Gemcal"
+    ],
+    "composition": "Calcium Carbonate + Cholecalciferol",
+    "strength": "500mg + 250 IU",
+    "drug_class": "Mineral / vitamin supplement",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C, protect from moisture. Take with food for better absorption.",
+    "common_interactions": [
+      "Reduces absorption of levothyroxine, iron, tetracyclines and quinolones — separate by at least 2-4 hours"
+    ],
+    "contraindications": [
+      "High blood calcium",
+      "Severe kidney impairment (caution)"
+    ],
+    "conditions_treated": [
+      "calcium_deficiency",
+      "osteoporosis"
+    ],
+    "source_citation": "WHO Model List of Essential Medicines / standard pharmacology reference (sample data — verify against current labeling before clinical use)"
+  },
+  {
+    "generic_name": "Anastrozole",
+    "brand_names": [
+      "Arimidex",
+      "Anabrez",
+      "Altraz"
+    ],
+    "composition": "Anastrozole",
+    "strength": "1mg",
+    "drug_class": "Aromatase inhibitor (non-steroidal)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C in a dry place, in the original pack.",
+    "common_interactions": [
+      "Tamoxifen and other oestrogen-containing products reduce its effect — they should not be taken together",
+      "Oestrogen-containing HRT counteracts the treatment"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding",
+      "Premenopausal women (it does not suppress ovarian oestrogen)",
+      "Severe liver or kidney impairment"
+    ],
+    "conditions_treated": [
+      "breast_cancer"
+    ],
+    "source_citation": "Standard oncology prescribing guidance (sample data — verify against current labelling before clinical use)"
+  },
+  {
+    "generic_name": "Letrozole",
+    "brand_names": [
+      "Femara",
+      "Letroz",
+      "Oncolet"
+    ],
+    "composition": "Letrozole",
+    "strength": "2.5mg",
+    "drug_class": "Aromatase inhibitor (non-steroidal)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C in a dry place, in the original pack.",
+    "common_interactions": [
+      "Tamoxifen reduces its effect",
+      "Oestrogen-containing HRT counteracts the treatment"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding",
+      "Premenopausal women unless used deliberately under specialist supervision",
+      "Severe liver impairment"
+    ],
+    "conditions_treated": [
+      "breast_cancer"
+    ],
+    "source_citation": "Standard oncology prescribing guidance (sample data — verify against current labelling before clinical use). Note: CDSCO prohibits letrozole for induction of ovulation in anovulatory infertility."
+  },
+  {
+    "generic_name": "Exemestane",
+    "brand_names": [
+      "Aromasin",
+      "Xtane",
+      "Exemide"
+    ],
+    "composition": "Exemestane",
+    "strength": "25mg",
+    "drug_class": "Aromatase inhibitor (steroidal)",
+    "route": "oral",
+    "storage_instructions": "Store below 30°C. Take after food.",
+    "common_interactions": [
+      "Oestrogen-containing products counteract the treatment",
+      "Strong CYP3A4 inducers (rifampicin, carbamazepine, St John's wort) lower its blood levels"
+    ],
+    "contraindications": [
+      "Pregnancy and breastfeeding",
+      "Premenopausal women"
+    ],
+    "conditions_treated": [
+      "breast_cancer"
+    ],
+    "source_citation": "Standard oncology prescribing guidance (sample data — verify against current labelling before clinical use)"
+  }
+]

@@ -1,0 +1,662 @@
+═══════════════════════════════════════════════════════════════════════════════
+ A R O G Y A  —  SMART INDIA HACKATHON PITCH
+ Speech + Q&A Bank
+ Audience: Pharmacy faculty, pharmacy students, SIH evaluators
+═══════════════════════════════════════════════════════════════════════════════
+
+HOW TO USE THIS DOCUMENT
+  • Sections 1–8 are the SPEECH. Read the KEYWORDS line before each block —
+    those are your anchors. If you blank out, say the keywords and the
+    sentences will come back.
+  • Section 9 is the Q&A BANK. Do not memorise it. Read it twice. The point
+    is that no question surprises you.
+  • ⏱ markers show pacing. Full speech ≈ 8–9 minutes. A 5-minute cut is
+    marked at the end.
+  • ⚠ marks a claim you must NOT overstate. Judges punish overclaiming far
+    harder than they punish a modest scope.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 1. THE OPENING — DO NOT START WITH THE APP
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  penicillin · Augmentin · nobody asked · the gap is not knowledge
+
+⏱ 0:00–0:50
+
+  "A woman walks into a pharmacy in Bengaluru with a prescription for
+   AUGMENTIN.
+
+   She is allergic to PENICILLIN. She knows this. She told a doctor once,
+   three years ago, at a different hospital.
+
+   She does not know that Augmentin IS a penicillin.
+   The prescription does not say so.
+   And nobody at the counter asks.
+
+   Every one of you in this room knows what happens next.
+
+   Now hold that thought — because here is what I want you to notice.
+   Nobody in that story lacked KNOWLEDGE. The pharmacist knew penicillin
+   cross-reactivity. The doctor knew to ask about allergies. The patient knew
+   her own allergy.
+
+   The knowledge existed. It just wasn't in the same place at the same time.
+
+   THAT is the problem we built Arogya to solve. Not a knowledge problem.
+   A MEMORY problem. A CONTINUITY problem."
+
+  ▸ DELIVERY: Pause after "nobody at the counter asks." Let it sit.
+    Do not rush to the solution. The discomfort is the point.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 2. THE PROBLEM — WITH NUMBERS THEY CANNOT ARGUE WITH
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  26 percent · 90 million · 70 percent of out-of-pocket · 6 to 10 percent
+
+⏱ 0:50–2:30
+
+  "Four numbers. This audience will recognise all of them.
+
+   ONE — ADHERENCE.
+   India has roughly 90 MILLION adults living with type 2 diabetes.
+   Hypertension prevalence is around 35%.
+   And the National NCD Monitoring Survey found that only 26% of rural
+   patients with diabetes take their prescribed oral medication REGULARLY.
+   Meta-analyses put anti-diabetic adherence at about 43%.
+
+   Read that again. We are not failing to DIAGNOSE these people.
+   We are not failing to PRESCRIBE for them.
+   We diagnose them, we prescribe correctly — and then more than half the
+   therapeutic value evaporates between the counter and the kitchen shelf.
+
+   A prescription that is not taken is not medicine. It is paper.
+
+   TWO — COST.
+   Medicines account for roughly 70% of out-of-pocket health spending in
+   India — about 60% of outpatient out-of-pocket cost.
+   Out-of-pocket expenditure ROSE to 43.4% of total health spending in
+   2022–23.
+   Meanwhile a strip of metformin can cost ₹45 branded and ₹14 at a Jan
+   Aushadhi outlet. Same molecule. Same strength.
+   The information gap is not clinical. It is COMMERCIAL.
+
+   THREE — SAFETY.
+   And this one is yours. Studies estimate only 6–10% of adverse drug
+   reactions in India are ever reported. Some estimates of under-reporting
+   through spontaneous channels run as high as 98%.
+   Of the ADRs that DO get reported — physicians file 64%.
+   PHARMACISTS FILE 15%.
+
+   Fifteen percent. From the profession that handles the medicine LAST,
+   sees the patient MOST OFTEN, and is trained specifically to catch this.
+
+   That is not a competence gap. That is a TOOLING gap.
+
+   FOUR — LANGUAGE AND LITERACY.
+   A prescription in English. A patient who reads Kannada. A dosing
+   instruction — 'BD', 'HS', 'SOS' — that is effectively a professional
+   cipher. We hand people a coded document in a second language and then
+   call them non-compliant when they get it wrong."
+
+  ⚠ DO NOT round these numbers up. If asked for a source, name it:
+    National NCD Monitoring Survey 2017–18; ICMR-INDIAB 2023;
+    Indian Journal of Pharmacology on ADR under-reporting; PvPI ICSR analysis.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 3. WHY THIS ROOM — THE PHARMACY ARGUMENT
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  most accessible · last checkpoint · we did not automate you ·
+           we scaled you
+
+⏱ 2:30–3:30
+
+  "I want to be direct about why I am pitching this to a PHARMACY audience
+   and not a computer science one.
+
+   The pharmacist is the MOST ACCESSIBLE healthcare professional in India.
+   No appointment. No fee. Present in every neighbourhood.
+   And the pharmacist is the LAST CHECKPOINT before a medicine enters a
+   human body.
+
+   Everything Arogya does, a good pharmacist already does:
+     ▸ Read the prescription        → we do OCR
+     ▸ Check it against the patient → we do allergy and condition screening
+     ▸ Explain it in their language → we do multilingual counselling
+     ▸ Offer the generic option     → we do price comparison
+     ▸ Say 'come back if this happens' → we do adherence follow-up
+
+   So let me say the uncomfortable part out loud, because someone here is
+   already thinking it:
+
+   'Are you building a machine to replace us?'
+
+   No. And the numbers say why not.
+   There are not enough pharmacists in India to counsel every patient for
+   fifteen minutes. There never will be. A pharmacist at a busy counter has
+   maybe NINETY SECONDS per patient.
+
+   We did not automate the pharmacist. WE SCALED THE PHARMACIST.
+   We took the counselling that a good pharmacist gives when they have time —
+   and we gave it to the patient for the 23 hours and 58 minutes when the
+   pharmacist is not there.
+
+   And here is what should interest the teachers in this room specifically:
+   this makes your profession's contribution VISIBLE. Structured. Auditable.
+   Every interaction flagged, every ADR captured, every substitution
+   recorded. That is pharmacovigilance data that currently evaporates."
+
+  ▸ DELIVERY: The "are you replacing us" question — ASK IT YOURSELF before
+    they can. Owning the objection disarms it completely.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 4. WHAT WE BUILT — DEMO NARRATIVE
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  photograph · patient confirms · five checks · nothing auto-confirms
+
+⏱ 3:30–5:30
+
+  "Let me walk you through one patient's journey. This is BUILT and WORKING,
+   not a mockup.
+
+   STEP 1 — THE PRESCRIPTION.
+   The patient photographs their prescription. Printed text goes through
+   local OCR. If the handwriting defeats it — and doctors' handwriting
+   often does — it falls through to a vision AI model.
+   Measured on a rotated, blurred, noisy sample: conventional OCR scored
+   ZERO. The vision model recovered all three medicines at 98% confidence.
+
+   STEP 2 — AND THIS IS THE MOST IMPORTANT DESIGN DECISION WE MADE.
+   Nothing is ever auto-confirmed. Ever.
+   The patient reviews every extracted field before anything is saved.
+   Because a misread DOSAGE is not a UX bug — it is a patient safety
+   incident. We built the human checkpoint in as a hard gate, not a
+   courtesy.
+
+   STEP 3 — THE SAFETY SCREEN. Five checks run automatically:
+     1. BANNED DRUGS — against CDSCO prohibitions. Nimesulide above
+        100mg, ranitidine, banned fixed-dose combinations.
+     2. ALLERGY CROSS-REFERENCE — and this is the Augmentin case.
+        The patient wrote 'penicillin'. The prescription says 'Augmentin'.
+        No shared text. We catch it via DRUG CLASS mapping.
+     3. CONDITION CONTRAINDICATIONS — metformin against recorded kidney
+        disease, for example.
+     4. PREGNANCY — a hard red flag. Warfarin, doxycycline, ACE inhibitors.
+     5. DUPLICATE THERAPY AND INTERACTIONS — two NSAIDs on one script.
+
+   STEP 4 — PRICE, ON THE SAME SCREEN.
+   Augmentin ₹205 branded, ₹68 generic. Sixty-seven percent.
+   Deliberately AFTER the safety information. Money should never be the
+   first thing a patient weighs against a safety warning.
+
+   STEP 5 — ADHERENCE.
+   Reminders, and a dashboard that measures adherence the way clinicians
+   do — proportion of days covered, against the 80% threshold, because
+   below 80% a chronic medicine largely stops delivering its benefit.
+   Not a vanity score. A clinical one.
+
+   STEP 6 — THE EMERGENCY QR CODE.
+   A scannable code. No login — because a paramedic cannot be asked to
+   authenticate. Blood group, allergies, conditions, current medicines,
+   surgeries, who to call.
+   And it auto-derives red alerts: 'ON BLOOD THINNERS — bleeding risk.'
+   'ON INSULIN — consider hypoglycaemia if unconscious.'
+   The patient never typed those. We inferred them from their drug classes.
+
+   Plus: a chatbot grounded in a curated drug database with citations,
+   eight Indian languages, and a community health noticeboard."
+
+  ⚠ If asked "is this live?" — be precise:
+    BUILT AND WORKING: OCR, safety screening, price comparison, reminders,
+    emergency QR, chatbot, multilingual UI, adherence dashboard.
+    NOT YET: real SMS (needs DLT registration), doctor interface,
+    hospital network. Say so plainly.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 5. THE COMPETITION — ANSWER IT BEFORE THEY ASK
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  they sell medicine · we don't · conflict of interest · not a pharmacy
+
+⏱ 5:30–6:45
+
+  "Someone is going to ask about 1mg and PharmEasy. Let me answer it now.
+
+   THREE CATEGORIES OF COMPETITOR:
+
+   ONE — THE COMMERCE PLAYERS.
+   Tata 1mg, PharmEasy, Netmeds, Apollo 24|7, Practo.
+   Large, well-funded, real reminder features. I will not pretend otherwise.
+
+   But understand their BUSINESS MODEL. They earn money when you BUY a
+   medicine. Their reminder exists to trigger a REFILL.
+
+   Now ask yourself an honest question:
+   Will an app that earns a margin on every sale prominently tell you that
+   the ₹9 Jan Aushadhi generic is pharmaceutically identical to the ₹34
+   brand it just put in your cart?
+
+   That is not a criticism of their ethics. It is a STRUCTURAL CONFLICT OF
+   INTEREST. It is built into the revenue model.
+
+   AROGYA DOES NOT SELL MEDICINE. We have no cart. No margin. No pharmacy
+   partner taking a cut. That is not a feature we added — it is the reason
+   we can be trusted on price at all.
+
+   TWO — THE GLOBAL REMINDER APPS.
+   Medisafe, MyTherapy. Genuinely good products. Millions of users.
+   But: no Indian brand names. No Jan Aushadhi pricing. No CDSCO banned-drug
+   list. No Indian-language interface. No handwritten-prescription OCR for
+   Indian scripts. They solve the reminder. They do not solve INDIA.
+
+   THREE — AND THIS ONE IS NOT A COMPETITOR AT ALL.
+   ABDM — Ayushman Bharat Digital Mission. Over 90 crore ABHA accounts.
+   More than 100 crore linked health records. 450-plus integrated solutions.
+
+   ABDM is not our rival. ABDM IS OUR RUNWAY.
+   The government has already built the identity layer and the record-
+   exchange layer. We do not need to convince India to adopt a health ID —
+   that has happened. We plug into it.
+
+   SO WHAT IS THE ACTUAL MOAT?
+   Not the OCR. Not the reminders. Anyone can build those.
+   The moat is being the only player whose incentives allow us to say
+   'this cheaper medicine is the same' and 'do not take this one at all' —
+   because we do not profit from either answer.
+   TRUST IS THE PRODUCT. Everything else is implementation."
+
+═══════════════════════════════════════════════════════════════════════════════
+ 6. THE ROADMAP — DOCTOR INTERFACE
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  patient-entered has a ceiling · clinician-verified · two-tier trust
+
+⏱ 6:45–7:20
+
+  "Now the honest limitation of everything I have described.
+
+   Every piece of data in Arogya today is PATIENT-ENTERED. Patient-entered
+   data has a ceiling. A patient may write 'sugar problem' where a clinician
+   would write 'type 2 diabetes mellitus, diagnosed 2015, on metformin
+   1000mg BD.'
+
+   So: a DOCTOR INTERFACE.
+   A verified clinician, with the patient's consent, can view and correct
+   the record. Fix a misread drug name. Confirm a diagnosis. Add what the
+   patient did not know to mention.
+
+   This creates TWO-TIER TRUST inside the record:
+     ▸ PATIENT-REPORTED — useful, but flagged as such
+     ▸ CLINICIAN-VERIFIED — carries clinical weight
+
+   And critically — a full AUDIT TRAIL. Who changed what, when.
+   Because the moment a doctor can edit a medical record, provenance stops
+   being a nice-to-have and becomes a legal requirement.
+
+   For this audience there is a second version worth naming:
+   a PHARMACIST INTERFACE. The professional who actually dispenses,
+   verifying what was dispensed and flagging the ADR at the counter —
+   feeding the 85% of pharmacovigilance data India currently loses."
+
+═══════════════════════════════════════════════════════════════════════════════
+ 7. THE ROADMAP — HOSPITAL NETWORK
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  islands · real-world evidence · what India actually takes ·
+           consent first
+
+⏱ 7:20–8:10
+
+  "The final ambition, and the largest one.
+
+   Today every hospital is an ISLAND. Your prescription history at Hospital A
+   is invisible at Hospital B. The patient is the only thread connecting
+   them — and the patient forgets.
+
+   We want to bring hospitals onto a shared, CONSENTED layer. Two payoffs:
+
+   FOR THE PATIENT — continuity. Your allergy is known before the second
+   hospital prescribes. That is the Augmentin story, prevented.
+
+   FOR PUBLIC HEALTH — and this is the part that should excite the
+   researchers in this room:
+   AGGREGATED, DE-IDENTIFIED REAL-WORLD EVIDENCE.
+
+   Not what a trial in another country showed.
+   What Indian patients ACTUALLY take, ACTUALLY tolerate, ACTUALLY afford,
+   and ACTUALLY stop taking — and WHY.
+
+   Which molecules get abandoned in month two.
+   Which combinations produce ADRs that never reach PvPI.
+   Which districts are paying brand prices where a generic exists.
+
+   India is called the PHARMACY OF THE WORLD. We manufacture medicine for
+   the planet. But we have remarkably thin real-world evidence on how our
+   OWN population uses it.
+
+   ⚠ AND I WILL SAY THE HARD PART BEFORE YOU ASK IT.
+   This is the most dangerous idea in the entire pitch.
+   Aggregated health data is exactly what the DPDP Act 2025 exists to
+   govern. So the sequence is non-negotiable:
+     1. EXPLICIT, PURPOSE-SPECIFIC CONSENT — revocable, in the patient's
+        own language
+     2. DE-IDENTIFICATION BEFORE AGGREGATION — always
+     3. PATIENT BENEFIT FIRST, RESEARCH SECOND — never the reverse
+     4. NO SALE OF PATIENT DATA. Ever. If that is the revenue model,
+        the trust argument I made earlier collapses entirely.
+
+   We would rather grow slower than become the thing we criticised."
+
+═══════════════════════════════════════════════════════════════════════════════
+ 8. THE CLOSE
+═══════════════════════════════════════════════════════════════════════════════
+KEYWORDS:  she still walks in · the knowledge existed · make it arrive
+
+⏱ 8:10–8:45
+
+  "Let me go back to the woman with the Augmentin prescription.
+
+   Everything needed to protect her ALREADY EXISTED.
+   Her allergy was known — to her.
+   The cross-reactivity was known — to the pharmacist.
+   The contraindication was known — to medicine itself.
+
+   The knowledge existed. It simply did not ARRIVE.
+
+   That is what we are building. Not new medical knowledge — you have spent
+   your careers producing that. We are building the LAST MILE that carries
+   it to the person holding the tablet.
+
+   For the students here: this is not a hackathon project looking for a
+   problem. This is your profession's oldest problem, with tools that did
+   not exist five years ago.
+
+   The medicine already works.
+   Let us make sure it actually gets TAKEN — by the right person, at the
+   right time, at a price they can afford, without the one interaction
+   that could have hurt them.
+
+   Thank you."
+
+═══════════════════════════════════════════════════════════════════════════════
+ 9. Q&A BANK — CRITICAL AND INTUITIVE QUESTIONS
+═══════════════════════════════════════════════════════════════════════════════
+GOLDEN RULE: If you do not know, say "I don't know — here's how we'd find out."
+Judges reward calibrated honesty and punish bluffing. Every single time.
+
+───────────────────────────────────────────────────────────────────────────────
+ A. SAFETY AND CLINICAL RISK  (expect the hardest questions here)
+───────────────────────────────────────────────────────────────────────────────
+
+Q1. "What if your OCR misreads a drug name and the patient takes the wrong
+     medicine?"
+A.  The strongest question in the room, and it drove our core architecture.
+    Three defences:
+    (a) NOTHING AUTO-CONFIRMS. The patient reviews every field. There is no
+        code path that saves a medicine without human confirmation.
+    (b) Low-confidence and handwritten scans are FLAGGED for extra care.
+    (c) Extracted names are FUZZY-MATCHED to a curated drug database, so
+        'Paracetmol' resolves to Paracetamol rather than becoming a new drug.
+    We treat OCR output as a DRAFT, never as a fact.
+
+Q2. "Your drug database is small. What if a medicine isn't in it and you
+     miss a dangerous interaction?"
+A.  Correct, and we say so IN THE UI — 'no flags found' explicitly states it
+    is not a guarantee of safety, because our database is a limited sample.
+    We also added a second pass that scans the RAW prescription text for
+    banned drugs even when the medicine isn't in our database — we found
+    that gap in testing when nimesulide was silently dropped.
+    Production requires a licensed drug database. That is a procurement
+    line item, not an engineering problem.
+
+Q3. "Isn't the pregnancy red flag dangerous? What if she stops a medicine
+     she genuinely needs?"
+A.  This is why our wording is precise. We never say 'stop.' We say:
+    'Do not take this before speaking to your doctor.'
+    The flag is a PROMPT TO ASK, not an instruction to discontinue.
+    We accept a higher false-alarm rate here deliberately — the asymmetry
+    is stark. A false alarm costs a phone call. A missed teratogen can cost
+    a lifetime. That asymmetry justifies the conservatism.
+
+Q4. "Your chatbot uses an LLM. What about hallucination?"
+A.  Three layers:
+    (a) RETRIEVAL-GROUNDED — it answers from a curated, citable drug
+        knowledge base, not free generation.
+    (b) EVERY CLAIM CARRIES A CITATION the patient can inspect.
+    (c) EMERGENCY LANGUAGE SHORT-CIRCUITS THE MODEL ENTIRELY. Chest pain,
+        overdose, suicidal ideation — the LLM is never called; it routes
+        straight to 'get help now.'
+    And if the model is unavailable, it degrades to deterministic template
+    answers rather than failing or improvising.
+
+Q5. "Who is liable if a patient is harmed?"
+A.  Answer this honestly — do not claim immunity.
+    Arogya is positioned as an INFORMATION AND ADHERENCE tool, not a
+    diagnostic or prescribing device. It never diagnoses, never changes a
+    dose, never tells anyone to stop a medicine. Every medical output
+    carries a disclaimer and routes to a clinician.
+    That said: liability, terms of service, and whether this ever crosses
+    into medical-device territory require formal legal review BEFORE real
+    patient data is collected. We have not done that yet. It is Phase 0.
+
+Q6. "Do you need CDSCO approval? Is this a medical device?"
+A.  Software that only stores, displays and reminds is generally not a
+    regulated medical device. Software that makes a CLINICAL RECOMMENDATION
+    can be. We have deliberately stayed on the safe side of that line — we
+    surface information and route to a clinician; we do not recommend
+    therapy. But I will not pretend to be the authority on that. It needs a
+    regulatory opinion.
+
+───────────────────────────────────────────────────────────────────────────────
+ B. COMPETITION AND DIFFERENTIATION
+───────────────────────────────────────────────────────────────────────────────
+
+Q7. "1mg already does reminders. Why would anyone use yours?"
+A.  Their reminder is a REFILL PROMPT. Ours is an ADHERENCE INTERVENTION.
+    The difference shows up in one place: we will tell you the cheaper
+    generic exists. They structurally cannot lead with that — it cannibalises
+    their own margin.
+    Also: no commerce platform does allergy cross-reference, pregnancy
+    contraindication, or CDSCO banned-drug screening at prescription review.
+
+Q8. "What stops 1mg from building this tomorrow? They have more money."
+A.  Technically, nothing. I won't pretend we have a technology moat.
+    But they cannot copy the INCENTIVE. The moment a commerce platform
+    prominently steers patients to the ₹9 generic, it damages its own
+    economics. Our credibility on price comes from not selling medicine —
+    and that is not a feature they can ship.
+    Our defensible asset is the CONSENTED LONGITUDINAL RECORD and the trust
+    required to hold it.
+
+Q9. "Isn't ABDM going to make you redundant?"
+A.  The opposite. ABDM is infrastructure — identity and record exchange.
+    It is not a patient-facing adherence, counselling or safety-screening
+    application. 450+ solutions have integrated with it precisely because
+    it is a platform, not a product. We intend to be one of them. ABDM
+    solves the plumbing problem so we don't have to.
+
+Q10. "Why should a pharmacy college care about a software project?"
+A.  Because it is a research and teaching instrument.
+     ▸ A live adherence dataset for pharmacy practice research
+     ▸ A pharmacovigilance capture point where India currently loses ~90%
+       of signal
+     ▸ A student training environment for counselling and DUR
+     And because it makes your profession's contribution measurable. You
+     cannot argue for a larger clinical role for pharmacists using data
+     that was never captured.
+
+───────────────────────────────────────────────────────────────────────────────
+ C. PRIVACY, DATA AND ETHICS  (expect faculty to press hardest here)
+───────────────────────────────────────────────────────────────────────────────
+
+Q11. "Your emergency QR is public. Isn't that a massive privacy hole?"
+A.  It is a deliberate, stated trade-off, and I'll defend it plainly.
+     A paramedic cannot log in. Authentication would defeat the feature at
+     the exact moment it matters.
+     Mitigations: a 32-byte random token that cannot be guessed or
+     enumerated; the patient chooses what goes on it; and a REGENERATE
+     button that instantly invalidates every printed card.
+     What it does NOT protect against is someone photographing the QR.
+     We say that in the UI before the patient prints one. Informed
+     trade-off, not a hidden risk.
+
+Q12. "How does the hospital data-sharing plan comply with DPDP 2025?"
+A.  Consent must be explicit, purpose-specific, in the patient's language,
+     and revocable. De-identification happens BEFORE aggregation.
+     Retention and erasure have to be implemented in code, not just written
+     in a policy document.
+     And we will not sell patient data. If we did, every trust argument in
+     this pitch collapses.
+
+Q13. "You're sending prescription images to Google's API for OCR. Is that
+      compliant?"
+A.  Sharp question, and the honest answer is: it is a conscious trade-off
+     that needs revisiting before production. Local OCR runs first and
+     handles most printed prescriptions with nothing leaving the device's
+     server. Only images it cannot read fall through to the vision model.
+     For production, options are an India-region processing agreement, an
+     on-premise model, or making cloud OCR opt-in per upload. Proposed data
+     localisation rules point the same direction.
+
+Q14. "What if the patient enters wrong data — wrong allergy, wrong condition?"
+A.  Then the safety screen inherits that error, and we should be honest
+     that garbage in produces garbage out. Two mitigations:
+     (a) The DOCTOR INTERFACE — clinician-verified data outranks
+         patient-reported data.
+     (b) We never present flags as verdicts. Everything resolves to
+         'confirm with your doctor,' which is exactly the behaviour that
+         catches a wrong entry.
+
+───────────────────────────────────────────────────────────────────────────────
+ D. ADOPTION, BUSINESS AND SCALE
+───────────────────────────────────────────────────────────────────────────────
+
+Q15. "Your users are often elderly or low-literacy. Will they use an app?"
+A.  This shaped the design more than any other constraint.
+     ▸ PHONE OTP login — no password to forget
+     ▸ EIGHT INDIAN LANGUAGES
+     ▸ SMS FALLBACK — the reminder must work when the app is closed, which
+       is most of the time
+     ▸ CAREGIVER ACCESS on the roadmap, because for many elderly patients
+       the real user is an adult child
+     And an honest caveat: we have not yet usability-tested with elderly
+     low-literacy users. Until we do, that claim is a design intention, not
+     a validated result.
+
+Q16. "How do you make money without selling medicine?"
+A.  Deliberately unsolved, and I'd rather say that than invent a number.
+     Directions that do NOT break the trust model:
+     ▸ B2B licensing to hospitals and insurers for adherence outcomes
+     ▸ Government / public-health deployment
+     ▸ De-identified, consented research access under strict governance
+     What we will not do: pharmacy commissions or advertising. Both
+     reintroduce exactly the conflict of interest that is our whole
+     differentiation.
+
+Q17. "Why would a doctor bother using your interface? They're overloaded."
+A.  They wouldn't, for altruism. The value has to be selfish:
+     a patient arriving with a STRUCTURED, VERIFIED medication history and
+     adherence record saves consultation time immediately.
+     The pitch to a doctor is not 'help us' — it is 'stop spending the first
+     five minutes reconstructing what your patient is taking.'
+
+Q18. "How do you get hospitals to share data? They see it as an asset."
+A.  Honestly, this is the hardest problem in the roadmap — harder than any
+     engineering in it. Realistic sequence:
+     ▸ Start where incentives already align — public hospitals, insurers
+       who benefit from adherence, NABH accreditation requirements
+     ▸ Ride ABDM, which already gives hospitals a compliance reason
+     ▸ Give before taking: hospitals get analytics on their own population
+       first
+     This is a partnerships and policy problem wearing a technology costume.
+
+Q19. "What have you actually validated? What's still a claim?"
+A.  Answer precisely. VALIDATED: OCR accuracy on printed and degraded
+     images; vision fallback recovering medicines conventional OCR scored
+     zero on; safety screening catching a penicillin-to-Augmentin class
+     match; price comparison; reminder catch-up after downtime.
+     NOT VALIDATED: real-world adherence improvement; clinical review of
+     our drug content; usability with the elderly; anything about the
+     hospital network. Those need a pilot with real patients.
+
+Q20. "What's your biggest weakness?"
+A.  Ask this of yourself before a judge does. Best answer:
+     "The drug knowledge base. Everything clinical rests on it, and ours is
+     a curated sample, not a licensed clinical database. Until it is
+     licensed and clinician-reviewed, our safety screening is a working
+     demonstration of a mechanism — not a clinical-grade tool. I would
+     rather say that here than have a judge discover it."
+
+───────────────────────────────────────────────────────────────────────────────
+ E. CURVEBALLS
+───────────────────────────────────────────────────────────────────────────────
+
+Q21. "Why not just use SMS? Everyone has SMS."
+A.  We do — SMS is the fallback layer. But SMS is one-way. It cannot show a
+     prescription review screen, run a safety screen, display a price
+     comparison, or log adherence. SMS is a REMINDER CHANNEL, not a care
+     platform. Use it for reach, not for the product.
+
+Q22. "What happens if the internet is down?"
+A.  Reminders are scheduled server-side and catch up when the app
+     reconnects — we specifically fixed exact-minute matching so a missed
+     window doesn't lose a dose permanently. Offline-first local storage is
+     a genuine gap and it is on the roadmap.
+
+Q23. "Isn't this just a to-do list with medical branding?"
+A.  A to-do list doesn't know that Augmentin is a penicillin. It doesn't
+     know nimesulide above 100mg is restricted in India, or that the same
+     molecule costs ₹9 instead of ₹34. The reminder is the DELIVERY
+     MECHANISM. The clinical reasoning underneath is the product.
+
+Q24. "You're students. Why should we believe you can execute this?"
+A.  You shouldn't — on the basis of ambition. Judge us on what is already
+     running: OCR with a vision fallback, five-check safety screening,
+     eight languages, an emergency QR, a grounded chatbot, an adherence
+     dashboard. That is built, not promised.
+     The hospital network needs partners and policy work we cannot do
+     alone. That's precisely why we are presenting it to a room that
+     contains those partners.
+
+═══════════════════════════════════════════════════════════════════════════════
+ 10. FIVE-MINUTE CUT
+═══════════════════════════════════════════════════════════════════════════════
+  KEEP:  §1 Opening (full — never cut the story)
+         §2 Problem — use ONLY two numbers: 26% adherence, 15% ADR reporting
+         §3 Why pharmacy — keep "we scaled the pharmacist"
+         §4 Demo — keep steps 2, 3 and 6 only
+         §5 Competition — keep only the conflict-of-interest argument
+         §8 Close (full — never cut the close)
+  DROP:  §6 and §7 → compress to one line:
+         "Next: a doctor interface for clinician-verified records, and a
+          consented hospital network for real-world evidence on how India
+          actually uses medicine."
+
+═══════════════════════════════════════════════════════════════════════════════
+ 11. DELIVERY NOTES
+═══════════════════════════════════════════════════════════════════════════════
+  ▸ PAUSE after every number. A statistic delivered at speed is noise.
+  ▸ NEVER READ THE SLIDE. Use the keyword line, then look up.
+  ▸ SAY "I DON'T KNOW" WHEN YOU DON'T. It buys more credibility than any
+    confident guess, and this audience can tell the difference instantly.
+  ▸ NAME YOUR LIMITATIONS BEFORE THE JUDGES DO. Every limitation you
+    surface yourself becomes evidence of rigour. Every one they find
+    becomes evidence of overclaiming.
+  ▸ The emotional arc: DISCOMFORT (§1) → ANGER at the numbers (§2) →
+    RECOGNITION that it is their fight (§3) → CREDIBILITY from the demo
+    (§4) → CONVICTION (§8). Do not flatten it into a feature list.
+  ▸ Your single strongest line, if you remember nothing else:
+    "The knowledge existed. It just didn't arrive."
+
+═══════════════════════════════════════════════════════════════════════════════
+ SOURCES — know these before you cite them
+═══════════════════════════════════════════════════════════════════════════════
+  • Adherence 26% rural diabetes — National NCD Monitoring Survey 2017–18
+  • Diabetes 11.4%, hypertension 35.5% — ICMR-INDIAB, 2023
+  • Anti-diabetic adherence ~43.4% — meta-analysis, Indian cohorts
+  • ADR under-reporting 6–10% — Indian Journal of Pharmacology
+  • Pharmacists 15.1% of ADR reports — PvPI ICSR analysis (23,975 reports)
+  • Medicines ~70% of out-of-pocket health spend — IndiaSpend / NSSO analysis
+  • OOP 43.4% of total health expenditure, 2022–23 — National Health Accounts
+  • ABDM: 90+ crore ABHA, 100+ crore linked records, 450+ integrations
+  • DPDP Rules 2025 — notified 14 November 2025
+  • CDSCO banned drugs — cdsco.gov.in (verify before quoting; list changes)
+
+  ⚠ Verify every figure the week before you present. Health statistics get
+    revised, and a judge who catches a stale number will discount all of them.
+═══════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,152 @@
+/* ==========================================================================
+   Appointments — patient booking and the doctor's diary
+   ========================================================================== */
+
+.appt-list { display: flex; flex-direction: column; gap: var(--space-sm); }
+
+.appt-card { display: flex; flex-direction: column; gap: 8px; }
+.appt-card__head {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: var(--space-sm); flex-wrap: wrap;
+}
+.appt-card__when { margin: 0; font-size: 1rem; }
+.appt-card__who { margin: 2px 0 0; font-size: 0.9rem; color: var(--text-muted); }
+.appt-card__meta { margin: 0; font-size: 0.8rem; color: var(--text-muted); }
+.appt-card__notes { margin: 0; font-size: 0.88rem; }
+.appt-card__doctornotes {
+  margin: 0; padding: 10px 12px; font-size: 0.88rem; line-height: 1.55;
+  background: var(--info-bg); border: 1px solid var(--info-border);
+  border-radius: var(--radius-sm);
+}
+.appt-card__actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
+
+/* ---------- Booking form ---------- */
+.book-form { display: flex; flex-direction: column; gap: 6px; }
+.book-form label {
+  font-size: 0.78rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--text-muted); margin-top: 8px;
+}
+.book-form input,
+.book-form select,
+.book-form textarea {
+  padding: 10px 12px; font: inherit; color: var(--text);
+  background: var(--card-bg); border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm); width: 100%;
+}
+.book-form textarea { resize: vertical; min-height: 90px; }
+.book-form button { margin-top: var(--space-sm); align-self: flex-start; }
+
+/* ---------- Time slots ----------
+   Unavailable slots stay visible but disabled: a morning that silently
+   vanishes reads as "no clinic", when the truth is usually "already taken". */
+.slot-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 8px; margin-top: 4px;
+}
+.slot {
+  padding: 10px 6px; font: inherit; font-variant-numeric: tabular-nums;
+  background: var(--card-bg); border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm); cursor: pointer; text-align: center;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.slot:hover:not(:disabled) { border-color: var(--primary); }
+.slot--on { background: var(--primary); border-color: var(--primary); color: #fff; font-weight: 700; }
+.slot--off, .slot:disabled {
+  opacity: 0.45; cursor: not-allowed; text-decoration: line-through;
+  background: var(--bg);
+}
+
+/* ---------- Doctor schedule ---------- */
+.week-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-sm); margin-bottom: var(--space-md);
+}
+.daycard { display: flex; flex-direction: column; gap: 8px; }
+.daycard__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+
+.session-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.session-list li {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--space-sm); font-size: 0.9rem; padding: 8px 10px;
+  background: var(--bg); border-radius: var(--radius-sm);
+}
+
+.daynav { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: var(--space-md); }
+.daynav input {
+  padding: 8px 10px; font: inherit; border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm); background: var(--card-bg); color: var(--text);
+}
+
+/* A doctor whose profile is incomplete is invisible to patients, which is
+   worth interrupting for. */
+.warn-card {
+  background: var(--warning-bg); border-color: var(--warning-border);
+  margin-bottom: var(--space-md);
+}
+
+.preg-banner {
+  margin: var(--space-sm) 0 0; padding: 10px 12px;
+  background: var(--info-bg); border: 1px solid var(--info-border);
+  border-radius: var(--radius-sm); font-size: 0.9rem; line-height: 1.55;
+}
+
+.success-note {
+  margin: 0 0 var(--space-sm); padding: 10px 12px;
+  background: var(--success-bg, #ecfdf5); border: 1px solid var(--success);
+  border-radius: var(--radius-sm); font-size: 0.9rem; color: var(--text);
+}
+
+@media (max-width: 620px) {
+  .daynav { justify-content: space-between; }
+  .appt-card__actions { width: 100%; }
+}
+
+/* ---------- Doctor: patient record ---------- */
+.tabbar {
+  display: flex; gap: 4px; margin: var(--space-md) 0;
+  border-bottom: 1px solid var(--border);
+}
+.tabbar__tab {
+  padding: 10px 16px; font: inherit; font-weight: 600; cursor: pointer;
+  background: none; border: none; border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+}
+.tabbar__tab:hover { color: var(--text); }
+.tabbar__tab--on { color: var(--primary); border-bottom-color: var(--primary); }
+
+/* The narrative says who wrote it. A doctor reading a handover note needs to
+   know whether a language model produced the prose. */
+.summary-card { border-left: 3px solid var(--primary); }
+.summary-card__text { margin: 0; font-size: 1rem; line-height: 1.7; }
+.summary-card__source {
+  margin: var(--space-sm) 0 0; font-size: 0.78rem; color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.hl-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--space-sm);
+}
+.hl { display: flex; flex-direction: column; gap: 6px; }
+.hl__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.hl__detail { margin: 0; font-size: 0.88rem; line-height: 1.55; color: var(--text-muted); }
+.hl--warn { border-left: 3px solid var(--warning-border); }
+.hl--bad  { border-left: 3px solid var(--danger); }
+.hl--good { border-left: 3px solid var(--success); }
+
+.inline-add {
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  margin-top: var(--space-sm);
+}
+.inline-add input, .inline-add select {
+  padding: 8px 10px; font: inherit; flex: 1 1 150px; min-width: 0;
+  border: 1px solid var(--border-strong); border-radius: var(--radius-sm);
+  background: var(--card-bg); color: var(--text);
+}
+
+.checkline {
+  display: flex !important; align-items: center; gap: 8px;
+  text-transform: none !important; letter-spacing: normal !important;
+  font-size: 0.92rem !important; color: var(--text) !important;
+}
+.checkline input { width: auto !important; }
