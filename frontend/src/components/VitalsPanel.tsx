@@ -34,6 +34,10 @@ interface SummaryResponse {
     value: number | null;
     band_label: string | null;
     band_tone: string | null;
+    /** Which CDC row the value falls in, e.g. "25.0 – 29.9". */
+    range?: string | null;
+    /** The whole CDC table, so the card can show where the value sits. */
+    scale?: { range: string; label: string; tone: string; upper: number }[];
     // Set instead of a band when the categories don't apply — during
     // pregnancy, where weight gain is expected and BMI stops measuring what
     // the bands describe.
@@ -211,6 +215,10 @@ export default function VitalsPanel() {
   if (loading || !data) return null;
 
   const hasAny = shown.some((m) => data.metrics[m].count > 0);
+  // BMI comes from the height and weight on the profile, not from readings.
+  // It was inside the readings-only branch, so a patient who filled in their
+  // profile but had never logged a BP saw nothing at all.
+  const hasBmi = data.bmi.value != null;
 
   return (
     <section className="vitals">
@@ -273,7 +281,7 @@ export default function VitalsPanel() {
         </div>
       )}
 
-      {!hasAny ? (
+      {!hasAny && (
         <div className="vitals__empty">
           <p className="vitals__empty-title">No readings yet</p>
           <p className="vitals__empty-body">
@@ -281,7 +289,9 @@ export default function VitalsPanel() {
             against how consistently you've been taking your medicines.
           </p>
         </div>
-      ) : (
+      )}
+
+      {(hasAny || hasBmi) && (
         <div className="vitals__grid">
           {shown.map((key) => {
             const m = data.metrics[key];
@@ -355,15 +365,57 @@ export default function VitalsPanel() {
                 )}
               </div>
               <p className="vcard__value">{data.bmi.value}</p>
+              {data.bmi.range && (
+                <p className="vcard__meta">
+                  Your BMI falls in the <strong>{data.bmi.range}</strong> range.
+                </p>
+              )}
+
+              {/* The CDC scale with the patient's own row marked. A category
+                  on its own ("Overweight") says nothing about how far from the
+                  next band they are; the table does. */}
+              {data.bmi.scale && data.bmi.range && (
+                <table className="bmi-scale">
+                  <caption className="bmi-scale__caption">
+                    BMI ranges for adults · Centers for Disease Control and Prevention
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">BMI</th>
+                      <th scope="col">Weight status</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {data.bmi.scale.map((row) => {
+                      const isYou = row.range === data.bmi.range;
+                      return (
+                        <tr
+                          key={row.range}
+                          className={isYou ? "bmi-scale__row--you" : undefined}
+                          aria-current={isYou ? "true" : undefined}
+                        >
+                          <td>{row.range}</td>
+                          <td>
+                            {row.label}
+                            {isYou && <span className="bmi-scale__you"> ← you</span>}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              )}
+
               <p className="vcard__meta">
-                {data.bmi.note ?? "From the height and weight on your profile."}
+                {data.bmi.note ??
+                  "From the height and weight on your profile. BMI is a rough screen, not a diagnosis — it says nothing about muscle, build, or where weight is carried."}
               </p>
             </article>
           )}
         </div>
       )}
 
-      {hasAny && <p className="vitals__disclaimer">{data.disclaimer}</p>}
+      {(hasAny || hasBmi) && <p className="vitals__disclaimer">{data.disclaimer}</p>}
     </section>
   );
 }

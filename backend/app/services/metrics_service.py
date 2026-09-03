@@ -57,12 +57,39 @@ GLUCOSE_POST_MEAL_BANDS = [
     (200, "Above normal", "warn"),
     (999, "High", "bad"),
 ]
-BMI_BANDS = [
-    (18.5, "Underweight", "warn"),
-    (25.0, "Healthy range", "good"),
-    (30.0, "Overweight", "warn"),
-    (999, "Obese", "bad"),
+# CDC adult weight-status categories. Obesity is split into three classes
+# because they are not the same clinical picture -- class 3 carries a
+# different surgical and anaesthetic risk from class 1 -- and collapsing them
+# into one "Obese" label threw that away.
+#
+# (upper_bound_exclusive, label, tone, range_text_for_display)
+BMI_BANDS_FULL = [
+    (18.5, "Underweight", "warn", "Below 18.5"),
+    (25.0, "Healthy weight", "good", "18.5 – 24.9"),
+    (30.0, "Overweight", "warn", "25.0 – 29.9"),
+    (35.0, "Obese class 1", "bad", "30.0 – 34.9"),
+    (40.0, "Obese class 2", "bad", "35.0 – 39.9"),
+    (999, "Obese class 3", "bad", "40.0 and higher"),
 ]
+
+# The (upper, label, tone) shape _band expects.
+BMI_BANDS = [(upper, label, tone) for upper, label, tone, _ in BMI_BANDS_FULL]
+
+
+def bmi_scale() -> list[dict]:
+    """The whole CDC table, so the dashboard can show a patient where their
+    own number sits rather than just naming their band in isolation."""
+    return [
+        {"range": text, "label": label, "tone": tone, "upper": upper}
+        for upper, label, tone, text in BMI_BANDS_FULL
+    ]
+
+
+def bmi_range_text(bmi: float) -> str | None:
+    for upper, _label, _tone, text in BMI_BANDS_FULL:
+        if bmi < upper:
+            return text
+    return None
 
 
 def _band(value: float, bands: list[tuple[float, str, str]]) -> tuple[str, str]:

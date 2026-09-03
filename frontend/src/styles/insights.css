@@ -302,3 +302,48 @@
 /* Direction shown without a verdict — used for weight, where neither
    direction is inherently good or bad without clinical context. */
 .vcard__flat { color: var(--text-muted); font-weight: 600; }
+
+/* ---------- BMI scale (CDC adult weight-status categories) ----------
+   The patient's own row is marked, because a category name alone says
+   nothing about how close they are to the next band. */
+.bmi-scale {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-sm) 0;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+.bmi-scale__caption {
+  caption-side: bottom;
+  padding-top: 8px;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  text-align: left;
+}
+.bmi-scale th {
+  text-align: left;
+  padding: 4px 8px 6px 0;
+  font-size: 0.66rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+.bmi-scale td {
+  padding: 6px 8px 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.bmi-scale tr:last-child td { border-bottom: none; }
+.bmi-scale__row--you td {
+  font-weight: 700;
+  background: var(--primary-soft);
+}
+.bmi-scale__row--you td:first-child { border-radius: var(--radius-sm) 0 0 var(--radius-sm); }
+.bmi-scale__row--you td:last-child { border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.bmi-scale__you { color: var(--primary-dark); font-weight: 700; white-space: nowrap; }
+
+/* The BMI card carries a table now, so it is no longer a compact tile. */
+.vcard--compact:has(.bmi-scale) { grid-column: span 2; }
+@media (max-width: 720px) {
+  .vcard--compact:has(.bmi-scale) { grid-column: auto; }
+}

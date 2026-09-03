@@ -16,6 +16,8 @@ from app.services.metrics_service import (
     METRIC_TYPES,
     adherence_overlay,
     bmi_for,
+    bmi_range_text,
+    bmi_scale,
     interpret,
     summarise,
 )
@@ -159,6 +161,11 @@ def metrics_summary(
             "value": bmi,
             "band_label": bmi_label,
             "band_tone": bmi_tone,
+            # Which CDC row the number falls in ("25.0 - 29.9"), so the card
+            # can show the patient their place on the scale rather than just
+            # naming a category.
+            "range": bmi_range_text(bmi) if (bmi is not None and not is_pregnant) else None,
+            "scale": bmi_scale(),
             # The UI shows this instead of a band during pregnancy, rather
             # than leaving an unexplained blank where a rating used to be.
             "note": (
