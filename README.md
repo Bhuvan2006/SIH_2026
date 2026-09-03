@@ -1,6 +1,6 @@
 # Arogya — working prototype
 
-This is a running implementation of the Phase‑1 MVP described in `Arogya_Build_Plan.md`: multilingual prescription OCR with mandatory patient confirmation, medication reminders, patient history, a grounded (RAG) medical chatbot, price comparison, and a pharmacy locator.
+This is a running implementation of a Phase‑1 MVP: multilingual prescription OCR with mandatory patient confirmation, medication reminders, patient history, a grounded (RAG) medical chatbot, price comparison, and a pharmacy locator.
 
 **What's real vs. mocked**, in one line: OCR (Tesseract), the chatbot's retrieval/grounding, reminders/scheduling, and all business logic are genuinely working code you can exercise end-to-end. This checkout also has a real LLM wired up (`LLM_PROVIDER=google`, Gemini, via a `GOOGLE_API_KEY` in `backend/.env`) so chatbot answers are composed by Gemini on top of the curated grounding facts, not just the deterministic template. Other paid third-party services (a cloud OCR vendor, Bhashini, Google Places, SMS) are abstracted behind swappable interfaces and default to free local/mock implementations, documented inline in each `app/services/*.py` file — the app still runs with zero API keys if you unset `LLM_PROVIDER`/`GOOGLE_API_KEY` — see "Swapping in real services" below.
 
@@ -107,7 +107,6 @@ frontend/
     i18n/index.ts              en/hi/ta string bundles
     pages/                    One file per screen (Login, Dashboard, UploadPrescription, ...)
     components/               Layout (nav + language switcher), ProtectedRoute
-Arogya_Build_Plan.md          The original full plan this implements Phase 1 of
 docker-compose.yml
 smoke_test.py                 Playwright script that exercises the whole app in a real browser
 screenshots/                  Output of the last smoke_test.py run
@@ -265,4 +264,4 @@ The frontend UI (buttons, labels, nav) is fully localized via `i18next` for Engl
 
 ## Next steps
 
-See `Arogya_Build_Plan.md` §8 (Phased roadmap) for what comes after this Phase‑1 prototype — expanding the drug/price dataset, native mobile apps for reliable push, caregiver accounts, more languages, pharmacy chain partnerships, and eventually ABDM/ABHA integration.
+What comes after this Phase‑1 prototype: expanding the drug/price dataset, native mobile apps for reliable push, caregiver accounts, more languages, pharmacy chain partnerships, and eventually ABDM/ABHA integration.
